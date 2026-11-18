@@ -1,0 +1,76 @@
+// Ghana history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'gh', name: 'Ghana', flag: '🇬🇭',
+  eras: [
+    {
+      id: 'co', t: 'Ancient kingdoms and the gold trade routes', y: '~300 – 1600',
+      d: 'The name Ghana comes from an ancient empire to the northwest; in what is now Ghana, the Akan people founded small states that grew rich on gold and kola nuts.',
+      ev: [
+        { n: 'The ancient Ghana Empire', y: '~300 – 1200', lat: 15.77, lon: -7.97, approx: true, k: 'event', vn: 'The Soninke people', d: 'The "land of gold" empire had its capital at Koumbi Saleh in what is now Mauritania; in 1957 the newly independent country took the name Ghana in remembrance.' },
+        { n: 'The Bono Kingdom', y: '~1300', lat: 7.95, lon: -1.95, approx: true, k: 'event', vn: 'The Akan Bono people', d: 'One of the first Akan states, lying on the gold trade route from the forest to the cities on the edge of the Sahara desert.' },
+        { n: 'The gold market of Begho', y: '~1400', lat: 8.20, lon: -2.12, approx: true, k: 'event', vn: 'Akan and Dyula merchants', d: 'Merchants from Mali came here to swap salt and cloth for gold and kola nuts, making Begho a large market on the edge of the forest.' },
+        { n: 'The Portuguese build Elmina Castle', y: '1482', lat: 5.083, lon: -1.349, k: 'event', vn: 'The Fante chiefs', vs: 'Diogo de Azambuja (Portugal)', d: 'São Jorge da Mina Castle is the oldest European building in sub-Saharan Africa; because of the abundant gold, the region was called the Gold Coast.' },
+        { n: 'The Kingdom of Dagbon', y: '~1400 – 1700', lat: 9.44, lon: -0.01, approx: true, k: 'event', vn: 'The Ya Na kings', d: 'In the north, the Dagomba people found the kingdom of Dagbon; the town of Yendi later became the king\'s capital.' }
+      ]
+    },
+    {
+      id: 'ashanti', t: 'The Ashanti Empire', y: '1701 – 1874',
+      d: 'The Ashanti (Asante) unify the Akan states and found a gold-rich empire with its capital at Kumasi, the strongest power on the Gold Coast for two centuries.',
+      ev: [
+        { n: 'The Golden Stool from the sky', y: '~1701', lat: 6.69, lon: -1.62, k: 'legend', vn: 'Osei Tutu, the priest Okomfo Anokye', d: 'Legend says a golden stool fell from the sky onto the lap of Osei Tutu; it holds the soul of the whole Ashanti nation.' },
+        { n: 'Battle of Feyiase', y: '1701', lat: 6.57, lon: -1.60, approx: true, k: 'battle', vn: 'Osei Tutu', vs: 'King Ntim Gyakari (Denkyira)', d: 'The Ashanti defeat Denkyira, which had forced them to pay tribute, and then become the strongest power in the region.' },
+        { n: 'Kumasi – the golden capital', y: '18th century', lat: 6.69, lon: -1.62, k: 'event', vn: 'The Asantehene kings', d: 'Kumasi had wide streets, stone palaces and storehouses full of gold, which amazed European visitors.' },
+        { n: 'Cape Coast Castle', y: '1664', lat: 5.103, lon: -1.241, k: 'event', vn: 'The Fante', vs: 'English merchants', d: 'The white fortress by the sea once held people captured as slaves before they were shipped to the Americas; it is now a UNESCO heritage site.' },
+        { n: 'Battle of Nsamankow', y: '1824', lat: 5.45, lon: -1.40, approx: true, k: 'battle', vn: 'King Osei Yaw Akoto', vs: 'Governor Charles MacCarthy (Britain)', d: 'In the first Anglo-Ashanti war, the Ashanti win a great victory and the British governor is killed.' },
+        { n: 'Battle of Katamanso', y: '1826', lat: 5.85, lon: -0.10, approx: true, k: 'battle', vn: 'King Osei Yaw Akoto', vs: 'The British, Ga and Danish alliance', d: 'Near Accra, the Ashanti army is beaten by British Congreve rockets and their coastal allies.' }
+      ]
+    },
+    {
+      id: 'thuocdia', t: 'The Gold Coast colony', y: '1874 – 1947',
+      d: 'Britain turns the coastal region into a colony and conquers Ashanti; under colonial rule, the Gold Coast becomes the largest cocoa-growing place in the world.',
+      ev: [
+        { n: 'The British burn Kumasi', y: '1874', lat: 6.69, lon: -1.62, k: 'battle', vn: 'King Kofi Karikari', vs: 'General Garnet Wolseley (Britain)', d: 'After the Battle of Amoafo, the British army enters Kumasi and sets it on fire; the coastal region officially becomes the Gold Coast colony.' },
+        { n: 'Cocoa beans from Fernando Po', y: '1879', lat: 5.91, lon: -0.13, approx: true, k: 'event', vn: 'Tetteh Quarshie', d: 'The blacksmith brings cocoa beans home to plant at Mampong; only a few decades later the Gold Coast leads the world in cocoa.' },
+        { n: 'King Prempeh I is exiled', y: '1896', lat: 6.69, lon: -1.62, k: 'event', vn: 'King Prempeh I', vs: 'The British army', d: 'Britain arrests the Ashanti king and exiles him to the Seychelles islands in the middle of the Indian Ocean; he was only allowed home in 1924.' },
+        { n: 'The War of the Golden Stool', y: '1900', lat: 6.69, lon: -1.62, k: 'battle', vn: 'Queen Mother Yaa Asantewaa', vs: 'Governor Frederic Hodgson (Britain)', d: 'When the governor demands to sit on the Golden Stool, Yaa Asantewaa commands the army that besieges the British fort at Kumasi.' },
+        { n: 'Achimota School', y: '1927', lat: 5.62, lon: -0.23, k: 'event', vn: 'James Aggrey, Gordon Guggisberg', d: 'The famous school trained many future leaders, including President Kwame Nkrumah.' },
+        { n: 'Takoradi Harbour', y: '1928', lat: 4.89, lon: -1.75, k: 'event', vn: 'Governor Gordon Guggisberg', d: "The colony's first deep-water port is built to ship cocoa, gold and timber to the world." }
+      ]
+    },
+    {
+      id: 'nkrumah', t: 'Kwame Nkrumah and independence', y: '1947 – 1966',
+      d: 'Ghana is the first colony in sub-Saharan Africa to win independence; Kwame Nkrumah becomes a symbol of the movement for African unity.',
+      ev: [
+        { n: 'Founding of the UGCC party', y: '1947', lat: 5.21, lon: -1.06, k: 'event', vn: 'J. B. Danquah', d: 'Intellectuals meet at Saltpond to found a party demanding self-government, and invite Kwame Nkrumah from London to be its secretary.' },
+        { n: 'The Christiansborg Crossroads shooting', y: '28 Feb 1948', lat: 5.556, lon: -0.183, k: 'event', vn: 'Gold Coast war veterans', vs: 'The colonial police', d: 'Police fire on a march of veterans demanding their benefits; riots spread and the independence movement erupts.' },
+        { n: 'The CPP party – "Self-government now"', y: '1949', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'Kwame Nkrumah', d: 'Nkrumah founds his own party; he is arrested but still wins the election while in prison in 1951.' },
+        { n: 'Independence Day', y: '6 Mar 1957', lat: 5.545, lon: -0.205, approx: true, k: 'event', vn: 'Prime Minister Kwame Nkrumah', d: 'At midnight in Accra, Nkrumah declares: "Ghana, our beloved country, is free for ever!"' },
+        { n: 'The Republic of Ghana', y: '1 Jul 1960', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'President Kwame Nkrumah', d: 'Ghana becomes a republic, with Nkrumah as president, and he helps found the Organisation of African Unity in 1963.' },
+        { n: 'Akosombo Dam', y: '1965', lat: 6.30, lon: 0.06, k: 'event', vn: 'Kwame Nkrumah', d: 'The dam on the Volta river creates Lake Volta – one of the largest artificial lakes in the world.' },
+        { n: 'The coup that overthrows Nkrumah', y: '24 Feb 1966', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'The National Liberation Council', vs: 'Kwame Nkrumah', d: 'The army seizes power while Nkrumah is on his way to visit Beijing and Hanoi; he never returns to Ghana.' }
+      ]
+    },
+    {
+      id: 'daochinh', t: 'The unstable years', y: '1966 – 1992',
+      d: 'Ghana goes through many military and civilian governments one after another, and the economy is sometimes in great difficulty.',
+      ev: [
+        { n: 'The Second Republic', y: '1969 – 1972', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'Prime Minister Kofi Busia', d: 'A civilian government returns but lasts only three years before being overthrown by another coup.' },
+        { n: 'Jerry Rawlings takes power', y: '1979 – 1981', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'Air Force Captain Jerry Rawlings', d: 'The young pilot takes power twice and leads Ghana for almost 20 years.' },
+        { n: 'Drought and bush fires', y: '1983', lat: 6.69, lon: -1.62, approx: true, k: 'event', vn: 'The people of Ghana', d: 'Drought, bush fires and more than a million people returning from Nigeria at the same time cause a famine.' },
+        { n: 'Constitution of the Fourth Republic', y: '1992', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'Jerry Rawlings', d: 'The people vote to approve a new constitution, beginning the period of multiparty democracy that continues to this day.' }
+      ]
+    },
+    {
+      id: 'dantri', t: 'Democratic Ghana to the present', y: '1993 – present',
+      d: 'Ghana is known as one of the most stable democracies in Africa, with many peaceful transfers of power.',
+      ev: [
+        { n: 'Kofi Annan becomes UN Secretary-General', y: '1997 – 2006', lat: 40.749, lon: -73.968, k: 'event', vn: 'Kofi Annan', d: 'The son of Kumasi leads the United Nations for ten years and receives the Nobel Peace Prize in 2001.' },
+        { n: 'Peaceful transfer of power', y: '2001', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'John Kufuor, Jerry Rawlings', d: 'For the first time the opposition wins an election and takes over power smoothly.' },
+        { n: 'The Jubilee oil field', y: '2007 – 2010', lat: 4.60, lon: -2.90, approx: true, k: 'event', vn: 'President John Kufuor', d: 'Oil is found off the west coast; in 2010 Ghana begins exporting oil.' },
+        { n: 'World Cup 2010 quarter-final', y: '2 Jul 2010', lat: -26.235, lon: 27.983, k: 'event', vn: 'The Ghana team (Asamoah Gyan)', vs: 'Uruguay', d: 'Ghana loses to Uruguay only on penalties, coming close to being the first African team to reach a World Cup semi-final.' },
+        { n: 'African Games', y: 'Mar 2024', lat: 5.60, lon: -0.10, approx: true, k: 'event', vn: 'The city of Accra', d: 'Accra welcomes thousands of athletes from all over Africa at the 13th All-Africa Games.' },
+        { n: '2024 election', y: 'Dec 2024', lat: 5.55, lon: -0.20, approx: true, k: 'event', vn: 'President John Mahama', d: 'Former president John Mahama wins the election again; the losing candidate quickly congratulates him.' }
+      ]
+    }
+  ]
+};

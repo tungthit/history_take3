@@ -1,0 +1,103 @@
+// Netherlands history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'nl', name: 'Netherlands', flag: '🇳🇱',
+  eras: [
+    {
+      id: 'codai', t: 'Ancient times and the Frisians', y: '~3400 BCE – 900',
+      d: 'The lowlands on the North Sea coast were once Rome\'s northern frontier; later the Frisians and the Franks fought over them, and the Vikings came to raid.',
+      ev: [
+        { n: 'Hunebed tombs at Borger', y: '~3400 BCE', lat: 52.925, lon: 6.793, k: 'event', vn: 'Prehistoric Funnel Beaker people', d: 'Huge boulders brought by glaciers were arranged into communal tombs, older than the Egyptian pyramids.' },
+        { n: 'Revolt of the Batavi', y: '69 – 70', lat: 51.845, lon: 5.863, approx: true, k: 'battle', vn: 'Julius Civilis', vs: 'Roman army (Petillius Cerialis)', d: 'The Batavian leader rose up against Rome near Nijmegen, the oldest city in the Netherlands.' },
+        { n: 'Roman fort Traiectum', y: '~47', lat: 52.091, lon: 5.122, k: 'event', vn: 'Roman soldiers', d: 'The frontier fort on the Rhine was the beginning of today\'s city of Utrecht.' },
+        { n: 'Trading port of Dorestad', y: '~650 – 850', lat: 51.973, lon: 5.341, k: 'event', vn: 'Frisian merchants', d: 'One of the biggest trading markets in northern Europe at the time, where the Frisians traded cloth, wine and pottery.' },
+        { n: 'Frisian King Redbad', y: '~690 – 719', lat: 53.20, lon: 5.80, approx: true, k: 'battle', vn: 'King Redbad', vs: 'The Franks (Pepin, Charles Martel)', d: 'King Redbad resisted the Franks and kept his old faith; he became a hero of Frisian folk tales.' },
+        { n: 'Vikings raid Dorestad', y: '834 – 863', lat: 51.973, lon: 5.341, k: 'battle', vn: 'The people of Dorestad', vs: 'The Vikings', d: 'Viking ships sailed up the river and raided it many times; together with the river changing course, this rich port vanished.' }
+      ]
+    },
+    {
+      id: 'trungco', t: 'The County of Holland and the Middle Ages', y: '900 – 1568',
+      d: 'The counts of Holland, the bishops of Utrecht and the dukes of Guelders shared the land; people began building dikes and reclaiming land from the sea, and the trading cities grew strong.',
+      ev: [
+        { n: 'Battle of Vlaardingen', y: '1018', lat: 51.912, lon: 4.342, k: 'battle', vn: 'Count Dirk III', vs: 'Army of Emperor Henry II', d: 'A small count beat the emperor\'s army in the marshes, laying the foundation of the County of Holland.' },
+        { n: 'Binnenhof castle in The Hague', y: '~1248', lat: 52.080, lon: 4.313, k: 'event', vn: 'Count Willem II', d: 'The count\'s hunting lodge became a political center; today the Dutch parliament still meets here.' },
+        { n: 'St. Elizabeth\'s flood', y: '1421', lat: 51.75, lon: 4.85, approx: true, k: 'event', vn: 'The people of the Zuid-Hollandse Waard', d: 'The dikes broke in a storm and dozens of villages sank beneath the water; the flooded area is now the Biesbosch National Park.' },
+        { n: 'The Dutch and windmills', y: '~1400', lat: 51.884, lon: 4.643, approx: true, k: 'event', vn: 'Windmill builders', d: 'Windmills pumped water out of low-lying land, creating the polders; the Kinderdijk windmills are a World Heritage Site.' },
+        { n: 'Erasmus born in Rotterdam', y: '~1466', lat: 51.922, lon: 4.479, k: 'event', vn: 'Erasmus', d: 'The most famous scholar of the Renaissance in northern Europe; the European student exchange program is named after him.' },
+        { n: 'The Habsburgs rule the Netherlands', y: '1482', lat: 50.846, lon: 4.352, approx: true, k: 'event', vn: 'Maximilian I, Emperor Charles V', d: 'The Low Countries passed to the House of Habsburg; under Charles V all 17 provinces were joined into one bloc.' }
+      ]
+    },
+    {
+      id: 'tamtam', t: 'The Eighty Years\' War', y: '1568 – 1648',
+      d: 'The northern provinces rose up against the Spanish king Philip II and founded the Republic of the Seven United Provinces, the independent Dutch state.',
+      ev: [
+        { n: 'Battle of Heiligerlee', y: '1568', lat: 53.153, lon: 7.015, k: 'battle', vn: 'Louis of Nassau', vs: 'Count Aremberg (Spain)', d: 'The rebels\' first victory, often seen as the start of the Eighty Years\' War.' },
+        { n: 'Capture of Brielle', y: '1 Apr 1572', lat: 51.902, lon: 4.162, k: 'battle', vn: 'The Sea Beggars (Watergeuzen)', vs: 'Spanish troops', d: 'Rebel privateers seized the coastal town; many Holland cities then rose up in turn.' },
+        { n: 'Relief of Leiden', y: '1574', lat: 52.160, lon: 4.493, k: 'battle', vn: 'William of Orange (William the Silent)', vs: 'Francisco de Valdez (Spain)', d: 'The Dutch broke the dikes to let the sea flood in, and boats carrying bread and herring came to rescue the starving city.' },
+        { n: 'Union of Utrecht', y: '1579', lat: 52.091, lon: 5.122, k: 'event', vn: 'The northern provinces', d: 'The northern provinces signed a treaty to resist Spain together, the foundation of the Dutch state.' },
+        { n: 'William of Orange assassinated', y: '1584', lat: 52.012, lon: 4.357, k: 'event', vn: 'William of Orange', d: 'The leader of the revolt was shot in Delft; he is called the "Father of the Fatherland", and orange became the Dutch color.' },
+        { n: 'Battle of Nieuwpoort', y: '1600', lat: 51.15, lon: 2.73, approx: true, k: 'battle', vn: 'Maurice of Nassau', vs: 'Archduke Albert (Spain)', d: 'Maurice\'s reformed army won a battle on the sandy Flanders coast.' },
+        { n: 'Peace of Münster', y: '1648', lat: 51.962, lon: 7.626, k: 'event', vn: 'Envoys of the Dutch Republic', vs: 'Spain', d: 'After 80 years, Spain formally recognized the independence of the Dutch Republic.' }
+      ]
+    },
+    {
+      id: 'thoivang', t: 'The Golden Age', y: '1602 – 1700',
+      d: 'The Netherlands became the world\'s number one trading power: the Dutch East India Company (VOC) sent ships as far as Japan, Southeast Asia and Tonkin.',
+      route: { t: 'VOC shipping route from Amsterdam to Batavia', pts: [[52.374, 4.900], [53.05, 4.75], [28.0, -17.0], [0.0, -22.0], [-33.92, 18.42], [-38.0, 60.0], [-30.0, 100.0], [-6.13, 106.81]] },
+      ev: [
+        { n: 'Founding of the Dutch East India Company (VOC)', y: '1602', lat: 52.371, lon: 4.900, k: 'event', vn: 'Johan van Oldenbarnevelt', d: 'The world\'s first joint-stock company sold shares to the public; the Amsterdam stock exchange followed.' },
+        { n: 'Founding of Batavia', y: '1619', lat: -6.130, lon: 106.810, k: 'battle', vn: 'Jan Pieterszoon Coen', vs: 'Sultanate of Banten and the people of Jayakarta', d: 'The VOC seized Jayakarta and built Batavia, today\'s Jakarta, as its headquarters in Asia.' },
+        { n: 'Founding of New Amsterdam', y: '1625', lat: 40.704, lon: -74.013, k: 'event', vn: 'Peter Minuit', d: 'The Dutch settlement on Manhattan Island later became New York; Brooklyn and Harlem both have Dutch-origin names.' },
+        { n: 'VOC trading post at Pho Hien', y: '1637', lat: 20.650, lon: 106.060, approx: true, k: 'event', vn: 'Carel Hartsinck (VOC)', d: 'The Dutch traded silk with the Trinh lords of Tonkin, with trading posts at Pho Hien and Thang Long.' },
+        { n: 'Dejima island at Nagasaki', y: '1641', lat: 32.744, lon: 129.873, k: 'event', vn: 'VOC merchants', d: 'For more than 200 years the Dutch were the only Westerners allowed to trade with Japan, on a small artificial island.' },
+        { n: 'The painting The Night Watch', y: '1642', lat: 52.360, lon: 4.885, k: 'event', vn: 'Rembrandt', d: 'The huge painting of an Amsterdam militia company now hangs in the Rijksmuseum.' },
+        { n: 'Tasman reaches Tasmania and New Zealand', y: '1642', lat: -42.88, lon: 147.90, approx: true, k: 'event', vn: 'Abel Tasman', d: 'The navigator found the island that later took his name; the name New Zealand comes from the Dutch province of Zeeland.' },
+        { n: 'Naval clash with the Nguyen lords\' fleet', y: '1643', lat: 15.95, lon: 108.40, approx: true, k: 'battle', vn: 'VOC fleet (Pieter Baeck)', vs: 'Nguyen lords\' navy (Nguyen Phuc Tan)', d: 'Three VOC ships were surrounded and attacked by Cochinchinese war boats off Quang Nam; the flagship was sunk.' },
+        { n: 'Founding of the Cape station', y: '1652', lat: -33.920, lon: 18.420, k: 'event', vn: 'Jan van Riebeeck', d: 'The supply station for vegetables and fresh water for VOC ships was the beginning of the city of Cape Town in South Africa.' },
+        { n: 'Raid on the Medway', y: '1667', lat: 51.400, lon: 0.530, k: 'battle', vn: 'Admiral Michiel de Ruyter', vs: 'British navy', d: 'The Dutch fleet sailed into the River Medway, burned English ships and towed away the flagship Royal Charles.' }
+      ]
+    },
+    {
+      id: 'vuongquoc', t: 'From Republic to Kingdom', y: '1672 – 1914',
+      d: 'After the "Disaster Year", the Republic gradually weakened and was taken over by Napoleon; in 1815 the Kingdom of the Netherlands was born and became a constitutional monarchy.',
+      ev: [
+        { n: 'The Disaster Year', y: '1672', lat: 52.08, lon: 5.10, approx: true, k: 'battle', vn: 'William III, Admiral de Ruyter', vs: 'France, England, Münster and Cologne', d: 'Four countries attacked at once; the Dutch opened the dikes to create the "Water Line" to save Holland.' },
+        { n: 'William III lands in England', y: '1688', lat: 50.400, lon: -3.510, approx: true, k: 'event', vn: 'William III of Orange', vs: 'King James II (England)', d: 'The Dutch prince landed at Torbay and then, with his wife Mary, became king and queen of England.' },
+        { n: 'Louis Bonaparte\'s Kingdom of Holland', y: '1806', lat: 52.373, lon: 4.891, k: 'event', vn: 'King Louis Bonaparte', d: 'Napoleon made his brother king; Amsterdam\'s town hall became the royal palace, and still is today.' },
+        { n: 'Battle of Waterloo', y: '1815', lat: 50.680, lon: 4.412, k: 'battle', vn: 'Prince William of Orange (with Wellington)', vs: 'Napoleon (France)', d: 'Dutch and Belgian troops fought alongside the allied army; Prince William was wounded in the shoulder in the battle.' },
+        { n: 'Constitution of 1848', y: '1848', lat: 52.080, lon: 4.313, k: 'event', vn: 'Johan Rudolph Thorbecke, King William II', d: 'The king agreed to give parliament great powers; the Netherlands became a democratic constitutional monarchy.' },
+        { n: 'Abolition of slavery', y: '1 Jul 1863', lat: 5.852, lon: -55.203, k: 'event', vn: 'Dutch government', d: 'Slavery ended in Suriname and the Caribbean; Keti Koti is remembered every year.' },
+        { n: 'Aceh War', y: '1873 – 1904', lat: 5.550, lon: 95.320, k: 'battle', vn: 'Dutch East Indies army', vs: 'Sultanate of Aceh', d: 'The longest colonial war fought by the Dutch, in northern Sumatra, Indonesia.' },
+        { n: 'The painter Van Gogh', y: '1885', lat: 51.481, lon: 5.661, k: 'event', vn: 'Vincent van Gogh', d: 'In the village of Nuenen, Van Gogh painted "The Potato Eaters" before going to France to paint his vivid pictures.' }
+      ]
+    },
+    {
+      id: 'thechien', t: 'The World Wars', y: '1914 – 1949',
+      d: 'The Netherlands was neutral in the First World War but was occupied by Germany in the Second; after the war Indonesia won independence.',
+      ev: [
+        { n: 'The Afsluitdijk enclosure dam', y: '1932', lat: 53.000, lon: 5.170, k: 'event', vn: 'Engineer Cornelis Lely', d: 'The 32 km dike turned the Zuiderzee sea bay into the freshwater lake IJsselmeer.' },
+        { n: 'Bombing of Rotterdam', y: '14 May 1940', lat: 51.922, lon: 4.479, k: 'event', vn: 'The people of Rotterdam', d: 'The German air force destroyed the city center; the next day the Netherlands surrendered, and Queen Wilhelmina had already gone to London.' },
+        { n: 'Battle of the Java Sea', y: '1942', lat: -5.90, lon: 112.00, approx: true, k: 'battle', vn: 'Rear Admiral Karel Doorman', vs: 'Japanese navy', d: 'The Allied fleet under Dutch command was destroyed; Japan took the Dutch East Indies.' },
+        { n: 'Anne Frank\'s Secret Annex', y: '1942 – 1944', lat: 52.375, lon: 4.884, k: 'event', vn: 'Anne Frank', d: 'The Jewish girl hid in the attic behind a warehouse and wrote a diary; the diary is read all over the world.' },
+        { n: 'Battle of Arnhem', y: '1944', lat: 51.985, lon: 5.900, k: 'battle', vn: 'Dutch Resistance (with Allied troops)', vs: 'German army', d: 'Allied paratroopers tried to seize the bridge "too far" on the Rhine, but failed.' },
+        { n: 'The Hunger Winter', y: '1944 – 1945', lat: 52.374, lon: 4.900, approx: true, k: 'event', vn: 'The people of the western Netherlands', d: 'Cut off from food supplies, people had to eat even tulip bulbs; more than 20,000 died of hunger.' },
+        { n: 'Liberation, signed at Wageningen', y: '5 May 1945', lat: 51.970, lon: 5.665, k: 'event', vn: 'Prince Bernhard', vs: 'German army (General Blaskowitz)', d: 'The German forces in the Netherlands signed their surrender in a hotel; 5 May is Liberation Day.' },
+        { n: 'Recognition of Indonesian independence', y: '1949', lat: 52.080, lon: 4.313, approx: true, k: 'event', vn: 'Dutch government', vs: 'Indonesian government (Mohammad Hatta)', d: 'After 4 years of fighting, the Round Table Conference in The Hague led to the transfer of sovereignty to Indonesia.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Modern Netherlands', y: '1949 – present',
+      d: 'The Netherlands built the world\'s largest flood-defense works, co-founded the European Union and became home to many international courts.',
+      ev: [
+        { n: 'North Sea flood', y: '1 Feb 1953', lat: 51.60, lon: 3.90, approx: true, k: 'event', vn: 'The people of Zeeland', d: 'A great storm broke the dikes and more than 1,800 people died; the Netherlands resolved to build the Delta Works.' },
+        { n: 'Oosterschelde storm surge barrier', y: '1986', lat: 51.632, lon: 3.700, k: 'event', vn: 'Queen Beatrix', d: 'The giant 9 km storm barrier is lowered only during storms, so tides and fish can still flow in and out normally.' },
+        { n: 'Maastricht Treaty', y: '1992', lat: 50.851, lon: 5.691, k: 'event', vn: 'Prime Minister Ruud Lubbers', d: 'The treaty signed in Maastricht formally created the European Union and paved the way for the euro.' },
+        { n: 'Srebrenica', y: '1995', lat: 44.106, lon: 19.297, k: 'event', vn: 'Dutchbat battalion (United Nations)', d: 'Dutch peacekeepers failed to protect the safe area; more than 8,000 Bosnians were murdered.' },
+        { n: 'First same-sex marriage', y: '1 Apr 2001', lat: 52.373, lon: 4.891, k: 'event', vn: 'Mayor Job Cohen', d: 'The Netherlands was the first country in the world to allow same-sex marriage; four couples married in Amsterdam.' },
+        { n: 'International Criminal Court', y: '2002', lat: 52.106, lon: 4.324, k: 'event', vn: 'City of The Hague', d: 'The Hague, home to the International Court of Justice in the Peace Palace, also welcomed the International Criminal Court.' },
+        { n: 'King Willem-Alexander takes the throne', y: '30 Apr 2013', lat: 52.374, lon: 4.893, k: 'event', vn: 'King Willem-Alexander, Queen Beatrix', d: 'The queen abdicated and her son became the Netherlands\' first king in 123 years of only queens.' },
+        { n: 'Flight MH17 shot down', y: '17 Jul 2014', lat: 48.140, lon: 38.650, k: 'event', vn: 'Dutch government', d: 'The flight from Amsterdam was shot down by a missile in eastern Ukraine; 298 people died, 196 of them Dutch.' },
+        { n: 'NATO summit', y: 'Jun 2025', lat: 52.090, lon: 4.285, k: 'event', vn: 'NATO Secretary General Mark Rutte', d: 'Former Dutch prime minister Mark Rutte hosted the summit in The Hague; member countries pledged to increase defense spending.' }
+      ]
+    }
+  ]
+};

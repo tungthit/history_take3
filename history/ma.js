@@ -1,0 +1,105 @@
+// Morocco history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'ma', name: 'Morocco', flag: '🇲🇦',
+  eras: [
+    {
+      id: 'co-dai', t: 'The Amazigh, Phoenicians and Romans', y: '~300,000 years ago – 680',
+      d: 'The Amazigh (Berber) are the oldest inhabitants; Phoenician traders founded coastal ports and the kingdom of Mauretania later came under Rome.',
+      ev: [
+        { n: 'Jebel Irhoud Fossils', y: '~300,000 years ago', lat: 31.855, lon: -8.872, k: 'event', vn: 'Early Homo sapiens', d: 'The oldest modern human fossils ever found, which pushed back the history of our species by another 100,000 years.' },
+        { n: 'Port of Lixus', y: '~800 BCE', lat: 35.20, lon: -6.11, k: 'event', vn: 'Phoenician traders', d: 'Near Larache, the Phoenicians founded a trading port; the Greeks said this was where the garden of the golden apples of the Hesperides lay.' },
+        { n: 'King Juba II at Volubilis', y: '25 BCE – 23 CE', lat: 34.074, lon: -5.554, k: 'event', vn: 'King Juba II, Queen Cleopatra Selene', d: 'The scholar king married the daughter of Queen Cleopatra of Egypt; Volubilis became a wealthy Roman city with mosaics.' },
+        { n: 'Province of Mauretania Tingitana', y: '44', lat: 35.78, lon: -5.81, approx: true, k: 'event', vn: 'The Amazigh', vs: 'Emperor Claudius (Rome)', d: 'Rome turned northern Morocco into a province named after the city of Tingis – now Tangier.' }
+      ]
+    },
+    {
+      id: 'idrisid', t: 'Islam and the Idrisid Dynasty', y: '680 – 1060',
+      d: 'The Arabs brought Islam; Idris I founded Morocco\'s first Islamic dynasty, and Fez became a center of learning.',
+      ev: [
+        { n: 'Uqba ibn Nafi Reaches the Atlantic', y: '~681', lat: 30.42, lon: -9.60, approx: true, k: 'legend', vn: 'The Amazigh tribes', vs: 'Uqba ibn Nafi', d: 'Legend says the Arab general rode his horse into the sea, saying that if not for the sea he would keep going west forever.' },
+        { n: 'Tariq ibn Ziyad Crosses the Strait', y: '711', lat: 36.14, lon: -5.35, k: 'battle', vn: 'Tariq ibn Ziyad', vs: 'King Roderic (Visigoth)', d: 'The general of Amazigh origin led his army from Morocco into Spain; the Rock of Gibraltar (Jabal Tariq) bears his name.' },
+        { n: 'City of Sijilmasa', y: '757', lat: 31.28, lon: -4.27, k: 'event', vn: 'The Miknasa', d: 'An oasis on the edge of the Sahara, the gateway for camel caravans carrying gold from West Africa to the Mediterranean.' },
+        { n: 'Idris I Founds the Dynasty', y: '788', lat: 34.055, lon: -5.522, k: 'event', vn: 'Idris I', d: 'A descendant of the Prophet fled from Baghdad and was made leader by the Amazigh tribes; Morocco counts this as the start of the nation.' },
+        { n: 'Founding of Fez', y: '789', lat: 34.064, lon: -4.973, k: 'event', vn: 'Idris I, Idris II', d: 'Fez, with its old quarter Fes el-Bali, is a maze of more than 9,000 alleys where donkeys still carry goods instead of cars.' },
+        { n: 'University of al-Qarawiyyin', y: '859', lat: 34.0646, lon: -4.9737, k: 'event', vn: 'Fatima al-Fihri', d: 'A woman used her inheritance to found a mosque and school, now regarded as the oldest university still in operation.' }
+      ]
+    },
+    {
+      id: 'almoravid', t: 'Almoravids and Almohads', y: '1040 – 1269',
+      d: 'Two Amazigh empires from the desert and the Atlas mountains ruled from the Sahara to Spain, with the splendid capital Marrakesh.',
+      ev: [
+        { n: 'Founding of Marrakesh', y: '1070', lat: 31.63, lon: -7.99, k: 'event', vn: 'Abu Bakr ibn Umar, Yusuf ibn Tashfin', d: 'The Almoravids founded the red-earth city at the foot of the Atlas; the city\'s name later became the name of the whole country, Morocco, in many languages.' },
+        { n: 'Battle of Sagrajas', y: '1086', lat: 38.88, lon: -6.92, approx: true, k: 'battle', vn: 'Yusuf ibn Tashfin', vs: 'King Alfonso VI (Castile)', d: 'Called in by the emirs of al-Andalus, Yusuf crossed to Spain and defeated the king of Castile.' },
+        { n: 'Ibn Tumart at Tinmel', y: '1124', lat: 30.98, lon: -8.23, k: 'event', vn: 'Ibn Tumart', d: 'From the mountain village of Tinmel in the Atlas, the preacher Ibn Tumart founded the Almohad movement against the Almoravids.' },
+        { n: 'Koutoubia Mosque', y: '1158', lat: 31.6237, lon: -7.9937, k: 'event', vn: 'Abd al-Mumin', d: 'The 77 m tower is the symbol of Marrakesh; the mosque\'s name means "of the booksellers".' },
+        { n: 'Battle of Alarcos', y: '1195', lat: 38.95, lon: -3.97, k: 'battle', vn: 'Yaqub al-Mansur', vs: 'King Alfonso VIII (Castile)', d: 'A great Almohad victory in Spain; to celebrate it, al-Mansur began the giant Hassan Tower in Rabat.' },
+        { n: 'Hassan Tower', y: '1195 – 1199', lat: 34.024, lon: -6.822, k: 'event', vn: 'Yaqub al-Mansur', d: 'The tower was meant to be the tallest in the world but was left unfinished at 44 m when the king died; the mosque\'s rows of columns still stand.' },
+        { n: 'Battle of Las Navas de Tolosa', y: '1212', lat: 38.28, lon: -3.58, k: 'battle', vn: 'Muhammad al-Nasir', vs: 'Alliance of the Christian kings of Spain', d: 'This heavy defeat made the Almohads gradually lose their land in Spain.' }
+      ]
+    },
+    {
+      id: 'marinid-saadi', t: 'Marinids and Saadians', y: '1244 – 1659',
+      d: 'The Marinids built beautiful schools in Fez; the Saadians defeated Portugal and sent an army as far as the Niger River.',
+      ev: [
+        { n: 'Ibn Battuta Sets Out', y: '1325', lat: 35.78, lon: -5.81, k: 'event', vn: 'Ibn Battuta', d: 'A 21-year-old from Tangier went on pilgrimage, then traveled for almost 30 years across Africa and Asia as far as China.' },
+        { n: 'Bou Inania Madrasa', y: '1351 – 1356', lat: 34.0619, lon: -4.984, k: 'event', vn: 'Sultan Abu Inan Faris', d: 'The school in Fez has a courtyard of glazed tiles, carved wood and intricately cut plaster, plus a mysterious water clock.' },
+        { n: 'Portugal Takes Ceuta', y: '1415', lat: 35.889, lon: -5.32, k: 'battle', vn: 'Marinid forces', vs: 'King João I (Portugal)', d: 'Europe\'s first conquest of a city in Africa; Ceuta now belongs to Spain and Morocco still claims sovereignty.' },
+        { n: 'Battle of the Three Kings', y: '1578', lat: 35.0, lon: -5.9, approx: true, k: 'battle', vn: 'Sultan Abd al-Malik, Ahmad al-Mansur', vs: 'King Sebastião I (Portugal)', d: 'Near Ksar el-Kebir, all three kings died; Morocco won a great victory while Portugal lost its king and fell into the hands of Spain.' },
+        { n: 'El Badi Palace', y: '1578 – 1593', lat: 31.6181, lon: -7.9858, k: 'event', vn: 'Ahmad al-Mansur', d: 'The "Incomparable" palace was paid for with ransom money for prisoners, covered in gold and Italian marble; now only ruined walls remain.' },
+        { n: 'Battle of Tondibi', y: '1591', lat: 16.63, lon: -0.23, approx: true, k: 'battle', vn: 'Judar Pasha', vs: 'Songhai Empire (Askia Ishaq II)', d: 'The Moroccan army crossed the Sahara with matchlock guns and defeated the Songhai Empire in Mali to win its gold mines.' }
+      ]
+    },
+    {
+      id: 'alaoui', t: 'The Alaouite Dynasty', y: '1666 – 1912',
+      d: 'The Alaouites, the dynasty that still reigns today, unified the country; Morocco kept its independence longer than most of Africa but came under growing pressure from Europe.',
+      ev: [
+        { n: 'Moulay Ismail Builds Meknes', y: '1672 – 1727', lat: 33.895, lon: -5.555, k: 'event', vn: 'Sultan Moulay Ismail', d: 'The king, who reigned for 55 years, built Meknes with 40 km of walls and stables for 12,000 horses.' },
+        { n: 'Recognition of the United States', y: '1777', lat: 35.78, lon: -5.81, approx: true, k: 'event', vn: 'Sultan Mohammed III', d: 'Morocco was one of the first countries to recognize the newly independent USA; the 1786 treaty of friendship is still in force.' },
+        { n: 'Battle of Isly', y: '1844', lat: 34.68, lon: -1.85, approx: true, k: 'battle', vn: 'Prince Mohammed', vs: 'Marshal Bugeaud (France)', d: 'Morocco helped the Algerians resist France and was defeated by the French army near Oujda.' },
+        { n: 'War with Spain', y: '1859 – 1860', lat: 35.57, lon: -5.37, k: 'battle', vn: 'Sultan Mohammed IV', vs: 'General Leopoldo O\'Donnell (Spain)', d: 'Spain took Tetouan and forced Morocco to pay a very large indemnity.' },
+        { n: 'Tangier Crisis', y: '1905', lat: 35.78, lon: -5.81, k: 'event', vn: 'Sultan Abdelaziz', vs: 'Emperor Wilhelm II (Germany), France', d: 'The German emperor rode a white horse into Tangier to protest French influence, nearly causing a war in Europe.' },
+        { n: 'Agadir Crisis', y: '1911', lat: 30.42, lon: -9.60, k: 'event', vn: 'Sultan Abdelhafid', vs: 'Germany, France', d: 'Germany sent a gunboat to Agadir; in the end Germany accepted land in the Congo so that France had a free hand in Morocco.' }
+      ]
+    },
+    {
+      id: 'bao-ho', t: 'French and Spanish Protectorate', y: '1912 – 1956',
+      d: 'Morocco was divided into French and Spanish protectorates; Moroccans resisted in the Rif mountains and struggled politically until independence.',
+      ev: [
+        { n: 'Treaty of Fez', y: '1912', lat: 34.06, lon: -4.98, k: 'event', vn: 'Sultan Abdelhafid', vs: 'France', d: 'The sultan was forced to sign the protectorate treaty; France moved the capital to Rabat, while Spain held the north and the south.' },
+        { n: 'Battle of Annual', y: '1921', lat: 35.13, lon: -3.77, approx: true, k: 'battle', vn: 'Abd el-Krim', vs: 'General Manuel Fernández Silvestre (Spain)', d: 'The Rif people crushed the Spanish army and founded the Republic of the Rif; Abd el-Krim\'s guerrilla tactics were later copied in many places.' },
+        { n: 'Al Hoceima Landing', y: '1925', lat: 35.25, lon: -3.93, k: 'battle', vn: 'Abd el-Krim', vs: 'Spanish and French forces', d: 'A big Spanish and French amphibious landing; in 1926 Abd el-Krim surrendered and was exiled.' },
+        { n: 'Casablanca Conference', y: '1943', lat: 33.586, lon: -7.66, k: 'event', vn: 'Sultan Mohammed V', vs: 'Roosevelt, Churchill', d: 'The American and British leaders met in the Anfa district; Roosevelt met the sultan privately and showed support for independence for Morocco.' },
+        { n: 'Sultan Exiled', y: '1953 – 1955', lat: 34.02, lon: -6.84, approx: true, k: 'event', vn: 'Sultan Mohammed V', vs: 'French protectorate government', d: 'France exiled the sultan to Corsica and then Madagascar; the people rose up until he was allowed to return.' },
+        { n: 'Independence', y: '2 Mar 1956', lat: 34.02, lon: -6.84, k: 'event', vn: 'King Mohammed V', d: 'France recognized Morocco\'s independence; a few weeks later Spain returned most of the northern region.' }
+      ]
+    },
+    {
+      id: 'hassan-2', t: 'The Independent Kingdom under Hassan II', y: '1956 – 1999',
+      d: 'King Hassan II reigned 38 years and strengthened royal power; the Western Sahara question became the country\'s biggest issue.',
+      ev: [
+        { n: 'Agadir Earthquake', y: '1960', lat: 30.42, lon: -9.60, k: 'event', vn: 'Crown Prince Hassan', d: 'An earthquake lasting only 15 seconds destroyed almost the entire city of Agadir; a new city was rebuilt on a site next to it.' },
+        { n: 'Sand War', y: '1963', lat: 29.6, lon: -7.1, approx: true, k: 'battle', vn: 'King Hassan II', vs: 'Algeria', d: 'The two neighbors fought over the border line in the desert; the Organization of African Unity mediated a ceasefire.' },
+        { n: 'The Green March', y: 'Nov 1975', lat: 27.94, lon: -12.93, approx: true, k: 'event', vn: 'King Hassan II', vs: 'Spain, Polisario Front', d: '350,000 people carrying flags and Qurans walked into Western Sahara to claim sovereignty as Spain was about to withdraw.' },
+        { n: 'Western Sahara Conflict', y: '1975 – 1991', lat: 27.15, lon: -13.20, approx: true, k: 'battle', vn: 'Moroccan army', vs: 'Polisario Front', d: 'The Polisario demanded independence for Western Sahara; Morocco controls most of the territory. The United Nations mediated a ceasefire in 1991.' },
+        { n: 'Hassan II Mosque', y: '1993', lat: 33.6083, lon: -7.6325, k: 'event', vn: 'King Hassan II', d: 'A mosque built partly over the sea, with a minaret about 210 m tall, holding 25,000 people inside; its roof can open.' },
+        { n: 'Marrakesh Agreement Creates the WTO', y: '1994', lat: 31.63, lon: -7.99, k: 'event', vn: 'King Hassan II', d: 'More than 120 countries signed the agreement in Marrakesh, giving birth to the World Trade Organization.' }
+      ]
+    },
+    {
+      id: 'mohammed-6', t: 'The Mohammed VI Era', y: '1999 – present',
+      d: 'King Mohammed VI pushed roads, solar energy and sport; Morocco became the first African team to reach a World Cup semifinal.',
+      ev: [
+        { n: 'New Family Code (Moudawana)', y: '2004', lat: 34.02, lon: -6.84, approx: true, k: 'event', vn: 'King Mohammed VI', d: 'The new code increased women\'s rights in marriage and raised the minimum marriage age to 18.' },
+        { n: 'Tanger Med Port', y: '2007', lat: 35.89, lon: -5.50, k: 'event', vn: 'King Mohammed VI', d: 'The container port on the Strait of Gibraltar became the largest port in the Mediterranean and Africa.' },
+        { n: '2011 Constitution', y: '2011', lat: 34.02, lon: -6.84, approx: true, k: 'event', vn: 'February 20 Movement, King Mohammed VI', d: 'After protests during the Arab Spring, the new constitution gave more powers to the prime minister and recognized the Amazigh language as official.' },
+        { n: 'Noor Solar Power Plant', y: '2016', lat: 31.03, lon: -6.86, k: 'event', vn: 'Moroccan Agency for Solar Energy', d: 'Near Ouarzazate, millions of mirrors concentrate the desert sunshine, making one of the largest solar thermal plants in the world.' },
+        { n: 'Al Boraq High-Speed Train', y: '2018', lat: 33.59, lon: -7.62, approx: true, k: 'event', vn: 'King Mohammed VI', d: 'The first high-speed railway in Africa links Tangier with Casablanca, running up to 320 km/h.' },
+        { n: 'US Recognizes Sovereignty over Western Sahara', y: 'Dec 2020', lat: 27.15, lon: -13.20, approx: true, k: 'event', vn: 'King Mohammed VI', d: 'The USA recognized Morocco\'s sovereignty over Western Sahara, in return for Morocco establishing relations with Israel; the Polisario and Algeria objected.' },
+        { n: 'World Cup Semifinal', y: '2022', lat: 25.652, lon: 51.488, k: 'event', vn: 'Morocco team (coach Walid Regragui)', vs: 'France', d: 'Morocco knocked out Spain and Portugal, becoming the first African and Arab team to reach a World Cup semifinal.' },
+        { n: 'Al Haouz Earthquake', y: '8 Sep 2023', lat: 31.06, lon: -8.39, k: 'event', d: 'A magnitude 6.8 earthquake in the Atlas mountains killed almost 3,000 people and damaged the ancient Tinmel mosque.' },
+        { n: 'Co-Host of the 2030 World Cup', y: '2024', lat: 33.59, lon: -7.62, approx: true, k: 'event', vn: 'Morocco, Spain, Portugal', d: 'FIFA chose Morocco together with Spain and Portugal to host the 2030 World Cup, the first to span two continents.' },
+        { n: 'Hosting the Africa Cup of Nations', y: '2025', lat: 34.02, lon: -6.84, approx: true, k: 'event', vn: 'Morocco', d: 'Morocco hosted the 2025 Africa Cup of Nations (AFCON) in newly built and upgraded stadiums.' }
+      ]
+    }
+  ]
+};

@@ -1,0 +1,124 @@
+// Mongolia history (incl. the Mongol Empire's campaigns) for the Geo-Flight history layer (English text).
+export default {
+  iso: 'mn', name: 'Mongolia', flag: '🇲🇳',
+  eras: [
+    {
+      id: 'thaonguyen', t: 'The steppe empires', y: '209 BCE – 840',
+      d: 'Before Genghis Khan, the Mongolian steppe was home to the Xiongnu, the Gokturks and the Uyghurs, nomadic peoples who were the finest mounted archers.',
+      ev: [
+        { n: 'Modu founds the Xiongnu confederation', y: '209 BCE', lat: 47.50, lon: 103.00, approx: true, k: 'event', vn: 'Chanyu Modu', d: 'Modu united the nomadic tribes into the first steppe empire.' },
+        { n: 'Battle of Baideng (Pingcheng)', y: '200 BCE', lat: 40.08, lon: 113.30, approx: true, k: 'battle', vn: 'Chanyu Modu', vs: 'Emperor Gaozu of Han (Liu Bang)', d: 'Xiongnu cavalry surrounded Liu Bang for seven days; the Han had to give a princess in marriage and send gifts to keep the peace.' },
+        { n: 'Orkhon inscriptions of the Gokturks', y: '732', lat: 47.56, lon: 102.83, k: 'event', vn: 'Bilge Khagan, Kul Tigin', d: 'Stone steles carved in Old Turkic script, the oldest written texts of the Turkic-speaking peoples.' },
+        { n: 'Uyghur city of Ordu-Baliq', y: '744 – 840', lat: 47.43, lon: 102.66, k: 'event', vn: 'The Uyghur khagans', d: 'The walled capital of the Uyghur empire beside the Orkhon River; the Uyghurs once helped the Tang dynasty put down the An Lushan rebellion.' }
+      ]
+    },
+    {
+      id: 'thongnhat', t: 'Genghis Khan unites Mongolia', y: '1162 – 1215',
+      d: 'The orphan boy Temüjin united the tribes, took the title Genghis Khan in 1206, and began to strike outward.',
+      ev: [
+        { n: 'Birth of Temüjin', y: '~1162', lat: 49.02, lon: 111.62, approx: true, k: 'event', vn: 'Temüjin', d: 'Legend says the boy was born clutching a clot of blood in his hand, a sign of a great warrior.' },
+        { n: 'Battle of Chakirma\'ut', y: '1204', lat: 47.30, lon: 102.50, approx: true, k: 'battle', vn: 'Temüjin', vs: 'Tayang Khan (Naiman), Jamukha', d: 'By defeating the Naiman, the most powerful tribe in the west, Temüjin became master of the whole steppe.' },
+        { n: 'Kurultai on the Onon River', y: '1206', lat: 48.80, lon: 110.60, approx: true, k: 'event', vn: 'Genghis Khan', d: 'The chieftains proclaimed Temüjin Genghis Khan; he organized the army on a decimal system of 10, 100, 1,000 and 10,000.' },
+        { n: 'Attack on Western Xia', y: '1209', lat: 38.47, lon: 106.27, k: 'battle', vn: 'Genghis Khan', vs: 'Western Xia', d: 'The first siege of the capital Zhongxing (Yinchuan); Western Xia had to surrender and pay tribute.' },
+        { n: 'Battle of Yehuling', y: '1211', lat: 40.95, lon: 114.65, approx: true, k: 'battle', vn: 'Genghis Khan, Muqali', vs: 'Wanyan Chengyu (Jin dynasty)', d: 'Mongol cavalry shattered the great Jin army at a pass north of the Great Wall.' },
+        { n: 'Capture of the Jin Central Capital', y: '1215', lat: 39.88, lon: 116.33, k: 'battle', vn: 'Muqali, Shimo Ming\'an', vs: 'Jin dynasty', d: 'The Jin capital (present-day Beijing) fell after a siege of many months.' }
+      ]
+    },
+    {
+      id: 'taychinh1', t: 'The campaign against Khwarezm', y: '1219 – 1227',
+      d: 'After a caravan of envoys and merchants was killed at Otrar, Genghis Khan led his army into Central Asia and conquered the Khwarezmian Empire.',
+      route: { t: 'Genghis Khan\'s western campaign 1219 – 1221', pts: [[47.20, 102.84], [44.0, 87.0], [42.85, 68.30], [39.77, 64.42], [39.65, 66.98], [37.66, 62.19], [36.21, 58.80], [35.05, 69.25], [32.96, 71.55]] },
+      ev: [
+        { n: 'Siege of Otrar', y: '1219 – 1220', lat: 42.85, lon: 68.30, k: 'battle', vn: 'Chagatai, Ögedei', vs: 'Inalchuq (Khwarezm)', d: 'The governor who killed the Mongol merchants held out for five months; the siege opened the western campaign.' },
+        { n: 'Bukhara', y: '1220', lat: 39.77, lon: 64.42, k: 'battle', vn: 'Genghis Khan', vs: 'Khwarezm', d: 'The Mongol army crossed the Kyzylkum Desert and appeared before the city from a direction no one expected.' },
+        { n: 'Samarkand', y: '1220', lat: 39.65, lon: 66.98, k: 'battle', vn: 'Genghis Khan', vs: 'Muhammad II (Khwarezm)', d: 'The new Khwarezmian capital fell; Shah Muhammad II fled and died on an island in the Caspian Sea.' },
+        { n: 'Urgench', y: '1221', lat: 42.32, lon: 59.15, k: 'battle', vn: 'Jochi, Chagatai, Ögedei', vs: 'Khwarezm', d: 'The city was besieged for months; the Mongols broke the dikes of the Amu Darya and flooded it.' },
+        { n: 'Merv and Nishapur', y: '1221', lat: 37.66, lon: 62.19, k: 'battle', vn: 'Tolui', vs: 'Khwarezm', d: 'The largest cities of Khorasan were devastated and took hundreds of years to recover.' },
+        { n: 'Battle of Parwan', y: '1221', lat: 35.05, lon: 69.25, approx: true, k: 'battle', vn: 'Shigi Qutuqu', vs: 'Jalal ad-Din (Khwarezm)', d: 'One of the few times the Mongols lost a battle in this campaign, in what is now Afghanistan.' },
+        { n: 'Battle of the Indus', y: '1221', lat: 32.96, lon: 71.55, approx: true, k: 'battle', vn: 'Genghis Khan', vs: 'Jalal ad-Din (Khwarezm)', d: 'Defeated, Jalal ad-Din spurred his horse into the Indus and swam to safety; Genghis Khan praised his courage.' },
+        { n: 'Battle of the Kalka River', y: '1223', lat: 47.40, lon: 37.60, approx: true, k: 'battle', vn: 'Jebe, Subutai', vs: 'Rus princes, the Cumans', d: 'The scouting army circled the Caspian Sea, feigned retreat for days, then crushed the Rus alliance in present-day Ukraine.' },
+        { n: 'Death of Genghis Khan', y: '1227', lat: 38.47, lon: 106.27, approx: true, k: 'event', vn: 'Genghis Khan', vs: 'Western Xia', d: 'He died during his final campaign against Western Xia; his burial place remains a mystery to this day.' }
+      ]
+    },
+    {
+      id: 'oakhoatdai', t: 'Ögedei and the campaign into Europe', y: '1229 – 1242',
+      d: 'Great Khan Ögedei destroyed the Jin dynasty and built the capital Karakorum, then sent Batu and Subutai as far as Poland and Hungary.',
+      route: { t: 'Batu\'s western campaign 1236 – 1242', pts: [[47.20, 102.84], [54.98, 49.05], [54.50, 40.03], [56.13, 40.41], [57.90, 38.45], [54.04, 35.78], [50.45, 30.52], [51.14, 16.24], [47.98, 20.93]] },
+      ev: [
+        { n: 'Capital at Karakorum', y: '1235', lat: 47.20, lon: 102.84, k: 'event', vn: 'Ögedei', d: 'The capital of the empire in the middle of the steppe; later it had a silver fountain that poured out mare\'s milk and other drinks.' },
+        { n: 'Battle of Mount Sanfeng', y: '1232', lat: 34.15, lon: 113.50, approx: true, k: 'battle', vn: 'Tolui', vs: 'Wanyan Heda (Jin dynasty)', d: 'In a snowstorm, the Mongols destroyed the last main army of the Jin.' },
+        { n: 'Fall of the Jin at Caizhou', y: '1234', lat: 33.00, lon: 114.35, k: 'battle', vn: 'Subutai', vs: 'Emperor Aizong of Jin', d: 'A joint Mongol and Southern Song force broke into Caizhou, and the Jin dynasty came to an end.' },
+        { n: 'Ryazan', y: '1237', lat: 54.50, lon: 40.03, k: 'battle', vn: 'Batu', vs: 'Principality of Ryazan', d: 'The first Rus city fell in winter; the Mongols advanced over frozen rivers as if on highways.' },
+        { n: 'Vladimir', y: '1238', lat: 56.13, lon: 40.41, k: 'battle', vn: 'Batu', vs: 'Grand Principality of Vladimir', d: 'The strongest capital of northeastern Rus was taken after a siege of just a few days.' },
+        { n: 'Battle of the Sit River', y: '1238', lat: 57.90, lon: 38.45, approx: true, k: 'battle', vn: 'Burundai', vs: 'Grand Prince Yuri II', d: 'The Rus army was taken by surprise in the snowy forest, and Grand Prince Yuri II was killed.' },
+        { n: 'Kozelsk, the "evil city"', y: '1238', lat: 54.04, lon: 35.78, k: 'battle', vn: 'Batu', vs: 'The people of Kozelsk', d: 'The small town resisted for seven weeks, so the Mongols called it the "evil city".' },
+        { n: 'Fall of Kyiv', y: '1240', lat: 50.45, lon: 30.52, k: 'battle', vn: 'Batu', vs: 'Dmytro (Kyiv)', d: 'The largest city of Rus was destroyed; many of its people sheltered in the Church of the Tithes.' },
+        { n: 'Battle of Legnica', y: 'Apr 1241', lat: 51.14, lon: 16.24, k: 'battle', vn: 'Baidar, Qadan', vs: 'Duke Henry II (Poland)', d: 'One Mongol wing defeated Polish and German knights; Henry II was killed.' },
+        { n: 'Battle of Mohi', y: 'Apr 1241', lat: 47.98, lon: 20.93, k: 'battle', vn: 'Batu, Subutai', vs: 'King Béla IV (Hungary)', d: 'The Mongols besieged the Hungarian camp by the Sajó River with catapults, then left an escape route so they could strike the fleeing troops.' },
+        { n: 'Golden Horde and the city of Sarai', y: '1242', lat: 47.17, lon: 47.44, approx: true, k: 'event', vn: 'Batu', d: 'On hearing of Ögedei\'s death, Batu turned back and founded the Golden Horde with its capital Sarai on the Volga River.' }
+      ]
+    },
+    {
+      id: 'trungdong', t: 'Möngke and Hulagu in the Middle East', y: '1251 – 1260',
+      d: 'Great Khan Möngke sent his brother Hulagu against Persia, Iraq and Syria, while he himself led the attack on Southern Song.',
+      ev: [
+        { n: 'Alamut Castle', y: '1256', lat: 36.44, lon: 50.59, k: 'battle', vn: 'Hulagu', vs: 'Nizari sect (the Assassins)', d: 'The mountaintop fortress of the notorious "assassin" sect surrendered to the Mongols.' },
+        { n: 'Fall of Baghdad', y: '1258', lat: 33.34, lon: 44.40, k: 'battle', vn: 'Hulagu', vs: 'Caliph al-Musta\'sim (Abbasid dynasty)', d: 'The capital of the Abbasids was sacked; it is said so many books from the "House of Wisdom" were thrown in that the Tigris River changed color.' },
+        { n: 'First attack on Dai Viet', y: '1258', lat: 21.04, lon: 105.857, k: 'battle', vn: 'Uriyangkhadai', vs: 'Tran Thai Tong, Tran Thu Do (Dai Viet)', d: 'The Mongols took the empty city of Thang Long, then were counterattacked at Dong Bo Dau and had to withdraw.' },
+        { n: 'Diaoyu Castle', y: '1259', lat: 30.02, lon: 106.28, k: 'battle', vn: 'Great Khan Möngke', vs: 'Wang Jian (Southern Song)', d: 'Great Khan Möngke died while besieging the mountain fortress in Sichuan; Mongol armies everywhere had to halt.' },
+        { n: 'Aleppo', y: '1260', lat: 36.20, lon: 37.16, k: 'battle', vn: 'Hulagu', vs: 'Ayyubid dynasty', d: 'The Mongols took Aleppo and Damascus and came close to Egypt.' },
+        { n: 'Battle of Ain Jalut', y: 'Sep 1260', lat: 32.55, lon: 35.36, k: 'battle', vn: 'Kitbuqa', vs: 'Qutuz, Baybars (Mamluks of Egypt)', d: 'For the first time a large Mongol army was completely defeated; Kitbuqa was captured and killed.' }
+      ]
+    },
+    {
+      id: 'nguyen', t: 'Kublai Khan and the Yuan dynasty', y: '1260 – 1368',
+      d: 'Kublai Khan founded the Yuan dynasty and conquered all of China, but his overseas expeditions against Japan, Dai Viet, Champa and Java all failed.',
+      ev: [
+        { n: 'Kublai Khan enthroned at Shangdu', y: '1260', lat: 42.36, lon: 116.18, k: 'event', vn: 'Kublai Khan', vs: 'Ariq Böke', d: 'The two brothers fought over the title of Great Khan; the Mongol Empire gradually split into four great khanates.' },
+        { n: 'Siege of Xiangyang', y: '1267 – 1273', lat: 32.01, lon: 112.12, k: 'battle', vn: 'Aju, Liu Zheng', vs: 'Lü Wenhuan (Southern Song)', d: 'After nearly six years of siege, catapults built by Persian engineers finally forced the city to surrender.' },
+        { n: 'First invasion of Japan', y: '1274', lat: 33.62, lon: 130.38, k: 'battle', vn: 'Hindu, Hong Chagu', vs: 'Kamakura shogunate (Japan)', d: 'Mongol and Korean troops landed at Hakata Bay and then withdrew; many ships met a storm on the way back.' },
+        { n: 'Battle of Yamen', y: '1279', lat: 22.05, lon: 113.07, k: 'battle', vn: 'Zhang Hongfan', vs: 'Lu Xiufu, Zhang Shijie (Southern Song)', d: 'The final naval battle destroyed the Song dynasty; for the first time all of China belonged to the Mongols.' },
+        { n: 'Second invasion of Japan', y: '1281', lat: 33.40, lon: 129.73, k: 'battle', vn: 'Fan Wenhu, Hindu', vs: 'Hōjō Tokimune (Japan)', d: 'A fleet of more than 4,000 ships was sunk by a great typhoon near Takashima Island.' },
+        { n: 'Attack on Champa', y: '1283 – 1284', lat: 13.90, lon: 109.07, k: 'battle', vn: 'Sogetu', vs: 'King Indravarman V, Prince Harijit (Champa)', d: 'The Yuan army took the city of Vijaya, but the Cham withdrew into the mountains and forests and fought a guerrilla war.' },
+        { n: 'Second attack on Dai Viet', y: '1285', lat: 20.81, lon: 106.00, k: 'battle', vn: 'Toghon, Sogetu', vs: 'Tran Hung Dao (Dai Viet)', d: 'The Yuan lost at Ham Tu, Chuong Duong and Tay Ket; Sogetu was killed and Toghon had to retreat.' },
+        { n: 'Attack on Pagan (Burma)', y: '1287', lat: 21.17, lon: 94.86, k: 'battle', vn: 'Prince Yesün Temür', vs: 'Pagan dynasty', d: 'The Pagan dynasty, with its thousands of pagodas, collapsed after the Yuan army marched in.' },
+        { n: 'Battle of Bach Dang', y: '1288', lat: 20.94, lon: 106.80, k: 'battle', vn: 'Toghon, Omar', vs: 'Tran Hung Dao (Dai Viet)', d: 'The Yuan fleet ran into a field of stakes as the tide fell and was destroyed; Omar was captured.' },
+        { n: 'Invasion of Java', y: '1293', lat: -7.56, lon: 112.38, k: 'battle', vn: 'Shi Bi, Gao Xing', vs: 'Raden Wijaya (Majapahit)', d: 'Raden Wijaya borrowed Yuan troops to beat his enemies, then turned on them and drove them out, founding the Majapahit kingdom.' },
+        { n: 'The Yuan leave Dadu', y: '1368', lat: 39.91, lon: 116.39, k: 'event', vn: 'Emperor Toghon Temür (Shun Emperor)', vs: 'Zhu Yuanzhang (Ming dynasty)', d: 'Before the advancing Ming army, the last Yuan emperor abandoned Dadu and fled to the Mongolian steppe.' }
+      ]
+    },
+    {
+      id: 'bacnguyen', t: 'The Northern Yuan and Qing-era Mongolia', y: '1368 – 1911',
+      d: 'The Mongols returned to the steppe and clashed repeatedly with the Ming; Tibetan Buddhism spread, and Mongolia gradually came under Qing rule.',
+      ev: [
+        { n: 'Battle of Lake Buir', y: '1388', lat: 47.80, lon: 117.70, approx: true, k: 'battle', vn: 'Toghus Temür (Northern Yuan)', vs: 'Lan Yu (Ming dynasty)', d: 'The Ming attacked the Northern Yuan camp in a sandstorm and captured tens of thousands of people.' },
+        { n: 'Tumu Crisis', y: '1449', lat: 40.38, lon: 115.52, approx: true, k: 'battle', vn: 'Esen (Oirat)', vs: 'Ming Emperor Yingzong', d: 'The Oirats crushed the Ming army and captured the Ming emperor himself.' },
+        { n: 'Altan Khan founds Hohhot', y: '1572 – 1581', lat: 40.81, lon: 111.65, k: 'event', vn: 'Altan Khan', d: 'The "Blue City" was founded in Inner Mongolia; today it is the capital of China\'s Inner Mongolia Autonomous Region.' },
+        { n: 'The title Dalai Lama', y: '1578', lat: 36.90, lon: 100.20, approx: true, k: 'event', vn: 'Altan Khan', d: 'Meeting the monk Sonam Gyatso by Qinghai Lake, Altan Khan gave him the title "Dalai Lama", meaning "ocean of wisdom".' },
+        { n: 'Erdene Zuu Monastery', y: '1585', lat: 47.20, lon: 102.84, k: 'event', vn: 'Abtai Sain Khan', d: 'Mongolia\'s first Buddhist monastery, built with bricks and stones from the ruins of Karakorum, with 108 stupas along its walls.' },
+        { n: 'Assembly at Dolon Nor', y: '1691', lat: 42.20, lon: 116.47, k: 'event', vn: 'The Khalkha chieftains', vs: 'Kangxi Emperor (Qing dynasty)', d: 'The Khalkha Mongol chieftains submitted to the Qing in order to be protected from Galdan.' },
+        { n: 'Battle of Jao Modo', y: '1696', lat: 47.75, lon: 107.50, approx: true, k: 'battle', vn: 'Galdan (Dzungar)', vs: 'Kangxi Emperor, Fei Yanggu (Qing dynasty)', d: 'The Qing army, with its cannons, defeated Galdan near present-day Ulaanbaatar; the Dzungar Khanate grew weaker.' },
+        { n: 'Great Khüree (Urga)', y: '1778', lat: 47.92, lon: 106.92, k: 'event', vn: 'Jebtsundamba Khutuktu', d: 'The mobile monastery camp moved many times before settling beside the Tuul River, becoming today\'s capital Ulaanbaatar.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Modern Mongolia', y: '1911 – present',
+      d: 'Mongolia declared independence as the Qing collapsed, became a people\'s republic in 1924, and turned to democracy in 1990.',
+      ev: [
+        { n: 'Bogd Khan declares independence', y: '1911', lat: 47.90, lon: 106.92, k: 'event', vn: 'Bogd Khan (8th Jebtsundamba Khutuktu)', vs: 'Qing dynasty', d: 'The lama who headed Mongolian Buddhism was enthroned as ruler of independent Mongolia.' },
+        { n: 'Revolution of 1921 and the Battle of Kyakhta', y: '1921', lat: 50.35, lon: 106.45, k: 'battle', vn: 'Sükhbaatar, Choibalsan', vs: 'Republic of China troops, Ungern\'s White Guards', d: 'A small people\'s army took the border town, then entered Urga together with the Soviet Red Army.' },
+        { n: 'Mongolian People\'s Republic', y: '1924', lat: 47.92, lon: 106.92, k: 'event', vn: 'Mongolian People\'s Party', d: 'Urga was renamed Ulaanbaatar, "Red Hero"; Mongolia was the second country in the world to follow the Soviet model.' },
+        { n: 'Battle of Khalkhin Gol', y: '1939', lat: 47.75, lon: 118.60, k: 'battle', vn: 'Choibalsan, Zhukov (Soviet Union)', vs: 'Kwantung Army (Japan)', d: 'Mongolian and Soviet forces used tanks to encircle and defeat the Japanese on the eastern border.' },
+        { n: 'Independence referendum', y: '1945', lat: 47.92, lon: 106.92, k: 'event', vn: 'Choibalsan', d: 'Almost 100% of voters backed independence; in 1946 the Republic of China recognized Mongolia.' },
+        { n: 'Joining the United Nations', y: '1961', lat: 47.919, lon: 106.917, k: 'event', vn: 'Tsedenbal', d: 'Mongolia became a member of the United Nations.' },
+        { n: 'Democratic revolution', y: '1990', lat: 47.919, lon: 106.917, k: 'event', vn: 'Zorig and other young people', d: 'Peaceful protests in the freezing winter on Sükhbaatar Square moved Mongolia to a multiparty system.' },
+        { n: '800 years of the Mongol State', y: '2006', lat: 47.919, lon: 106.918, k: 'event', d: 'For the 800th anniversary of Genghis Khan founding the state (1206), his statue was placed in front of Government House on Ulaanbaatar\'s central square.' },
+        { n: 'Equestrian statue of Genghis Khan', y: '2008', lat: 47.81, lon: 107.53, k: 'event', vn: 'The Mongolian people', d: 'A 40 m stainless-steel statue in the middle of the steppe, at the place where Temüjin is said to have found a golden whip.' },
+        { n: 'Naadam festival becomes a UNESCO heritage', y: '2010', lat: 47.9, lon: 106.92, approx: true, k: 'event', d: 'The summer festival with its three "manly games" of wrestling, horse racing and archery was recognized as intangible cultural heritage.' },
+        { n: 'Oyu Tolgoi copper and gold mine', y: '2013', lat: 43.0, lon: 106.85, approx: true, k: 'event', d: 'One of the world\'s largest copper and gold mines, in the Gobi Desert, began exports and made a big contribution to the economy.' },
+        { n: 'Chinggis Khaan International Airport', y: '2021', lat: 47.646, lon: 106.819, approx: true, k: 'event', d: 'The new airport stands on the steppe about 50 km from Ulaanbaatar and replaced the capital\'s old airport.' },
+        { n: 'The "dzud" winter disaster', y: '2023 – 2024', lat: 46.8, lon: 103.0, approx: true, k: 'event', d: 'An extremely cold winter with deep snow killed more than 7 million head of livestock, hitting nomadic families hard.' }
+      ]
+    }
+  ]
+};

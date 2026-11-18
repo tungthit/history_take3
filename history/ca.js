@@ -1,0 +1,118 @@
+// Canada history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'ca', name: 'Canada', flag: '🇨🇦',
+  eras: [
+    {
+      id: 'native', t: 'Indigenous peoples and the Vikings', y: '~3500 BCE – 1600',
+      d: 'Thousands of years before Europeans arrived, the First Nations and Inuit peoples lived all across Canada; the Vikings were the first Europeans to set foot here.',
+      ev: [
+        { n: 'Head-Smashed-In Buffalo Jump', y: '~3500 BCE', lat: 49.748, lon: -113.625, k: 'event', vn: 'The Blackfoot people', d: 'Indigenous hunters drove whole herds of bison toward a cliff – a hunting method used for almost 6,000 years.' },
+        { n: 'Vikings at L\'Anse aux Meadows', y: '1021', lat: 51.596, lon: -55.533, k: 'event', vn: 'The Norse Vikings', d: 'Wood cut by Vikings in Newfoundland has been dated to exactly the year 1021 – Europeans reached the Americas 471 years before Columbus.' },
+        { n: 'The Thule people – ancestors of the Inuit', y: '~1200', lat: 63.75, lon: -68.52, approx: true, k: 'event', vn: 'The Thule people', d: 'From Alaska, the Thule traveled with dog sleds and skin boats into the Canadian Arctic, hunting whales and building igloos.' },
+        { n: 'Maple syrup', y: 'before 1600', lat: 46.81, lon: -71.21, approx: true, k: 'discovery', vn: 'Indigenous peoples of the northeast', d: 'Indigenous people already knew how to tap maple trees for sweet sap and boil it down; today Québec makes about 70% of the world\'s maple syrup.' },
+        { n: 'John Cabot reaches Newfoundland', y: '1497', lat: 48.65, lon: -53.11, approx: true, k: 'event', vn: 'John Cabot (in the service of the English king)', d: 'The Italian navigator landed on the Atlantic coast and told of seas so full of cod that you could scoop them up by lowering a basket.' },
+        { n: 'Jacques Cartier plants a cross at Gaspé', y: '1534', lat: 48.83, lon: -64.48, k: 'event', vn: 'Jacques Cartier (France)', d: 'Cartier planted a 10 m cross claiming the land for the French king, which led Chief Donnacona to protest.' },
+        { n: 'The name "Canada" is born', y: '1535', lat: 46.813, lon: -71.208, k: 'event', vn: 'The Iroquois of Stadacona, Jacques Cartier', d: 'The indigenous people used the word "kanata", meaning "village"; Cartier took it as the name of the whole land – and so Canada got its name.' }
+      ]
+    },
+    {
+      id: 'newfrance', t: 'New France', y: '1604 – 1763',
+      d: 'The French founded settlements along the Saint Lawrence River, traded fur with the indigenous peoples and then competed with the English for North America.',
+      ev: [
+        { n: 'Port-Royal settlement', y: '1605', lat: 44.71, lon: -65.61, k: 'event', vn: 'Samuel de Champlain, Pierre Dugua de Mons', d: 'One of the first European settlements in Canada, where Champlain founded the "Order of Good Cheer" to help everyone get through the winter.' },
+        { n: 'Champlain founds Québec', y: '1608', lat: 46.813, lon: -71.208, k: 'event', vn: 'Samuel de Champlain', d: 'The wooden fort beside the Saint Lawrence River became Québec City – the "cradle" of French-speaking Canadians.' },
+        { n: 'Founding of Montréal', y: '1642', lat: 45.507, lon: -73.554, k: 'event', vn: 'Paul de Chomedey de Maisonneuve, Jeanne Mance', d: 'A small group of believers founded the village of Ville-Marie on an island in the river; today it is Canada\'s second-largest city.' },
+        { n: 'Hudson\'s Bay Company founds York Factory', y: '1684', lat: 57.00, lon: -92.30, k: 'event', vn: 'Hudson\'s Bay Company', d: 'The beaver-fur trading company, founded in 1670 – once the oldest company in North America – built a trading post on the shore of Hudson Bay.' },
+        { n: 'Expulsion of the Acadians', y: '1755', lat: 45.108, lon: -64.307, k: 'event', vn: 'The Acadians', d: 'The British authorities forced more than 10,000 French-speaking Acadians to leave Nova Scotia, and many families were split apart.' },
+        { n: 'Siege of Louisbourg', y: '1758', lat: 45.892, lon: -59.985, k: 'battle', vn: 'French army (Augustin de Drucour)', vs: 'British army (Jeffery Amherst, James Wolfe)', d: 'One of the largest fortresses in North America, on Cape Breton Island, fell after a 7-week siege, opening the way for the British into the Saint Lawrence River.' },
+        { n: 'Battle of the Plains of Abraham', y: '13 Sep 1759', lat: 46.801, lon: -71.218, k: 'battle', vn: 'Marquis de Montcalm', vs: 'General James Wolfe (Britain)', d: 'The main fighting lasted less than an hour outside Québec City; both generals were killed, and a year later New France fell.' }
+      ]
+    },
+    {
+      id: 'british', t: 'British colony and the War of 1812', y: '1763 – 1866',
+      d: 'Britain took hold of Canada; Loyalists fled from America, and the colonies pushed back the Americans in the War of 1812.',
+      ev: [
+        { n: 'Treaty of Paris', y: '1763', lat: 48.857, lon: 2.352, k: 'event', vn: 'King George III (Britain)', vs: 'King Louis XV (France)', d: 'France gave up almost all of New France to Britain, keeping only the two small islands of Saint-Pierre and Miquelon.' },
+        { n: 'Loyalists arrive at Saint John', y: '1783', lat: 45.273, lon: -66.063, k: 'event', vn: 'British Loyalists', d: 'After the American Revolution, tens of thousands of people who wanted to stay with the British king sailed north to start new lives.' },
+        { n: 'Mackenzie reaches the Pacific', y: '1793', lat: 52.38, lon: -127.47, k: 'event', vn: 'Alexander Mackenzie', d: 'The first European recorded to cross North America by land; he wrote his name in red paint mixed with grease on a rock by the sea.' },
+        { n: 'Battle of Queenston Heights', y: '13 Oct 1812', lat: 43.160, lon: -79.050, k: 'battle', vn: 'General Isaac Brock, John Norton (Mohawk)', vs: 'American army (Stephen Van Rensselaer)', d: 'British troops, Canadian militia and Mohawk warriors pushed back the Americans who crossed the Niagara River; General Brock was killed.' },
+        { n: 'Americans burn York', y: '1813', lat: 43.65, lon: -79.38, k: 'battle', vn: 'General Roger Sheaffe', vs: 'American army (Henry Dearborn)', d: 'The Americans captured and burned the parliament buildings at York – now Toronto; the next year the British burned the White House in Washington.' },
+        { n: 'Battle of Beaver Dams', y: '1813', lat: 43.11, lon: -79.20, approx: true, k: 'battle', vn: 'Laura Secord, James FitzGibbon, Mohawk warriors', vs: 'American army', d: 'Laura Secord walked about 30 km through the forest to warn that American troops were coming, helping the British and Mohawks win the battle.' },
+        { n: 'Battle of Châteauguay', y: '26 Oct 1813', lat: 45.165, lon: -73.879, k: 'battle', vn: 'Charles de Salaberry', vs: 'American army (Wade Hampton)', d: 'About 300 soldiers, mostly French-speaking Canadians, stopped an American army many times larger advancing on Montréal.' },
+        { n: 'Patriote rebellion at Saint-Denis', y: '1837', lat: 45.785, lon: -73.155, k: 'battle', vn: 'Wolfred Nelson (Patriote side)', vs: 'British army (Charles Gore)', d: 'Those demanding self-government in Lower Canada drove back the British troops, but the rebellion was crushed a few weeks later.' }
+      ]
+    },
+    {
+      id: 'confederation', t: 'Confederation and the transcontinental railway', y: '1864 – 1913',
+      d: 'The colonies joined to form the Dominion of Canada in 1867; the Canadian Pacific Railway linked the country from the Atlantic to the Pacific.',
+      route: { t: 'Canadian Pacific Railway (completed 1885)', pts: [[45.50, -73.57], [45.42, -75.70], [46.49, -80.99], [48.38, -89.25], [49.90, -97.14], [50.45, -104.61], [51.05, -114.07], [51.18, -115.57], [50.975, -118.637], [49.28, -123.12]] },
+      ev: [
+        { n: 'Charlottetown Conference', y: '1864', lat: 46.235, lon: -63.126, k: 'event', vn: 'John A. Macdonald, George-Étienne Cartier', d: 'Colonial leaders met on Prince Edward Island and began discussing uniting into one nation.' },
+        { n: 'Canadian Confederation', y: '1 July 1867', lat: 45.424, lon: -75.699, k: 'event', vn: 'Prime Minister John A. Macdonald', d: 'Ontario, Québec, Nova Scotia and New Brunswick joined to form Canada, with Ottawa as the capital; 1 July is now Canada Day.' },
+        { n: 'Red River Resistance', y: '1869 – 1870', lat: 49.887, lon: -97.131, k: 'event', vn: 'Louis Riel (the Métis)', vs: 'Government of Canada', d: 'The Métis seized Fort Garry to demand land rights; the result was the creation of the province of Manitoba in 1870.' },
+        { n: 'First indoor hockey game', y: '3 Mar 1875', lat: 45.499, lon: -73.570, k: 'discovery', vn: 'James Creighton', d: 'At the Victoria Skating Rink in Montréal, two teams played the first recorded indoor hockey game, using a flat piece of wood instead of a ball.' },
+        { n: 'First long-distance call', y: '10 Aug 1876', lat: 43.139, lon: -80.264, k: 'discovery', vn: 'Alexander Graham Bell', d: 'Bell heard the voices of relatives carried over a telegraph wire from Brantford to Paris, Ontario, about 13 km away – the first long-distance call.' },
+        { n: 'Standard time and 24 time zones', y: '1879', lat: 43.65, lon: -79.38, approx: true, k: 'discovery', vn: 'Sandford Fleming', d: 'After missing a train because of a wrongly printed time, the engineer Sandford Fleming proposed dividing the Earth into 24 time zones – the way the whole world tells time today.' },
+        { n: 'Battle of Batoche', y: '1885', lat: 52.756, lon: -106.116, k: 'battle', vn: 'Louis Riel, Gabriel Dumont (the Métis)', vs: 'Government army (Frederick Middleton)', d: 'The North-West Rebellion ended at the village of Batoche; Louis Riel was executed – he is still a controversial figure today.' },
+        { n: 'The Last Spike at Craigellachie', y: '7 Nov 1885', lat: 50.975, lon: -118.637, k: 'event', vn: 'Donald Smith, thousands of workers (many of them Chinese)', d: 'The last iron spike was driven in, completing the railway across Canada, more than 4,000 km long.' },
+        { n: 'Klondike Gold Rush', y: '1896 – 1899', lat: 64.06, lon: -139.43, k: 'event', vn: 'George Carmack, Skookum Jim, Dawson Charlie', d: 'News of gold in the Yukon sent about 100,000 people off to the frozen north; the town of Dawson City sprang up very quickly.' },
+        { n: 'Radio signal across the Atlantic', y: '12 Dec 1901', lat: 47.570, lon: -52.682, k: 'event', vn: 'Guglielmo Marconi', d: 'On Signal Hill in Newfoundland, Marconi picked up a radio signal sent from England 3,500 km away.' },
+        { n: 'The novel "Anne of Green Gables"', y: '1908', lat: 46.49, lon: -63.38, k: 'discovery', vn: 'Lucy Maud Montgomery', d: 'The red-haired orphan girl who never stops talking, in the village of Cavendish on Prince Edward Island, is now read in dozens of languages.' },
+        { n: 'Burgess Shale fossils', y: '1909', lat: 51.43, lon: -116.47, k: 'discovery', vn: 'Charles Walcott (American scientist)', d: 'In the Rocky Mountains in Yoho, the shale preserved even the soft bodies of 508-million-year-old sea creatures, including the five-eyed Opabinia.' }
+      ]
+    },
+    {
+      id: 'worldwars', t: 'The two World Wars', y: '1914 – 1945',
+      d: 'More than a million Canadians went to war in the two world wars; the feats at Vimy and in Normandy helped Canada grow into an independent nation.',
+      ev: [
+        { n: 'Winnie the bear', y: '1914', lat: 48.59, lon: -85.28, k: 'discovery', vn: 'Lieutenant Harry Colebourn', d: 'At White River station, a veterinary officer bought a bear cub and named her Winnipeg; she later lived at the London Zoo and inspired Winnie-the-Pooh.' },
+        { n: 'Second Battle of Ypres', y: '1915', lat: 50.89, lon: 2.94, approx: true, k: 'battle', vn: '1st Canadian Division', vs: 'German army', d: 'Canadian soldiers held the line in Belgium even though the Germans used chlorine gas on a large scale for the first time.' },
+        { n: 'Battle of Vimy Ridge', y: '9 – 12 Apr 1917', lat: 50.379, lon: 2.774, k: 'battle', vn: 'Generals Julian Byng, Arthur Currie', vs: 'German army', d: 'For the first time four Canadian divisions fought together in one battle and took a ridge that the British and French had been unable to capture.' },
+        { n: 'Battle of Passchendaele', y: '1917', lat: 50.90, lon: 3.02, k: 'battle', vn: 'General Arthur Currie', vs: 'German army', d: 'In knee-deep mud, the Canadians took the village of Passchendaele but suffered about 16,000 casualties.' },
+        { n: 'Halifax Explosion', y: '6 Dec 1917', lat: 44.669, lon: -63.597, k: 'event', vn: 'The people of Halifax', d: 'A ship carrying explosives collided in the harbor, causing the largest man-made explosion before the atomic bomb, killing about 2,000 people.' },
+        { n: 'Insulin saves diabetics', y: 'Jan 1922', lat: 43.660, lon: -79.393, k: 'discovery', vn: 'Frederick Banting, Charles Best, James Collip, John Macleod', d: 'At the University of Toronto, 14-year-old Leonard Thompson was the first person to be injected with insulin; the team sold the patent for $1 each.' },
+        { n: 'Statute of Westminster', y: '1931', lat: 51.500, lon: -0.127, k: 'event', vn: 'Prime Minister R. B. Bennett', d: 'A law of the British Parliament recognized that Canada could decide all its own affairs, making it almost completely independent.' },
+        { n: 'Dieppe Raid', y: '19 Aug 1942', lat: 49.93, lon: 1.08, k: 'battle', vn: '2nd Canadian Division', vs: 'German army', d: 'The failed raid on the French coast left almost 1,000 Canadian soldiers dead, but it taught lessons for the 1944 landings.' },
+        { n: 'Battle of Ortona', y: 'Dec 1943', lat: 42.356, lon: 14.403, k: 'battle', vn: 'General Chris Vokes', vs: 'German army', d: 'Canadian soldiers fought hand to hand, house by house, in the Italian town; they blasted through walls to pass from one house to the next.' },
+        { n: 'Landing at Juno Beach', y: '6 June 1944', lat: 49.336, lon: -0.46, k: 'battle', vn: '3rd Canadian Division', vs: 'German army', d: 'On D-Day, the Canadians landed on Juno Beach in Normandy and advanced farther inland than any other force that day.' },
+        { n: 'Liberation of the Netherlands', y: '1945', lat: 52.21, lon: 5.97, approx: true, k: 'event', vn: 'First Canadian Army (Harry Crerar)', d: 'Canadian troops liberated most of the Netherlands; to this day the Dutch still send tulips to Ottawa every year to say thank you.' }
+      ]
+    },
+    {
+      id: 'postwar', t: 'Postwar Canada', y: '1949 – 1982',
+      d: 'Canada became a peacekeeping nation, got its own maple leaf flag and finally took control of its own constitution in 1982.',
+      route: { t: 'Terry Fox\'s "Marathon of Hope" run, 1980', pts: [[47.56, -52.71], [44.65, -63.57], [46.81, -71.21], [45.50, -73.57], [45.42, -75.70], [43.65, -79.38], [46.52, -84.33], [48.44, -89.22]] },
+      ev: [
+        { n: 'Newfoundland joins Canada', y: '31 Mar 1949', lat: 47.56, lon: -52.71, k: 'event', vn: 'Joey Smallwood', d: 'After two close referendums, Newfoundland became Canada\'s tenth province.' },
+        { n: 'Battle of Kapyong', y: 'Apr 1951', lat: 37.83, lon: 127.53, approx: true, k: 'battle', vn: '2nd Battalion, Princess Patricia\'s Canadian Light Infantry', vs: 'Chinese People\'s Volunteer Army', d: 'In the Korean War, Canadian and Australian troops held the hills in South Korea, blocking the advance on Seoul.' },
+        { n: 'Lester Pearson receives the Nobel Peace Prize', y: '1957', lat: 59.913, lon: 10.739, k: 'event', vn: 'Lester B. Pearson', d: 'He proposed the United Nations peacekeeping force (the "blue helmets") to resolve the 1956 Suez crisis.' },
+        { n: 'The dish poutine', y: '~1957', lat: 46.03, lon: -71.93, approx: true, k: 'discovery', vn: 'Diners in rural Québec', d: 'French fries topped with squeaky cheese curds and brown gravy were born in rural Québec in the late 1950s – several towns still compete to be its birthplace.' },
+        { n: 'The maple leaf flag', y: '15 Feb 1965', lat: 45.424, lon: -75.699, k: 'event', vn: 'Prime Minister Lester B. Pearson', d: 'The red and white flag with an 11-point maple leaf was raised for the first time on Parliament Hill in Ottawa.' },
+        { n: 'Expo 67', y: '1967', lat: 45.52, lon: -73.53, k: 'event', vn: 'Mayor Jean Drapeau', d: 'To celebrate Canada\'s 100th birthday, Montréal held a world\'s fair that welcomed more than 50 million visits.' },
+        { n: 'October Crisis', y: '1970', lat: 45.50, lon: -73.57, k: 'event', vn: 'Prime Minister Pierre Trudeau', vs: 'The FLQ group', d: 'A group demanding Québec\'s separation kidnapped a British diplomat and a cabinet minister; the government invoked the War Measures Act and sent the army into Montréal.' },
+        { n: 'First IMAX film', y: '1970', lat: 34.81, lon: 135.53, k: 'discovery', vn: 'Graeme Ferguson, Roman Kroitor, Robert Kerr', d: 'The giant IMAX screen, invented by three Canadians, debuted at Expo 70 in Osaka (Japan) with the film "Tiger Child".' },
+        { n: 'Montréal Olympics', y: '1976', lat: 45.558, lon: -73.552, k: 'event', vn: 'City of Montréal', d: 'Canada hosted the Olympics for the first time; 14-year-old Nadia Comăneci (Romania) scored the first perfect 10 in gymnastics.' },
+        { n: 'Terry Fox\'s Marathon of Hope', y: '1980', lat: 48.44, lon: -89.22, k: 'event', vn: 'Terry Fox', d: 'With an artificial leg, Terry ran 5,373 km in 143 days to raise money for cancer research, and had to stop at Thunder Bay when his illness returned.' },
+        { n: 'The Canadarm robot arm', y: '1981', lat: 28.608, lon: -80.604, k: 'event', vn: 'Canadian engineers', d: 'The robot arm built by Canada flew for the first time on the space shuttle Columbia and became a symbol of Canadian space technology.' },
+        { n: 'Constitution of 1982', y: '17 Apr 1982', lat: 45.424, lon: -75.699, k: 'event', vn: 'Prime Minister Pierre Trudeau', d: 'Queen Elizabeth II signed it in Ottawa; Canada could amend its own constitution without the British Parliament and gained a Charter of Rights and Freedoms.' }
+      ]
+    },
+    {
+      id: 'present', t: 'Canada today', y: '1984 – present',
+      d: 'Canada is a multicultural country, famous for winter sports and vast nature, but it also faces wildfires and questions about the past with indigenous peoples.',
+      ev: [
+        { n: 'Marc Garneau flies into space', y: '1984', lat: 28.608, lon: -80.604, k: 'event', vn: 'Marc Garneau', d: 'He became the first Canadian to fly into space, aboard the space shuttle Challenger.' },
+        { n: 'Calgary Winter Olympics', y: '1988', lat: 51.083, lon: -114.215, k: 'event', vn: 'City of Calgary', d: 'The Jamaican bobsled team took part for the first time here, and their story was later made into a movie.' },
+        { n: 'Québec referendum', y: '30 Oct 1995', lat: 46.813, lon: -71.208, k: 'event', vn: 'Jacques Parizeau, Jean Chrétien', d: 'The people of Québec voted to stay in Canada by a razor-thin 50.6% – one of the tensest votes in history.' },
+        { n: 'Territory of Nunavut is created', y: '1 Apr 1999', lat: 63.749, lon: -68.522, k: 'event', vn: 'The Inuit people', d: 'An Arctic territory six times the size of Vietnam, governed by the Inuit themselves; the name Nunavut means "our land".' },
+        { n: 'Sudbury Neutrino Observatory', y: '2001', lat: 46.475, lon: -81.201, k: 'discovery', vn: 'Arthur McDonald', d: '2 km deep in a nickel mine, a tank of heavy water caught neutrinos from the Sun and showed that they have mass – the 2015 Nobel Prize in Physics.' },
+        { n: 'Vancouver Winter Olympics', y: '2010', lat: 49.277, lon: -123.112, k: 'event', vn: 'Sidney Crosby', d: 'Canada won 14 gold medals, a record at the time, including the hockey final in which Sidney Crosby scored the winning goal.' },
+        { n: 'Lac-Mégantic rail disaster', y: '6 July 2013', lat: 45.578, lon: -70.885, k: 'event', vn: 'The people of Lac-Mégantic', d: 'A runaway oil train rolled into the town and exploded, killing 47 people.' },
+        { n: 'Truth and Reconciliation report', y: '2015', lat: 45.424, lon: -75.699, k: 'event', vn: 'Truth and Reconciliation Commission (Murray Sinclair)', d: 'The commission told how more than 150,000 indigenous children were once sent to residential schools, far from their families, losing their mother tongues.' },
+        { n: 'Fort McMurray wildfire', y: 'May 2016', lat: 56.726, lon: -111.381, k: 'event', vn: 'The people of Fort McMurray', d: 'About 88,000 people had to evacuate when a huge fire swept into the oil city in Alberta.' },
+        { n: 'Record wildfire season', y: '2023', lat: 62.454, lon: -114.372, k: 'event', vn: 'The people of Yellowknife', d: 'More than 15 million hectares of forest burned; the whole city of Yellowknife had to evacuate, and the smoke spread as far as New York and Europe.' },
+        { n: 'Mark Carney becomes Prime Minister', y: '2025', lat: 45.424, lon: -75.699, k: 'event', vn: 'Prime Minister Mark Carney', d: 'The former central bank governor replaced Justin Trudeau and won the April 2025 election amid trade tensions with the US.' }
+      ]
+    }
+  ]
+};

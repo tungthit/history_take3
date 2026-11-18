@@ -1,0 +1,88 @@
+// Hungary history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'hu', name: 'Hungary', flag: '🇭🇺',
+  eras: [
+    {
+      id: 'arpad', t: 'The Magyars and the Árpád dynasty', y: '895 – 1301',
+      d: 'Magyar tribes from the eastern steppe crossed the Carpathians and settled on the Danube plain; King Stephen I founded the Kingdom of Hungary.',
+      ev: [
+        { n: 'Crossing the Verecke Pass', y: '895', lat: 48.795, lon: 23.130, approx: true, k: 'event', vn: 'Chieftain Árpád', d: 'Seven Magyar tribes crossed the Carpathians into the great plain – an event Hungarians call the "conquest of the homeland".' },
+        { n: 'Battle of Lechfeld', y: '955', lat: 48.300, lon: 10.880, approx: true, k: 'battle', vn: 'Chieftains Bulcsú and Lehel', vs: 'King Otto I (Germany)', d: 'A defeat near Augsburg ended the Magyar cavalry raids into Western Europe.' },
+        { n: 'Coronation of Stephen I', y: '1000', lat: 47.798, lon: 18.735, k: 'event', vn: 'King Stephen I (István)', d: 'The first Christian king of Hungary was crowned at Esztergom; August 20 is his feast day.' },
+        { n: 'Golden Bull', y: '1222', lat: 47.191, lon: 18.410, approx: true, k: 'event', vn: 'King Andrew II', d: 'A document limiting the king\'s power and protecting the rights of the nobles, only 7 years after England\'s Magna Carta.' },
+        { n: 'Battle of Mohi', y: '1241', lat: 47.950, lon: 20.950, approx: true, k: 'battle', vn: 'King Béla IV', vs: 'Batu and Subutai (Mongols)', d: 'The Mongols crushed the Hungarian army by the Sajó River; afterwards the king had many stone castles built for defense.' }
+      ]
+    },
+    {
+      id: 'hunyadi', t: 'The Anjou and Hunyadi era', y: '1301 – 1526',
+      d: 'Hungary was a kingdom rich in gold mines that held back the Ottoman Empire; King Matthias Corvinus brought Renaissance culture to Central Europe.',
+      ev: [
+        { n: 'Congress of Visegrád', y: '1335', lat: 47.790, lon: 18.970, k: 'event', vn: 'King Charles I Robert', vs: 'Kings of Poland and Bohemia', d: 'Three kings met to discuss trade; in 1991 three countries formed the "Visegrád Group" in this very place.' },
+        { n: 'Battle of Nicopolis', y: '1396', lat: 43.705, lon: 24.895, k: 'battle', vn: 'King Sigismund', vs: 'Sultan Bayezid I (Ottoman)', d: 'The crusader army led by the king of Hungary lost to the Ottomans on the Danube in Bulgaria.' },
+        { n: 'Siege of Nándorfehérvár (Belgrade)', y: '1456', lat: 44.823, lon: 20.450, k: 'battle', vn: 'János Hunyadi', vs: 'Sultan Mehmed II (Ottoman)', d: 'Hunyadi lifted the siege of Belgrade; the noon church bells across Europe are linked to this victory.' },
+        { n: 'Matthias Corvinus enters Vienna', y: '1485', lat: 48.208, lon: 16.373, k: 'battle', vn: 'King Matthias Corvinus', vs: 'Emperor Frederick III', d: 'The king with the "Black Army" captured Vienna and moved his court there; his library was one of the largest in Europe.' },
+        { n: 'Battle of Mohács', y: '1526', lat: 45.937, lon: 18.655, k: 'battle', vn: 'King Louis II', vs: 'Sultan Suleiman the Magnificent (Ottoman)', d: 'The young king died in battle; the Kingdom of Hungary was split into three parts for 150 years.' }
+      ]
+    },
+    {
+      id: 'ottoman', t: 'Ottomans and Habsburgs', y: '1526 – 1711',
+      d: 'Central Hungary belonged to the Ottomans, the west to the Habsburgs, and Transylvania was autonomous; small fortresses became places of heroic defense.',
+      ev: [
+        { n: 'Siege of Kőszeg', y: '1532', lat: 47.389, lon: 16.541, k: 'battle', vn: 'Nicholas Jurisics', vs: 'Sultan Suleiman the Magnificent', d: 'Fewer than 1,000 men held the small town for nearly three weeks, slowing the Ottoman army marching toward Vienna.' },
+        { n: 'Ottomans capture Buda', y: '1541', lat: 47.496, lon: 19.040, k: 'battle', vs: 'Sultan Suleiman the Magnificent', vn: 'Queen Isabella', d: 'The capital Buda was Ottoman for 145 years; the Turkish-style hot baths of that time are still in use.' },
+        { n: 'Siege of Eger', y: '1552', lat: 47.904, lon: 20.378, k: 'battle', vn: 'István Dobó', vs: 'Ottoman army (Kara Ahmed Pasha)', d: 'About 2,000 people, women included, held the castle against an army many times larger; the story is told in the novel "Eclipse of the Crescent Moon" (Egri csillagok).' },
+        { n: 'Siege of Szigetvár', y: '1566', lat: 46.050, lon: 17.805, k: 'battle', vn: 'Nikola Zrinski (Zrínyi Miklós)', vs: 'Sultan Suleiman the Magnificent', d: 'The defenders fought to the last man; Sultan Suleiman died in his camp before the siege ended.' },
+        { n: 'Liberation of Buda', y: '1686', lat: 47.496, lon: 19.034, k: 'battle', vn: 'Hungarian soldiers in the allied army', vs: 'Ottoman army (Abdurrahman Pasha)', d: 'A European allied army commanded by Charles, Duke of Lorraine, retook Buda after 145 years.' },
+        { n: 'Peace of Szatmár', y: '1711', lat: 47.790, lon: 22.885, k: 'event', vn: 'Ferenc II Rákóczi', vs: 'The Habsburgs', d: 'It ended the 8-year war of independence; Rákóczi lived in exile and died in Turkey.' }
+      ]
+    },
+    {
+      id: '1848', t: 'The 1848 Revolution and Austria-Hungary', y: '1848 – 1918',
+      d: 'The revolution of 1848 was crushed, but in 1867 Hungary became one half of the Austro-Hungarian Empire and Budapest grew into a great city.',
+      ev: [
+        { n: 'March 15', y: '1848', lat: 47.491, lon: 19.062, k: 'event', vn: 'Sándor Petőfi', d: 'On the steps of the National Museum, the young poet Petőfi recited the "National Song"; this day is a national holiday.' },
+        { n: 'Battle of Isaszeg', y: '1849', lat: 47.530, lon: 19.400, k: 'battle', vn: 'General Artúr Görgei', vs: 'Field Marshal Windischgrätz (Austria)', d: 'A great victory for the revolutionary army opened the way to freeing Buda and Pest.' },
+        { n: 'Surrender at Világos', y: '1849', lat: 46.262, lon: 21.640, approx: true, k: 'event', vn: 'General Artúr Görgei', vs: 'Russian and Austrian armies', d: 'When Russian troops came to help Austria, the Hungarian army had to lay down its arms; the revolution ended.' },
+        { n: 'Chain Bridge', y: '1849', lat: 47.499, lon: 19.044, k: 'event', vn: 'Count István Széchenyi', d: 'The first permanent bridge over the Danube linked Buda with Pest; the two cities merged into Budapest in 1873.' },
+        { n: 'Compromise of 1867', y: '1867', lat: 47.502, lon: 19.034, k: 'event', vn: 'Ferenc Deák, Gyula Andrássy', vs: 'Emperor Franz Joseph', d: 'Austria-Hungary was born; Franz Joseph and Empress Sisi were crowned king and queen of Hungary in Matthias Church.' },
+        { n: 'Budapest Metro', y: '1896', lat: 47.515, lon: 19.078, k: 'event', vn: 'City of Budapest', d: 'For the 1,000th anniversary of the "conquest of the homeland", Budapest opened the first underground line on the European continent.' },
+        { n: 'Parliament Building', y: '1904', lat: 47.507, lon: 19.046, k: 'event', vn: 'Architect Imre Steindl', d: 'Hungary\'s largest parliament building stands on the Danube and has 691 rooms.' }
+      ]
+    },
+    {
+      id: 'thechien', t: 'The two World Wars', y: '1918 – 1945',
+      d: 'After World War I, Hungary lost about two thirds of its territory; in World War II it sided with Germany and suffered heavy losses.',
+      ev: [
+        { n: 'Treaty of Trianon', y: '1920', lat: 48.814, lon: 2.105, k: 'event', vn: 'Hungarian delegation', vs: 'The victorious powers', d: 'Signed in the Grand Trianon palace near Paris; millions of Hungarian speakers have lived in neighboring countries ever since.' },
+        { n: 'Nobel Prize for vitamin C', y: '1937', lat: 46.250, lon: 20.150, k: 'event', vn: 'Albert Szent-Györgyi', d: 'In Szeged, he isolated vitamin C from paprika peppers – Hungary\'s famous spice fruit.' },
+        { n: 'Battle on the Don River', y: '1943', lat: 50.900, lon: 39.400, approx: true, k: 'battle', vn: 'Hungarian Second Army', vs: 'Red Army', d: 'In the middle of the Russian winter, the Hungarian army was almost wiped out – the biggest military defeat in Hungarian history.' },
+        { n: 'German occupation and deportation of Jews', y: '1944', lat: 47.504, lon: 19.045, k: 'event', vn: 'Hungarian Jews', d: 'More than 400,000 people were sent to concentration camps; the "Shoes on the Danube Bank" memorial recalls this tragedy.' },
+        { n: 'Siege of Budapest', y: '1944 – 1945', lat: 47.496, lon: 19.040, k: 'battle', vn: 'Hungarian and German troops', vs: 'Red Army', d: 'Nearly two months of street fighting; all the bridges over the Danube were blown up.' }
+      ]
+    },
+    {
+      id: 'xhcn', t: 'Socialist Hungary', y: '1945 – 1989',
+      d: 'Hungary lived under a socialist system; the 1956 uprising was crushed, and then in 1989 the country changed peacefully.',
+      ev: [
+        { n: '"Golden Team" beats England 6–3', y: '1953', lat: 51.556, lon: -0.280, k: 'event', vn: 'Ferenc Puskás', vs: 'England national team', d: 'Hungary was the first team from outside Britain and Ireland to beat England at Wembley.' },
+        { n: 'The events of 1956', y: 'Oct 23, 1956', lat: 47.507, lon: 19.046, k: 'event', vn: 'Prime Minister Imre Nagy', vs: 'Soviet army', d: 'Students and citizens took to the streets demanding change; the Soviet army crushed the uprising after nearly three weeks.' },
+        { n: 'Rubik\'s Cube', y: '1974', lat: 47.497, lon: 19.040, approx: true, k: 'event', vn: 'Ernő Rubik', d: 'An architecture teacher in Budapest invented the twisting cube, which became the best-selling toy in the world.' },
+        { n: 'Hungaroring circuit', y: '1986', lat: 47.582, lon: 19.251, k: 'event', vn: 'Hungarian organizers', d: 'The first Formula 1 race held in an Eastern European country at that time.' },
+        { n: 'Pan-European Picnic', y: 'Aug 19, 1989', lat: 47.736, lon: 16.660, approx: true, k: 'event', vn: 'Imre Pozsgay, Otto von Habsburg', d: 'A border gate with Austria was opened for three hours near Sopron; hundreds of East Germans crossed to the West.' },
+        { n: 'Republic proclaimed', y: 'Oct 23, 1989', lat: 47.507, lon: 19.046, k: 'event', vn: 'Mátyás Szűrös', d: 'Exactly 33 years after the 1956 events, the Republic of Hungary was proclaimed from the balcony of the Parliament Building.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Hungary today', y: '1990 – present',
+      d: 'Hungary holds multi-party elections, joined NATO and the European Union, and hosts many major sporting events.',
+      ev: [
+        { n: 'Joining NATO', y: '1999', lat: 47.507, lon: 19.046, approx: true, k: 'event', vn: 'Prime Minister Viktor Orbán', d: 'Together with Poland and the Czech Republic, Hungary became a NATO member.' },
+        { n: 'Joining the European Union', y: '2004', lat: 47.507, lon: 19.046, approx: true, k: 'event', vn: 'Prime Minister Péter Medgyessy', d: 'Hungary was one of 10 countries that joined the EU on May 1, 2004.' },
+        { n: 'Ajka red sludge disaster', y: '2010', lat: 47.085, lon: 17.485, k: 'event', vn: 'People of Kolontár', d: 'The waste reservoir of an aluminum plant burst and red sludge flooded villages – Hungary\'s biggest environmental disaster.' },
+        { n: 'Nobel Prize for mRNA technology', y: '2023', lat: 59.335, lon: 18.063, k: 'event', vn: 'Katalin Karikó', d: 'The research of the Hungarian-born scientist helped create a new generation of COVID-19 vaccines.' },
+        { n: 'World Athletics Championships', y: '2023', lat: 47.468, lon: 19.072, k: 'event', vn: 'City of Budapest', d: 'A new stadium on the Danube welcomed the fastest athletes in the world.' },
+        { n: 'Hungarian astronaut to the ISS', y: '2025', lat: 28.608, lon: -80.604, k: 'event', vn: 'Tibor Kapu', d: 'The second Hungarian in space, 45 years after Bertalan Farkas flew in 1980.' }
+      ]
+    }
+  ]
+};

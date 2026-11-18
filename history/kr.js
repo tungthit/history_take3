@@ -1,0 +1,143 @@
+// Korea (Korean peninsula) history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'kr', name: 'South Korea', flag: '🇰🇷',
+  eras: [
+    {
+      id: 'cojoseon', t: 'Ancient Joseon (Gojoseon)', y: '~2333 – 108 BCE',
+      d: 'According to legend, Dangun founded the first state on the peninsula; the ancient people left tens of thousands of stone dolmen tombs.',
+      ev: [
+        { n: 'Dangun Founds the Nation', y: 'Legend, 2333 BCE', lat: 41.99, lon: 128.08, approx: true, k: 'legend', vn: 'Dangun', d: 'The child of a sky god and a bear who became human by patiently staying in a cave eating only mugwort and garlic.' },
+        { n: 'Ganghwa Dolmens', y: '~1000 BCE', lat: 37.77, lon: 126.45, k: 'event', vn: 'The people of Gojoseon', d: 'Giant stone dolmen tombs; the Korean peninsula has nearly half of all the dolmens in the world.' },
+        { n: 'Wiman Takes the Throne', y: '~194 BCE', lat: 39.02, lon: 125.75, approx: true, k: 'event', vn: 'Wiman', vs: 'King Jun', d: 'A leader from the north came seeking shelter, then seized the throne, making his capital at Wanggeom Fortress near Pyongyang.' },
+        { n: 'Han China Attacks Wiman Joseon', y: '109 – 108 BCE', lat: 39.02, lon: 125.75, k: 'battle', vn: 'King Ugeo', vs: 'Emperor Wu of Han', d: 'The capital Wanggeom (Pyongyang) held out for almost a year and then fell; the Han set up four commanderies.' }
+      ]
+    },
+    {
+      id: 'tamquoc', t: 'Three Kingdoms: Goguryeo, Baekje, Silla', y: '57 BCE – 668',
+      d: 'Three kingdoms fought for supremacy for almost 700 years; mighty Goguryeo in the north even defeated the huge armies of the Sui and Tang dynasties.',
+      ev: [
+        { n: 'Silla Founded at Geumseong', y: '57 BCE', lat: 35.84, lon: 129.21, k: 'legend', vn: 'Bak Hyeokgeose', d: "By legend, Silla's first king was born from a red egg; the capital was Gyeongju." },
+        { n: 'Jumong Founds Goguryeo', y: '37 BCE', lat: 41.32, lon: 125.41, k: 'legend', vn: 'Jumong', d: 'The skilled archer fled across a river as fish and turtles rose up to form a bridge, and founded his state on Mount Odalsan.' },
+        { n: 'Onjo Founds Baekje', y: '18 BCE', lat: 37.53, lon: 127.12, k: 'event', vn: 'Onjo', d: "Jumong's son went south and founded Baekje beside the Han River, in what is now the city of Seoul." },
+        { n: 'Gwanggaeto Stele', y: '414', lat: 41.14, lon: 126.19, k: 'event', vn: 'King Jangsu', d: 'A 6.4 m-tall stone stele recording the deeds of the king who expanded Goguryeo to its greatest extent in history.' },
+        { n: 'Battle of the Salsu River', y: '612', lat: 39.60, lon: 125.60, approx: true, k: 'battle', vn: 'Eulji Mundeok', vs: 'Emperor Yang of Sui', d: 'He pretended to lose to lure the Sui army deep inside, then struck as they crossed the river; by legend only a few thousand of 300,000 soldiers survived.' },
+        { n: 'Ansi Fortress', y: '645', lat: 40.88, lon: 122.80, approx: true, k: 'battle', vn: 'Yang Manchun', vs: 'Emperor Taizong of Tang', d: "A small fortress held out for more than two months against the Tang emperor's army, forcing him to withdraw as winter came." },
+        { n: 'Battle of Hwangsanbeol', y: '660', lat: 36.20, lon: 127.10, approx: true, k: 'battle', vn: 'Kim Yu-sin (Silla)', vs: 'Gyebaek (Baekje)', d: "General Gyebaek's 5,000 suicide troops won the first four battles against 50,000 Silla soldiers before finally losing." },
+        { n: 'Fall of Baekje – Sabi Fortress', y: '660', lat: 36.28, lon: 126.91, k: 'battle', vn: 'King Uija (Baekje)', vs: 'Su Dingfang (Tang), Silla', d: "Baekje's capital fell; by legend, court ladies threw themselves into the river from the Nakhwaam cliff." },
+        { n: 'Fall of Goguryeo', y: '668', lat: 39.02, lon: 125.75, k: 'battle', vn: 'Yeon Namgeon', vs: 'Li Ji (Tang), Silla', d: "After Yeon Gaesomun died, his sons split apart; the combined Tang–Silla army took Pyongyang." }
+      ]
+    },
+    {
+      id: 'silla', t: 'Unified Silla and Balhae', y: '668 – 935',
+      d: 'Silla drove out the Tang army and ruled most of the peninsula; in the north, former Goguryeo people founded the state of Balhae.',
+      ev: [
+        { n: 'Battle of Maeso-seong', y: '675', lat: 38.08, lon: 127.07, approx: true, k: 'battle', vn: 'King Munmu', vs: 'Li Jinxing (Tang dynasty)', d: 'Silla beat the Tang army on land and kept the territory south of the Taedong River.' },
+        { n: 'Battle of Gibeolpo', y: '676', lat: 36.00, lon: 126.70, approx: true, k: 'battle', vn: 'Sideuk', vs: 'Xue Rengui (Tang dynasty)', d: 'Winning the naval battle at the mouth of the Geum River, the Tang army withdrew from the peninsula.' },
+        { n: 'King Munmu\'s Tomb Under the Sea', y: '681', lat: 35.74, lon: 129.49, k: 'legend', vn: 'King Munmu', d: 'The king wished to be buried in the sea so he could become a dragon protecting the country from sea raiders.' },
+        { n: 'Dae Joyeong Founds Balhae', y: '698', lat: 43.37, lon: 128.23, k: 'event', vn: 'Dae Joyeong', d: 'A leader of Goguryeo descent founded the state at Mount Dongmo (in present-day Jilin, China).' },
+        { n: 'Bulguksa Temple and Seokguram Grotto', y: '751', lat: 35.79, lon: 129.33, k: 'event', vn: 'Kim Dae-seong', d: 'A stone Buddha in an artificial grotto looking out to the East Sea, a masterpiece of Silla art.' },
+        { n: 'Sanggyeong, Capital of Balhae', y: '755', lat: 44.05, lon: 129.18, approx: true, k: 'event', vn: 'King Mun (Balhae)', d: 'A capital built on the model of Chang\'an, helping Balhae become known as the "flourishing country of the East".' },
+        { n: 'Jang Bogo Founds Cheonghaejin', y: '828', lat: 34.33, lon: 126.77, k: 'event', vn: 'Jang Bogo', vs: 'Pirates', d: 'A base on Wando Island that suppressed pirates and controlled the China–Korea–Japan trade route.' },
+        { n: 'Battle of Gochang (Later Three Kingdoms)', y: '930', lat: 36.57, lon: 128.73, k: 'battle', vn: 'Wang Geon', vs: 'Gyeon Hwon (Later Baekje)', d: 'Wang Geon won a big victory at Andong, drawing many towns over to his side.' }
+      ]
+    },
+    {
+      id: 'goryeo', t: 'Goryeo', y: '918 – 1392',
+      d: 'The name "Korea" comes from Goryeo; the dynasty is famous for celadon pottery, woodblock-printed scriptures and the resistance against the Khitan and the Mongols.',
+      ev: [
+        { n: 'Wang Geon Founds Goryeo', y: '918', lat: 37.97, lon: 126.55, k: 'event', vn: 'Wang Geon (Taejo of Goryeo)', d: 'He made his capital at Gaegyeong (Kaesong); in 936 he reunified the peninsula.' },
+        { n: 'Battle of Illicheon', y: '936', lat: 36.12, lon: 128.34, approx: true, k: 'battle', vn: 'Wang Geon', vs: 'Singeom (Later Baekje)', d: 'The final battle of the Later Three Kingdoms period; Goryeo unified the peninsula.' },
+        { n: 'Seo Hui Negotiates with the Khitan', y: '993', lat: 39.60, lon: 125.67, approx: true, k: 'event', vn: 'Seo Hui', vs: 'Xiao Sunning (Liao dynasty)', d: 'Without fighting, only with words, Seo Hui persuaded an army of 800,000 Liao troops to withdraw and even gained more land.' },
+        { n: 'Battle of Gwiju', y: '1019', lat: 39.98, lon: 125.24, k: 'battle', vn: 'Gang Gam-chan', vs: 'Xiao Baiya (Liao dynasty)', d: 'Earlier he dammed a river with ox hides and released the water on the enemy; at Gwiju 100,000 Liao troops were shattered and only a few thousand escaped home.' },
+        { n: 'Battle of Cheoin', y: '1232', lat: 37.18, lon: 127.23, k: 'battle', vn: 'Monk Kim Yun-hu', vs: 'Salitai (Mongols)', d: 'A monk shot dead the Mongol commander Salitai, forcing the Mongols to withdraw.' },
+        { n: 'Court Moves to Ganghwa Island', y: '1232 – 1270', lat: 37.75, lon: 126.49, k: 'event', vn: 'Choe U', vs: 'Mongol Empire', d: 'Mongol cavalry could not cross the sea, so the Goryeo court resisted for almost 40 years on the island.' },
+        { n: 'Tripitaka Koreana', y: '1236 – 1251', lat: 35.80, lon: 128.10, k: 'event', vn: 'Goryeo court', d: 'More than 81,000 wooden printing blocks of Buddhist scriptures, made to pray for the enemy\'s defeat, are now kept at Haeinsa temple.' },
+        { n: 'Sambyeolcho on Jindo Island', y: '1270 – 1273', lat: 34.48, lon: 126.26, k: 'battle', vn: 'Bae Jung-son', vs: 'Mongol–Goryeo forces', d: 'An elite army refused to surrender to the Mongols, moved to Jindo and then Jeju, and fought to the end.' },
+        { n: 'Jikji – a Book Printed with Metal Type', y: '1377', lat: 36.64, lon: 127.49, k: 'event', vn: 'Heungdeoksa Temple', d: 'The oldest surviving book printed with movable metal type, about 78 years before the Gutenberg Bible.' },
+        { n: 'Battle of Jinpo', y: '1380', lat: 36.00, lon: 126.70, approx: true, k: 'battle', vn: 'Choe Mu-seon', vs: 'Wokou (Japanese pirates)', d: 'The first use of homemade gunpowder cannons on ships, burning hundreds of pirate vessels.' },
+        { n: 'Battle of Hwangsan', y: '1380', lat: 35.45, lon: 127.50, approx: true, k: 'battle', vn: 'Yi Seong-gye', vs: 'Wokou', d: "Yi Seong-gye shot the helmet off the young pirate chief, and then the Goryeo army won a great victory." },
+        { n: 'Turning Back at Wihwado Island', y: '1388', lat: 40.04, lon: 124.43, approx: true, k: 'event', vn: 'Yi Seong-gye', vs: 'Choe Yeong', d: 'Ordered to attack Ming China, Yi Seong-gye turned his army back to the capital, took power and 4 years later founded a new dynasty.' }
+      ]
+    },
+    {
+      id: 'joseon', t: 'Joseon – the Golden Age', y: '1392 – 1592',
+      d: 'The longest dynasty in East Asia (over 500 years), built on Confucianism; King Sejong created the Hangul alphabet.',
+      ev: [
+        { n: 'Capital Hanyang – Gyeongbokgung Palace', y: '1394 – 1395', lat: 37.579, lon: 126.977, k: 'event', vn: 'Taejo Yi Seong-gye', d: 'The capital moved to Hanyang (today\'s Seoul), and Gyeongbokgung Palace was built with a mountain at its back.' },
+        { n: 'Attack on Tsushima Island', y: '1419', lat: 34.40, lon: 129.30, approx: true, k: 'battle', vn: 'Yi Jong-mu', vs: 'Pirates of Tsushima', d: 'More than 200 warships attacked the pirates\' lair; afterward the two sides set up trade relations.' },
+        { n: 'Establishing the Six Northern Garrisons', y: '1434 – 1449', lat: 42.44, lon: 129.75, approx: true, k: 'event', vn: 'Kim Jong-seo', vs: 'Jurchen tribes', d: 'Six fortresses were built along the Tumen River, shaping the northern border of the peninsula almost as it is today.' },
+        { n: 'King Sejong Proclaims Hangul', y: '1446', lat: 37.579, lon: 126.977, k: 'event', vn: 'Sejong the Great', d: '"A wise person can learn it in one morning, even a slow one in ten days" – an alphabet of 28 letters for every citizen.' },
+        { n: 'Jang Yeong-sil\'s Rain Gauge', y: '1441', lat: 37.579, lon: 126.977, k: 'event', vn: 'Jang Yeong-sil', d: 'The inventor, born a servant, made the rain gauge, an automatic water clock and many astronomical instruments.' }
+      ]
+    },
+    {
+      id: 'imjin', t: 'The Imjin War and Invasions from the North', y: '1592 – 1637',
+      d: 'Seven years of resisting the Japanese army of Toyotomi Hideyoshi, famous for Yi Sun-sin\'s navy and the turtle ship; then two attacks by the Manchus.',
+      route: { t: 'Japanese advance route in 1592', pts: [[35.10, 129.04], [35.21, 129.08], [35.87, 128.60], [36.99, 127.90], [37.57, 126.98], [39.03, 125.75]] },
+      ev: [
+        { n: 'Dongnae Fortress', y: '1592', lat: 35.21, lon: 129.08, k: 'battle', vn: 'Song Sang-hyeon', vs: 'Konishi Yukinaga (Japan)', d: '"It is easy to die fighting, hard to give way" – the fortress commander fought to the end against the Japanese who had just landed.' },
+        { n: 'Battle of Chungju (Tangeumdae)', y: '1592', lat: 36.99, lon: 127.90, k: 'battle', vn: 'Sin Rip', vs: 'Konishi Yukinaga', d: 'Korean cavalry formed up with their backs to the river but lost to the matchlock gunners; the Japanese advanced on Hanyang.' },
+        { n: 'Battle of Okpo', y: '1592', lat: 34.89, lon: 128.69, k: 'battle', vn: 'Yi Sun-sin', vs: 'Tōdō Takatora', d: "Yi Sun-sin's navy won its first victory, sinking more than 20 Japanese ships." },
+        { n: 'Battle of Sacheon – the Turtle Ship Goes to War', y: '1592', lat: 34.97, lon: 128.07, k: 'battle', vn: 'Yi Sun-sin', vs: 'Japanese navy', d: 'The covered ship with iron spikes and a smoke-breathing dragon head went into battle for the first time.' },
+        { n: 'Battle of Hansan', y: '1592', lat: 34.76, lon: 128.48, k: 'battle', vn: 'Yi Sun-sin', vs: 'Wakisaka Yasuharu', d: 'The "crane wing" formation surrounded the Japanese fleet and sank or captured more than 50 ships, cutting the supply route by sea.' },
+        { n: 'First Battle of Jinju', y: '1592', lat: 35.19, lon: 128.08, k: 'battle', vn: 'Kim Si-min', vs: 'Hosokawa Tadaoki', d: 'About 3,800 troops held the fortress for six days against 30,000 Japanese soldiers and drove them off.' },
+        { n: 'Battle of Haengju', y: '1593', lat: 37.60, lon: 126.82, k: 'battle', vn: 'Gwon Yul', vs: 'Ukita Hideie', d: 'Women carried stones up to the fortress in their aprons to help the soldiers, who drove off a Japanese force many times larger.' },
+        { n: 'Battle of Myeongnyang', y: '1597', lat: 34.57, lon: 126.31, k: 'battle', vn: 'Yi Sun-sin', vs: 'Tōdō Takatora, Kurushima Michifusa', d: '13 warships used the fast current of the Uldolmok Strait to defeat more than 130 Japanese ships.' },
+        { n: 'Battle of Noryang', y: '1598', lat: 34.94, lon: 127.87, k: 'battle', vn: 'Yi Sun-sin, Chen Lin (Ming dynasty)', vs: 'Shimazu Yoshihiro', d: 'The last battle of the war; Yi Sun-sin was hit by a bullet and said "do not announce my death" so the troops would not waver.' },
+        { n: 'Namhan Fortress', y: '1636 – 1637', lat: 37.48, lon: 127.18, k: 'battle', vn: 'King Injo', vs: 'Hong Taiji (Qing dynasty)', d: 'The king held out 47 days in midwinter in the mountain fortress and then had to surrender at Samjeondo.' }
+      ]
+    },
+    {
+      id: 'joseonlate', t: 'Late Joseon – the Korean Empire', y: '1637 – 1910',
+      d: 'A revival under Kings Yeongjo and Jeongjo; then Western countries and Japan tried to open up and control the peninsula.',
+      ev: [
+        { n: 'Hwaseong Fortress', y: '1794 – 1796', lat: 37.287, lon: 127.012, k: 'event', vn: 'King Jeongjo, Jeong Yak-yong', d: 'Suwon Fortress was built in under three years thanks to a crane designed by the scholar Jeong Yak-yong.' },
+        { n: 'French Attack on Ganghwa Island (1866)', y: '1866', lat: 37.75, lon: 126.49, k: 'battle', vn: 'Heungseon Daewongun, Yang Heon-su', vs: 'French fleet', d: 'Korean troops drove the French back at Jeongjoksan Fortress, but many ancient books were taken away.' },
+        { n: 'Gwangseongbo Fortress (US Expedition, 1871)', y: '1871', lat: 37.68, lon: 126.53, k: 'battle', vn: 'Eo Jae-yeon', vs: 'US fleet', d: 'Korean troops fought to the end at the fort; the Americans left without opening the country.' },
+        { n: 'Treaty of Ganghwa', y: '1876', lat: 37.75, lon: 126.49, k: 'event', vn: 'King Gojong', vs: 'Japan', d: 'An unequal treaty forced Korea to open three ports to Japan.' },
+        { n: 'Donghak Peasant Uprising', y: '1894', lat: 35.60, lon: 126.85, k: 'battle', vn: 'Jeon Bong-jun', vs: 'Government officials', d: 'Peasants in the Gobu region rose up against corrupt officials and captured Jeonju Fortress.' },
+        { n: 'Battle of Ugeumchi', y: '1894', lat: 36.46, lon: 127.13, approx: true, k: 'battle', vn: 'Jeon Bong-jun', vs: 'Japanese and government troops', d: 'The peasant army lost to modern machine guns at a pass near Gongju; the Donghak movement was crushed.' },
+        { n: 'Korean Empire', y: '1897', lat: 37.565, lon: 126.980, k: 'event', vn: 'Emperor Gojong', d: 'King Gojong declared himself emperor at the Hwangudan altar, asserting that his country was equal to others.' },
+        { n: 'Ahn Jung-geun at Harbin Station', y: '1909', lat: 45.76, lon: 126.62, k: 'event', vn: 'Ahn Jung-geun', vs: 'Itō Hirobumi (Japan)', d: 'The independence activist shot dead Itō Hirobumi, the man in charge of Japan\'s control of Korea.' }
+      ]
+    },
+    {
+      id: 'nhatchiem', t: 'Japanese Rule', y: '1910 – 1945',
+      d: 'The peninsula became a Japanese colony; Koreans fought for independence at home and abroad.',
+      ev: [
+        { n: 'Japan Annexes Korea', y: '1910', lat: 37.566, lon: 126.978, k: 'event', vn: 'Emperor Sunjong', vs: 'Japan', d: 'The annexation treaty ended the Korean state after 518 years.' },
+        { n: 'March 1st Movement', y: '1 Mar 1919', lat: 37.571, lon: 126.988, k: 'event', vn: '33 national representatives, Yu Gwan-sun', vs: 'Japanese colonial government', d: 'The Declaration of Independence was read at Tapgol Park, and millions took to the streets shouting "Long live independence".' },
+        { n: 'Provisional Government in Shanghai', y: '1919', lat: 31.22, lon: 121.47, k: 'event', vn: 'Syngman Rhee, Kim Gu', d: 'Patriots set up a government in exile in Shanghai to continue the struggle.' },
+        { n: 'Battle of Bongo-dong', y: '1920', lat: 42.97, lon: 129.80, approx: true, k: 'battle', vn: 'Hong Beom-do', vs: 'Japanese army', d: 'The independence army ambushed Japanese troops in a valley in the Manchurian region.' },
+        { n: 'Battle of Cheongsan-ri', y: '1920', lat: 42.50, lon: 128.90, approx: true, k: 'battle', vn: 'Kim Jwa-jin, Hong Beom-do', vs: 'Japanese army', d: "Six days of fighting in the Manchurian mountain forests, the Korean independence army's greatest victory." },
+        { n: 'Yun Bong-gil at Hongkou Park', y: '1932', lat: 31.27, lon: 121.48, k: 'event', vn: 'Yun Bong-gil', vs: 'Japanese army', d: 'The 24-year-old threw a bomb at a Japanese military parade in Shanghai.' },
+        { n: 'Liberation Day', y: '15 Aug 1945', lat: 37.566, lon: 126.978, k: 'event', vn: 'The Korean people', d: 'Japan surrendered and the peninsula was liberated; this day is now a holiday in both Koreas.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Division, the Korean War and Modern Times', y: '1945 – present',
+      d: 'The peninsula was split at the 38th parallel into two states; after the 1950 – 1953 war, South Korea grew into a modern industrial economy.',
+      ev: [
+        { n: 'Division at the 38th Parallel', y: '1945', lat: 38.00, lon: 127.00, approx: true, k: 'event', vn: 'USA and USSR', d: 'Soviet troops entered north of the 38th parallel and American troops south of it to disarm the Japanese.' },
+        { n: 'Republic of Korea Founded', y: '15 Aug 1948', lat: 37.566, lon: 126.978, k: 'event', vn: 'Syngman Rhee', d: 'The state in the south was born with Seoul as its capital.' },
+        { n: 'DPRK Founded', y: '9 Sep 1948', lat: 39.02, lon: 125.75, k: 'event', vn: 'Kim Il-sung', d: 'The state in the north was born with Pyongyang as its capital.' },
+        { n: 'Outbreak of the Korean War', y: '25 Jun 1950', lat: 37.96, lon: 126.70, approx: true, k: 'battle', vn: 'South Korean army', vs: 'Korean People\'s Army', d: 'Northern troops crossed the 38th parallel; just three days later Seoul fell.' },
+        { n: 'Pusan Perimeter – Nakdong River', y: 'Aug – Sep 1950', lat: 35.87, lon: 128.55, approx: true, k: 'battle', vn: 'South Korean troops, Walton Walker (United Nations)', vs: 'Korean People\'s Army', d: 'South Korean and UN troops held a small corner around Busan behind the Nakdong River.' },
+        { n: 'Incheon Landing', y: '15 Sep 1950', lat: 37.47, lon: 126.60, k: 'battle', vn: 'Douglas MacArthur (United Nations), South Korean troops', vs: 'Korean People\'s Army', d: 'The landing was made amid a huge tidal range, and two weeks later Seoul was retaken.' },
+        { n: 'Battle of the Chosin Reservoir', y: 'Nov – Dec 1950', lat: 40.45, lon: 127.15, k: 'battle', vn: 'United Nations forces', vs: 'Chinese People\'s Volunteer Army', d: 'Fighting in freezing cold of minus 30 degrees in the north of the peninsula; UN troops had to retreat to Hamhung.' },
+        { n: 'Panmunjom Armistice Agreement', y: '27 Jul 1953', lat: 37.956, lon: 126.677, k: 'event', vn: 'Both warring sides', d: 'The guns fell silent but there was no peace treaty; a 4 km-wide demilitarized zone runs across the peninsula.' },
+        { n: 'Miracle on the Han River', y: '1960 – 1990', lat: 37.52, lon: 126.98, k: 'event', vn: 'The people of South Korea', d: 'From one of the poorest countries in the world, South Korea became an industrial nation making ships, cars and electronics.' },
+        { n: 'Seoul Olympics', y: '1988', lat: 37.516, lon: 127.073, k: 'event', vn: 'South Korea', d: 'The Summer Games introduced South Korea to the world; in the same year, South Korea moved to multiparty democracy.' },
+        { n: 'Inter-Korean Summit', y: '2000', lat: 39.02, lon: 125.75, k: 'event', vn: 'Kim Dae-jung, Kim Jong-il', d: 'The leaders of the two Koreas met for the first time in Pyongyang; Kim Dae-jung was awarded the Nobel Peace Prize.' },
+        { n: 'Korea–Japan World Cup', y: '2002', lat: 37.568, lon: 126.897, k: 'event', vn: 'South Korean team', d: 'The first World Cup held in Asia; the South Korean team reached the semifinals.' },
+        { n: 'The Korean Wave (Hallyu)', y: '2012', lat: 37.498, lon: 127.028, approx: true, k: 'event', vn: 'PSY, BTS', d: '"Gangnam Style" was the first video to reach 1 billion views on YouTube; later BTS and Blackpink became famous around the world.' },
+        { n: 'Sinking of the Sewol Ferry', y: '16 Apr 2014', lat: 34.218, lon: 125.951, approx: true, k: 'event', d: 'The ferry sank near Jindo Island, killing 304 people, most of them high school students, and shocked the whole country.' },
+        { n: 'Candlelight Protests – President Park Removed', y: '2016 – 2017', lat: 37.576, lon: 126.977, k: 'event', vn: 'The people of South Korea', vs: 'President Park Geun-hye', d: 'Millions of people holding candles protested peacefully in Gwanghwamun Square; the Constitutional Court removed Park Geun-hye from office.' },
+        { n: 'PyeongChang Winter Olympics', y: 'Feb 2018', lat: 37.669, lon: 128.708, k: 'event', vn: 'South Korea', d: 'Athletes from both Koreas marched together under a unified flag and formed a joint women\'s ice hockey team.' },
+        { n: 'Inter-Korean Summit at Panmunjom', y: '27 Apr 2018', lat: 37.956, lon: 126.677, k: 'event', vn: 'Moon Jae-in, Kim Jong-un', d: 'The two leaders stepped across the demarcation line hand in hand; Kim Jong-un was the first North Korean leader to set foot on the southern side.' },
+        { n: 'Film "Parasite" Wins the Oscar', y: '2020', lat: 34.102, lon: -118.34, k: 'event', vn: 'Director Bong Joon-ho', d: "Director Bong Joon-ho's film was the first foreign-language film to win the Oscar for Best Picture, in Los Angeles." },
+        { n: 'Martial Law Night, 3 Dec 2024', y: '3 Dec 2024', lat: 37.532, lon: 126.914, k: 'event', vn: 'National Assembly of South Korea', vs: 'President Yoon Suk Yeol', d: 'The National Assembly voted to lift the martial law order after only a few hours; President Yoon was removed in April 2025 and Lee Jae-myung was elected president.' }
+      ]
+    }
+  ]
+};

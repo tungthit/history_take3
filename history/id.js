@@ -1,0 +1,109 @@
+// Indonesia history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'id', name: 'Indonesia', flag: '🇮🇩',
+  eras: [
+    {
+      id: 'early', t: 'Prehistory and the first kingdoms', y: '~1.5 million years ago – 650',
+      d: 'The Indonesian archipelago is where many famous fossils of early humans were found; the first Indian-influenced kingdoms appeared from about the 4th century.',
+      ev: [
+        { n: 'Java Man (Homo erectus)', y: '1891', lat: -7.375, lon: 111.355, k: 'event', vn: 'Eugène Dubois (discoverer)', d: 'On the bank of the Solo River at Trinil, a Dutch scientist found the fossil of an upright-walking human who lived almost a million years ago.' },
+        { n: 'Sulawesi cave paintings', y: '~45,000 years ago', lat: -4.95, lon: 119.73, approx: true, k: 'event', d: 'A wild pig painted in red in Leang Tedongnge cave is one of the oldest animal paintings in the world.' },
+        { n: '"Little people" of Flores', y: '2003', lat: -8.534, lon: 120.461, k: 'event', d: 'In Liang Bua cave, scientists found an ancient human species only about 1 m tall, nicknamed the "Hobbit".' },
+        { n: 'Kutai kingdom inscriptions', y: '~400', lat: -0.18, lon: 116.72, approx: true, k: 'event', vn: 'King Mulawarman', d: 'Seven stone pillars carved in Sanskrit in East Kalimantan are the oldest known written texts in Indonesia.' },
+        { n: 'Tarumanagara kingdom', y: '~450', lat: -6.53, lon: 106.69, approx: true, k: 'event', vn: 'King Purnawarman', d: "The Ciaruteun stone near Bogor is carved with King Purnawarman's footprints, compared to the footprints of the god Vishnu." }
+      ]
+    },
+    {
+      id: 'srivijaya', t: 'Srivijaya and early Mataram', y: '~650 – 1025',
+      d: 'The Srivijaya sea empire in Sumatra controlled the Strait of Malacca, while on Java the Sailendra and Sanjaya dynasties built giant stone temples.',
+      ev: [
+        { n: 'Yijing studies in Srivijaya', y: '671', lat: -2.99, lon: 104.76, approx: true, k: 'event', d: 'A Chinese monk stopped in Srivijaya to study Sanskrit on his way to India; he wrote that more than a thousand monks lived there.' },
+        { n: 'Kedukan Bukit Inscription', y: '682', lat: -2.99, lon: 104.76, k: 'event', vn: 'Dapunta Hyang', d: "The stone inscription in Palembang tells of the king's journey with twenty thousand troops; it is the oldest known text in Old Malay." },
+        { n: 'Borobudur Temple', y: '~780 – 830', lat: -7.6079, lon: 110.2038, k: 'event', vn: 'Sailendra dynasty', d: 'The largest Buddhist temple in the world has 504 Buddha statues and more than 2,600 relief panels telling stories, arranged in levels like a mountain.' },
+        { n: 'Prambanan Temple', y: '856', lat: -7.752, lon: 110.4915, k: 'event', vn: 'Sanjaya dynasty', d: 'A Hindu temple complex whose main tower, 47 m high, is dedicated to the god Shiva; linked to the legend of Roro Jonggrang.' },
+        { n: 'Legend of Roro Jonggrang', y: 'Legend', lat: -7.752, lon: 110.4915, k: 'legend', vn: 'Princess Roro Jonggrang, Bandung Bondowoso', d: 'The young man had to build 1,000 temples in one night to marry her; tricked, he turned her into the thousandth statue.' },
+        { n: 'Chola attack on Srivijaya', y: '1025', lat: -2.99, lon: 104.76, approx: true, k: 'battle', vn: 'King Sangrama Vijayatunggavarman', vs: 'King Rajendra Chola I (India)', d: "A fleet from southern India attacked Srivijaya's ports and captured the king; the sea empire began to weaken." }
+      ]
+    },
+    {
+      id: 'majapahit', t: 'Singhasari and the Majapahit Empire', y: '1222 – 1527',
+      d: 'Kingdoms in East Java grew strong; Majapahit became the largest empire in the history of the archipelago, with influence over most of present-day Indonesia.',
+      ev: [
+        { n: 'Ken Arok founds Singhasari', y: '1222', lat: -7.89, lon: 112.66, approx: true, k: 'event', vn: 'Ken Arok', d: 'According to the old tale, a young man of humble origin used a magic sword to become king in the Malang region.' },
+        { n: 'Defeating the Yuan army', y: '1293', lat: -7.82, lon: 112.01, approx: true, k: 'battle', vn: 'Raden Wijaya', vs: 'Yuan army (Kublai Khan)', d: 'Raden Wijaya borrowed Mongol troops to defeat his enemy in Kediri, then turned on them, forcing the Yuan army to withdraw home.' },
+        { n: 'Founding the Majapahit capital', y: '1293', lat: -7.56, lon: 112.38, k: 'event', vn: 'Raden Wijaya', d: 'The capital at Trowulan had red brick walls, reservoirs and canals; the name Majapahit comes from a bitter fruit.' },
+        { n: 'Palapa Oath', y: '1336', lat: -7.56, lon: 112.38, approx: true, k: 'event', vn: 'Prime Minister Gajah Mada', d: 'Gajah Mada swore not to eat tasty food until he had united the whole archipelago under Majapahit.' },
+        { n: 'Battle of Bubat', y: '1357', lat: -7.56, lon: 112.38, approx: true, k: 'battle', vn: 'Gajah Mada', vs: 'King of Sunda and his entourage', d: 'The wedding procession of the Sunda princess was attacked; this tragic event cost Gajah Mada his post.' },
+        { n: 'Nagarakretagama epic', y: '1365', lat: -7.56, lon: 112.38, approx: true, k: 'event', vn: 'King Hayam Wuruk, monk Prapanca', d: 'The long poem records court life and lists nearly 100 lands that paid homage to Majapahit in its golden age.' },
+        { n: 'Zheng He visits Java', y: '1405 – 1433', lat: -6.996, lon: 110.398, approx: true, k: 'event', d: 'The giant Ming fleet visited Java several times; the Sam Poo Kong temple in Semarang honors him.' },
+        { n: 'Demak Sultanate', y: '~1475 – 1527', lat: -6.894, lon: 110.638, k: 'event', vn: 'Raden Patah', d: 'The first Muslim sultanate on Java grew strong and replaced the weakened Majapahit.' }
+      ]
+    },
+    {
+      id: 'spice', t: 'The Spice Islands and the Muslim sultanates', y: '1512 – 1800',
+      d: 'The cloves and nutmeg of Maluku attracted the Portuguese, then the Dutch East India Company (VOC), which gradually became master of the archipelago.',
+      ev: [
+        { n: 'Portuguese arrive in Ternate', y: '1512', lat: 0.79, lon: 127.38, k: 'event', vn: 'Sultan of Ternate', d: 'The small volcanic island grew cloves – a spice worth more than gold in Europe at that time.' },
+        { n: 'Sultan Iskandar Muda', y: '1607 – 1636', lat: 5.55, lon: 95.32, k: 'event', vn: 'Sultan Iskandar Muda', d: 'The Aceh kingdom at the northern tip of Sumatra reached its peak and controlled the pepper trade.' },
+        { n: 'VOC founds Batavia', y: '1619', lat: -6.13, lon: 106.81, k: 'battle', vn: 'Pangeran Jayawikarta', vs: 'VOC (Jan Pieterszoon Coen)', d: "The Dutch seized the port of Jayakarta and built the fort of Batavia – the forerunner of today's capital Jakarta." },
+        { n: 'Banda Islands massacre', y: '1621', lat: -4.525, lon: 129.90, k: 'event', vs: 'VOC (Jan Pieterszoon Coen)', d: 'To monopolize nutmeg, the VOC conquered the Banda Islands; most of the native people were killed or taken away.' },
+        { n: 'Sultan Agung attacks Batavia', y: '1628 – 1629', lat: -6.13, lon: 106.81, k: 'battle', vn: 'Sultan Agung (Mataram)', vs: 'VOC', d: 'The king of Mataram twice sent troops to besiege Batavia but failed because the Dutch burned his supply stores.' },
+        { n: 'Makassar War', y: '1666 – 1669', lat: -5.134, lon: 119.405, k: 'battle', vn: 'Sultan Hasanuddin', vs: 'VOC and Bugis allies', d: 'Hasanuddin was called the "Rooster of the East" for his stubborn resistance; the Dutch renamed the fort Rotterdam.' },
+        { n: 'Trading Run for Manhattan', y: '1667', lat: -4.55, lon: 129.68, k: 'event', d: 'England gave up the tiny nutmeg island of Run to the Dutch, in return taking Manhattan (New York) on the other side of the world.' }
+      ]
+    },
+    {
+      id: 'dutch', t: 'The Dutch East Indies', y: '1800 – 1942',
+      d: 'The Dutch state replaced the VOC as ruler, gradually expanding over the whole archipelago through many wars; at the end of this period the Indonesian national movement was born.',
+      ev: [
+        { n: 'Padri War', y: '1821 – 1837', lat: 0.0, lon: 100.22, approx: true, k: 'battle', vn: 'Tuanku Imam Bonjol', vs: 'Dutch army', d: 'In the Minangkabau highlands (West Sumatra), Imam Bonjol led the resistance from Bonjol fort, which lies right on the equator.' },
+        { n: 'Java War', y: '1825 – 1830', lat: -7.47, lon: 110.22, approx: true, k: 'battle', vn: 'Prince Diponegoro', vs: 'Dutch army (General De Kock)', d: 'The biggest resistance on Java ended when Diponegoro was arrested in Magelang during negotiations.' },
+        { n: 'Cultivation System (forced planting)', y: '1830 – 1870', lat: -7.0, lon: 110.0, approx: true, k: 'event', d: 'Javanese farmers were forced to set aside part of their land to grow coffee, sugar cane and indigo for the Dutch, causing many famines.' },
+        { n: 'Aceh War', y: '1873 – 1904', lat: 5.55, lon: 95.32, k: 'battle', vn: 'Teuku Umar, Cut Nyak Dhien', vs: 'Dutch army', d: 'The longest war the Dutch fought in their colonies; the heroine Cut Nyak Dhien kept fighting after her husband was killed.' },
+        { n: 'Krakatoa eruption', y: 'Aug 27, 1883', lat: -6.10, lon: 105.42, k: 'event', d: 'The blast was heard as far as Australia, nearly 5,000 km away; tsunamis over 30 m high killed more than 36,000 people.' },
+        { n: 'Puputan Badung (Bali)', y: '1906', lat: -8.65, lon: 115.22, k: 'event', vs: 'Dutch army', d: 'Facing the Dutch, the Badung royal family walked out in white clothes, choosing death over surrender; today it is Puputan Square in Denpasar.' },
+        { n: "Kartini's letters", y: '1899 – 1904', lat: -6.59, lon: 110.67, k: 'event', vn: 'Raden Ajeng Kartini', d: 'A noble girl in Jepara wrote letters demanding the right to education for women; her birthday, April 21, is a holiday in Indonesia.' },
+        { n: 'Youth Pledge', y: 'Oct 28, 1928', lat: -6.182, lon: 106.843, k: 'event', vn: 'Second Youth Congress', d: 'Young people from the islands pledged one homeland, one nation, one language – Indonesian; the national anthem was played for the first time.' }
+      ]
+    },
+    {
+      id: 'revolution', t: 'Japanese occupation and the National Revolution', y: '1942 – 1949',
+      d: 'Japan drove out the Dutch in 1942; when Japan surrendered, Indonesia declared independence and fought for four years until the Dutch recognized it.',
+      ev: [
+        { n: 'Dutch surrender to Japan', y: 'Mar 8, 1942', lat: -6.53, lon: 107.66, k: 'event', d: 'At Kalijati airfield (West Java), the Dutch forces signed their surrender; more than 300 years of Dutch rule came to a temporary end.' },
+        { n: 'Proclamation of Independence', y: 'Aug 17, 1945', lat: -6.20, lon: 106.845, k: 'event', vn: 'Sukarno, Mohammad Hatta', d: 'Sukarno read a short declaration in front of his house in Jakarta; the red-and-white flag sewn by his wife was raised.' },
+        { n: 'Battle of Surabaya', y: 'Nov 10, 1945', lat: -7.25, lon: 112.75, k: 'battle', vn: 'Sutomo (Bung Tomo)', vs: 'British army', d: "The biggest battle of the revolution; Indonesia commemorates November 10 as Heroes' Day." },
+        { n: 'Bandung Sea of Fire', y: 'Mar 24, 1946', lat: -6.92, lon: 107.61, k: 'event', vn: 'Colonel A. H. Nasution', d: 'Before retreating, civilians and soldiers burned their own homes in south Bandung so the enemy could not use the city.' },
+        { n: 'General Offensive of March 1', y: 'Mar 1, 1949', lat: -7.80, lon: 110.36, k: 'battle', vn: 'Sultan Hamengkubuwono IX, Lt. Col. Suharto', vs: 'Dutch army', d: 'Republican forces retook Yogyakarta for six hours, showing the world that Indonesia was still fighting.' },
+        { n: 'Hague Round Table Conference', y: '1949', lat: 52.08, lon: 4.31, k: 'event', vn: 'Mohammad Hatta', vs: 'The Netherlands', d: 'After the conference in the Netherlands, on December 27, 1949 the Dutch transferred sovereignty to Indonesia.' }
+      ]
+    },
+    {
+      id: 'sukarno', t: 'The Sukarno and Suharto era', y: '1950 – 1998',
+      d: 'Sukarno led the young republic and the non-aligned movement; after the events of 1965, General Suharto ruled for over 30 years with the "New Order".',
+      ev: [
+        { n: 'Bandung Asian-African Conference', y: 'Apr 1955', lat: -6.921, lon: 107.610, k: 'event', vn: 'President Sukarno', d: '29 newly independent Asian and African countries, including Vietnam, met to discuss peace and cooperation; it led to the Non-Aligned Movement.' },
+        { n: 'Asian Games 1962', y: '1962', lat: -6.218, lon: 106.802, k: 'event', vn: 'President Sukarno', d: 'Jakarta hosted the Asian Games and built the Gelora Bung Karno stadium, seating over 100,000.' },
+        { n: 'Confrontation with Malaysia', y: '1963 – 1966', lat: 1.2, lon: 111.5, approx: true, k: 'battle', vn: 'President Sukarno', vs: 'Malaysia, Britain', d: 'Indonesia opposed the creation of Malaysia; small clashes took place along the border on Borneo.' },
+        { n: 'Events of September 30, 1965', y: '1965 – 1966', lat: -6.20, lon: 106.845, k: 'event', vn: 'General Suharto', d: 'After the murder of six generals, the army cracked down on those accused of being communists; an estimated 500,000 people died.' },
+        { n: 'Founding of ASEAN', y: 'Aug 8, 1967', lat: 13.75, lon: 100.50, k: 'event', vn: 'Foreign Minister Adam Malik', d: 'Indonesia was one of the five founders of the Association of Southeast Asian Nations in Bangkok.' },
+        { n: 'Annexation of East Timor', y: '1975 – 1976', lat: -8.556, lon: 125.578, k: 'event', vn: 'President Suharto', d: 'Indonesia sent troops into East Timor after Portugal withdrew; the United Nations did not recognize the annexation.' },
+        { n: 'Suharto resigns', y: 'May 21, 1998', lat: -6.17, lon: 106.82, k: 'event', vn: 'President Suharto, B. J. Habibie', d: 'The Asian financial crisis and student protests forced Suharto out after 32 years; the Reform era began.' }
+      ]
+    },
+    {
+      id: 'reformasi', t: 'The Reform era and Indonesia today', y: '1998 – present',
+      d: 'Indonesia became the third-largest democracy in the world, overcame natural disasters and became the largest economy in Southeast Asia.',
+      ev: [
+        { n: 'East Timor referendum', y: 'Aug 30, 1999', lat: -8.556, lon: 125.578, k: 'event', vn: 'President B. J. Habibie', d: 'Nearly 80% of East Timorese voters chose independence; in 2002 Timor-Leste became a new country.' },
+        { n: 'Bali bombings', y: 'Oct 12, 2002', lat: -8.717, lon: 115.170, k: 'event', d: 'The terrorist attack in the tourist area of Kuta killed 202 people, mostly foreign tourists.' },
+        { n: 'Indian Ocean tsunami', y: 'Dec 26, 2004', lat: 5.55, lon: 95.32, k: 'event', d: 'A magnitude 9.1 earthquake off Sumatra caused a tsunami; in Aceh alone about 170,000 people were killed or went missing.' },
+        { n: 'Peace in Aceh', y: 'Aug 15, 2005', lat: 60.17, lon: 24.94, k: 'event', vn: 'Vice President Jusuf Kalla', vs: 'Free Aceh Movement (GAM)', d: 'The agreement signed in Helsinki (Finland) ended nearly 30 years of conflict; Aceh received special autonomy status.' },
+        { n: 'Asian Games 2018', y: '2018', lat: -6.218, lon: 106.802, k: 'event', vn: 'President Joko Widodo', d: 'Jakarta and Palembang together hosted the 18th Asian Games with over 11,000 athletes.' },
+        { n: 'Palu earthquake and tsunami', y: 'Sep 28, 2018', lat: -0.90, lon: 119.87, k: 'event', d: 'The earthquake liquefied the ground in many neighborhoods, which flowed away like mud; more than 4,000 people died or went missing.' },
+        { n: 'Bali G20 Summit', y: 'Nov 2022', lat: -8.80, lon: 115.23, k: 'event', vn: 'President Joko Widodo', d: 'For the first time, Indonesia chaired the summit of the 20 largest economies in the world.' },
+        { n: 'New capital Nusantara', y: '2022 – present', lat: -0.97, lon: 116.70, approx: true, k: 'event', vn: 'President Joko Widodo, President Prabowo Subianto', d: 'Because Jakarta is crowded and slowly sinking, Indonesia is building a new capital in the forest of East Kalimantan.' }
+      ]
+    }
+  ]
+};

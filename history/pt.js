@@ -1,0 +1,104 @@
+// Portugal history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'pt', name: 'Portugal', flag: '🇵🇹',
+  eras: [
+    {
+      id: 'lusitania', t: 'Lusitania and Roman times', y: '~200 BCE – 711 CE',
+      d: 'The Lusitanians resisted Rome fiercely before this land became the province of Lusitania; later the Suebi and Visigoths came and founded kingdoms.',
+      ev: [
+        { n: 'Viriatus against Rome', y: '147 – 139 BCE', lat: 40.32, lon: -7.61, approx: true, k: 'battle', vn: 'Viriatus (Lusitanian)', vs: 'Roman troops', d: 'The shepherd Viriatus used guerrilla tactics in the Serra da Estrela mountains and defeated several Roman armies.' },
+        { n: 'The Roman city of Conímbriga', y: '~1st century', lat: 40.099, lon: -8.492, k: 'event', vn: 'The people of Roman Lusitania', d: 'One of the best-preserved Roman cities in Portugal, with beautiful coloured stone mosaic floors.' },
+        { n: 'The Roman temple in Évora', y: '~1st century', lat: 38.573, lon: -7.907, k: 'event', vn: 'The Romans', d: 'The tall granite columns in the middle of Évora\'s old town are the country\'s most famous Roman ruin.' },
+        { n: 'The Suebi kingdom in Braga', y: '409', lat: 41.551, lon: -8.420, k: 'event', vn: 'King Hermeric (Suebi)', d: 'The Germanic Suebi tribe chose Braga as their capital – one of the first kingdoms in western Europe after Roman times.' },
+        { n: 'The Moors take Lisbon', y: '~714', lat: 38.711, lon: -9.133, approx: true, k: 'event', vn: 'The people of Olisipo', vs: 'Umayyad troops', d: 'The city became the Muslim al-Ushbuna; many Portuguese words today have Arabic roots.' }
+      ]
+    },
+    {
+      id: 'lapquoc', t: 'Founding and the Reconquista', y: '868 – 1279',
+      d: 'From a small county around Porto, Afonso Henriques founded the kingdom of Portugal, and the kings after him pushed the border south to the coast.',
+      ev: [
+        { n: 'County of Portucale', y: '868', lat: 41.141, lon: -8.611, k: 'event', vn: 'Count Vímara Peres', d: 'The land around the port of Portus Cale (Porto) was retaken; the name later became the name of the whole country.' },
+        { n: 'Battle of São Mamede', y: '1128', lat: 41.44, lon: -8.29, approx: true, k: 'battle', vn: 'Afonso Henriques', vs: 'Countess Teresa (his mother)', d: 'The 19-year-old defeated his own mother\'s forces near Guimarães, a place called the "cradle of Portugal".' },
+        { n: 'Battle of Ourique', y: '1139', lat: 37.65, lon: -8.22, approx: true, k: 'battle', vn: 'Afonso Henriques', vs: 'Almoravid troops', d: 'According to tradition, after the victory Afonso proclaimed himself king; the real location of the battle is still disputed.' },
+        { n: 'Treaty of Zamora', y: '1143', lat: 41.503, lon: -5.745, k: 'event', vn: 'King Afonso I (Afonso Henriques)', vs: 'King Alfonso VII of León', d: 'The kingdom of León recognised Portugal as a separate kingdom – a year often seen as the founding date.' },
+        { n: 'Capture of Lisbon', y: '1147', lat: 38.714, lon: -9.133, k: 'battle', vn: 'King Afonso I, northern European crusaders', vs: 'The Moors of Lisbon', d: 'Crusaders on their way to the Holy Land stopped to help the king besiege Lisbon for four months.' },
+        { n: 'Capture of Faro', y: '1249', lat: 37.016, lon: -7.935, k: 'battle', vn: 'King Afonso III', vs: 'The Moors of the Algarve', d: 'The Algarve fell to Portugal, and the land border has stayed almost fixed ever since – one of the oldest borders in Europe.' }
+      ]
+    },
+    {
+      id: 'avis', t: 'The House of Aviz and independence', y: '1383 – 1415',
+      d: 'When the throne fell vacant, Portugal beat Castile to keep its independence and formed an alliance with England that still exists today.',
+      ev: [
+        { n: 'Battle of Aljubarrota', y: '1385', lat: 39.627, lon: -8.828, k: 'battle', vn: 'King João I, Nuno Álvares Pereira', vs: 'King Juan I of Castile', d: 'The Portuguese were far outnumbered but dug ditches, formed squares and crushed the Castilian cavalry.' },
+        { n: 'Treaty of Windsor', y: '1386', lat: 51.484, lon: -0.604, k: 'event', vn: 'King João I', vs: 'King Richard II (England)', d: 'The Anglo – Portuguese alliance is the oldest diplomatic alliance in the world still in force.' },
+        { n: 'Batalha Monastery', y: '1386', lat: 39.659, lon: -8.825, k: 'event', vn: 'King João I', d: 'The king built the "Victory" monastery in thanks after Aljubarrota; the Gothic building took more than 150 years to complete.' },
+        { n: 'Capture of Ceuta', y: '1415', lat: 35.889, lon: -5.316, k: 'battle', vn: 'King João I, Prince Henry', vs: 'The Marinids (Morocco)', d: 'The first time the Portuguese took a city in Africa – the beginning of the Age of Discovery.' }
+      ]
+    },
+    {
+      id: 'khampha', t: 'The Age of Discovery', y: '1415 – 1578',
+      d: 'Small caravel ships crept along the African coast, rounded the Cape of Good Hope and reached India, Brazil, Southeast Asia and Japan.',
+      route: { t: 'Vasco da Gama\'s voyage to India 1497 – 1498', pts: [[38.693, -9.206], [14.92, -23.51], [-15.0, -25.0], [-32.75, 18.00], [-34.36, 18.47], [-34.18, 22.14], [-15.03, 40.73], [-4.05, 39.67], [-3.22, 40.12], [11.25, 75.78]] },
+      ev: [
+        { n: 'Prince Henry and Sagres', y: '~1420', lat: 37.008, lon: -8.944, approx: true, k: 'legend', vn: 'Prince Henry (Henry the Navigator)', d: 'Legend says the prince founded a "school of navigation" on the headland of Sagres; in fact he organised and paid for the voyages.' },
+        { n: 'Discovery of Madeira', y: '1419', lat: 32.650, lon: -16.908, k: 'event', vn: 'João Gonçalves Zarco', d: 'The forested island was named Madeira, meaning "wood"; the footballer Cristiano Ronaldo was born here.' },
+        { n: 'Passing Cape Bojador', y: '1434', lat: 26.126, lon: -14.485, k: 'event', vn: 'Gil Eanes', d: 'Sailors had feared this cape as the end of the world; Gil Eanes sailed past it and opened the way south.' },
+        { n: 'Dias rounds the Cape of Good Hope', y: '1488', lat: -34.357, lon: 18.474, k: 'event', vn: 'Bartolomeu Dias', d: 'Pushed far from the coast by a storm, Dias unwittingly rounded the southern tip of Africa; the king named the cape "Good Hope".' },
+        { n: 'Vasco da Gama reaches Calicut', y: '1498', lat: 11.250, lon: 75.780, k: 'event', vn: 'Vasco da Gama', d: 'The first time European ships reached India by sea, opening the route for the pepper and spice trade.' },
+        { n: 'Cabral reaches Brazil', y: '1500', lat: -16.450, lon: -39.065, k: 'event', vn: 'Pedro Álvares Cabral', d: 'On the way to India, the fleet drifted far to the west and landed in Brazil, a land that later spoke Portuguese.' },
+        { n: 'Albuquerque takes Goa and Malacca', y: '1510 – 1511', lat: 2.194, lon: 102.249, k: 'battle', vn: 'Afonso de Albuquerque', vs: 'Sultanate of Malacca', d: 'Portugal held the key ports of Goa and Malacca and controlled the spice trade routes of the Indian Ocean.' },
+        { n: 'The first Europeans in Japan', y: '1543', lat: 30.730, lon: 131.000, approx: true, k: 'event', vn: 'Portuguese merchants', d: 'A ship was blown onto the island of Tanegashima carrying muskets, which changed the way battles were fought in Japan.' },
+        { n: 'Founding of the Macau trading post', y: '1557', lat: 22.190, lon: 113.540, k: 'event', vn: 'Portuguese merchants', d: 'The Ming dynasty allowed the Portuguese to settle in Macau; Portugal administered it for more than 400 years.' }
+      ]
+    },
+    {
+      id: 'thinhsuy', t: 'Iberian Union, Restoration and the earthquake', y: '1578 – 1807',
+      d: 'The young king was killed in Morocco, Portugal fell to the Spanish king for 60 years and then regained its independence; Brazilian gold made Lisbon rich.',
+      ev: [
+        { n: 'Battle of Alcácer Quibir', y: '1578', lat: 35.00, lon: -5.90, approx: true, k: 'battle', vn: 'King Sebastião', vs: 'Sultan Abd al-Malik (Morocco)', d: 'The 24-year-old King Sebastião vanished in the battle; folk belief says he will return on a foggy morning.' },
+        { n: 'Quốc ngữ script in Đàng Trong', y: '~1618 – 1625', lat: 15.86, lon: 108.30, approx: true, k: 'event', vn: 'Missionary Francisco de Pina', d: 'Jesuit missionaries, including Portuguese ones, wrote Vietnamese in Latin letters – the seed of the Quốc ngữ script.' },
+        { n: 'The Restoration of 1640', y: '1 Dec 1640', lat: 38.708, lon: -9.137, k: 'event', vn: 'King João IV (Duke of Braganza)', vs: 'The Spanish court', d: 'A group of nobles seized the palace in Lisbon and put the House of Braganza on the throne; 1 December is the Restoration holiday.' },
+        { n: 'Battle of Montes Claros', y: '1665', lat: 38.79, lon: -7.45, approx: true, k: 'battle', vn: 'Marquis of Marialva, Count Schomberg', vs: 'Spanish troops (Marquis of Caracena)', d: 'The final victory led Spain to recognise Portuguese independence in 1668.' },
+        { n: 'Lisbon earthquake', y: '1 Nov 1755', lat: 38.708, lon: -9.137, k: 'event', vn: 'Marquis of Pombal', d: 'An earthquake, tsunami and fires destroyed most of the capital; Pombal rebuilt the Baixa district with earthquake-resistant buildings.' }
+      ]
+    },
+    {
+      id: 'theky19', t: 'Napoleon, Brazil and the last monarchy', y: '1807 – 1910',
+      d: 'The court fled to Brazil when Napoleon attacked; after returning, Portugal went through a civil war between liberals and absolutists.',
+      ev: [
+        { n: 'The court moves to Rio de Janeiro', y: '1807 – 1808', lat: -22.903, lon: -43.174, k: 'event', vn: 'Prince Regent João', vs: 'French troops (General Junot)', d: 'The whole royal family crossed the Atlantic; Rio de Janeiro became the capital of a European empire, the only time in history.' },
+        { n: 'Battle of Buçaco', y: '1810', lat: 40.345, lon: -8.366, k: 'battle', vn: 'Portuguese troops (with Wellington)', vs: 'Marshal Masséna (France)', d: 'The Anglo – Portuguese army stood on the mountain ridge and drove back the French, then withdrew to the Lines of Torres Vedras.' },
+        { n: 'Lines of Torres Vedras', y: '1810 – 1811', lat: 39.091, lon: -9.259, k: 'battle', vn: 'Portuguese troops (with Wellington)', vs: 'Marshal Masséna (France)', d: 'Hundreds of secret forts blocked the road to Lisbon; the hungry, freezing French had to retreat to Spain.' },
+        { n: 'The Liberal Revolution in Porto', y: '1820', lat: 41.146, lon: -8.611, k: 'event', vn: 'Officers and merchants of Porto', d: 'They demanded that the king return and grant a constitution; King João VI left Brazil and came home in 1821.' },
+        { n: 'Brazil declares independence', y: '7 Sep 1822', lat: -23.585, lon: -46.610, k: 'event', vn: 'Prince Pedro', d: 'The son of the Portuguese king cried "Independence or death!" beside the Ipiranga stream and became Emperor of Brazil.' },
+        { n: 'King Carlos I assassinated', y: '1 Feb 1908', lat: 38.708, lon: -9.137, k: 'event', vn: 'King Carlos I, Crown Prince Luís Filipe', d: 'The king and the crown prince were shot in Commerce Square in Lisbon; the monarchy lasted only two more years.' }
+      ]
+    },
+    {
+      id: 'conghoa', t: 'The Republic and the New State', y: '1910 – 1974',
+      d: 'The republic was born but was unstable; Salazar built the "New State" dictatorship and fought colonial wars in Africa.',
+      ev: [
+        { n: 'Proclamation of the Republic', y: '5 Oct 1910', lat: 38.708, lon: -9.140, k: 'event', vn: 'Teófilo Braga, José Relvas', d: 'The republic was proclaimed from the balcony of Lisbon\'s city hall; King Manuel II went into exile in England.' },
+        { n: 'The Fátima events', y: '1917', lat: 39.632, lon: -8.672, k: 'event', vn: 'Three young shepherd children', d: 'Three children said they saw the Virgin Mary appear; Fátima became a major place of pilgrimage for Catholics.' },
+        { n: 'Battle of the Lys', y: '1918', lat: 50.63, lon: 2.78, approx: true, k: 'battle', vn: 'Portuguese Expeditionary Corps', vs: 'German troops', d: 'Portuguese troops in France took the brunt of a major German attack in World War I and suffered heavy losses.' },
+        { n: 'Salazar\'s New State', y: '1933', lat: 38.712, lon: -9.152, approx: true, k: 'event', vn: 'António de Oliveira Salazar', d: 'A new constitution set up a dictatorship that lasted more than 40 years, with a political police and press censorship.' },
+        { n: 'The colonial wars', y: '1961 – 1974', lat: -8.839, lon: 13.234, approx: true, k: 'battle', vn: 'Portuguese army', vs: 'The independence movements of Angola, Mozambique, Guinea-Bissau', d: 'A war lasting 13 years in three African colonies, in which hundreds of thousands of young men had to serve in the army.' },
+        { n: 'The Carnation Revolution', y: '25 Apr 1974', lat: 38.712, lon: -9.141, k: 'event', vn: 'Captain Salgueiro Maia, the Armed Forces Movement', d: 'The coup was almost bloodless; people put carnations into the barrels of the soldiers\' guns.' }
+      ]
+    },
+    {
+      id: 'danchu', t: 'Democracy and Europe', y: '1974 – present',
+      d: 'The colonies won independence, Portugal built a democracy, joined Europe and became a famous tourist destination.',
+      ev: [
+        { n: 'Angola and Mozambique become independent', y: '1975', lat: -25.966, lon: 32.573, approx: true, k: 'event', vn: 'The Portuguese government', d: 'The oldest colonial empire in Europe came to an end; hundreds of thousands of people returned to Portugal.' },
+        { n: 'Joining the European Community', y: '1986', lat: 38.698, lon: -9.207, k: 'event', vn: 'Prime Minister Mário Soares', d: 'The accession treaty was signed at the Jerónimos Monastery; European funds helped build motorways and bridges.' },
+        { n: 'Expo 98 in Lisbon', y: '1998', lat: 38.768, lon: -9.094, k: 'event', vn: 'The city of Lisbon', d: 'A world exposition on the oceans, marking 500 years since Vasco da Gama\'s voyage; the 17 km Vasco da Gama Bridge opened.' },
+        { n: 'Handover of Macau', y: '20 Dec 1999', lat: 22.190, lon: 113.540, k: 'event', vn: 'President Jorge Sampaio', d: 'Macau returned to China, closing Portugal\'s last colony in Asia.' },
+        { n: 'Winning Euro 2016', y: '2016', lat: 48.924, lon: 2.360, k: 'event', vn: 'Portugal team (Cristiano Ronaldo, Éder)', vs: 'France team', d: 'Éder\'s goal in extra time in Paris brought Portuguese football its first major title.' },
+        { n: 'Pedrógão Grande wildfire', y: '2017', lat: 39.917, lon: -8.146, k: 'event', vn: 'Portuguese firefighters', d: 'The worst forest fire in the country\'s history killed 66 people in the middle of a hot summer.' },
+        { n: 'António Guterres becomes UN Secretary-General', y: '2017', lat: 40.749, lon: -73.968, k: 'event', vn: 'António Guterres', d: 'The former Prime Minister of Portugal became head of the United Nations in New York.' },
+        { n: 'World Youth Day in Lisbon', y: '2023', lat: 38.785, lon: -9.095, approx: true, k: 'event', vn: 'The city of Lisbon', d: 'About 1.5 million young people from all over the world gathered beside the Tagus River with Pope Francis.' }
+      ]
+    }
+  ]
+};

@@ -1,0 +1,111 @@
+// Cambodia history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'kh', name: 'Cambodia', flag: '🇰🇭',
+  eras: [
+    {
+      id: 'funan', t: 'Kingdom of Funan', y: '~1st – 6th century',
+      d: 'Funan was one of the first kingdoms in Southeast Asia, growing rich from trade on the sea route linking India with China.',
+      ev: [
+        { n: 'Legend of Kaundinya and Queen Liễu Diệp', y: 'Legend', lat: 10.99, lon: 104.98, approx: true, k: 'legend', vn: 'Kaundinya, Queen Liễu Diệp (Soma)', d: 'A Brahmin from overseas shot a magic arrow, married the queen of the land and founded the kingdom of Funan.' },
+        { n: 'Ancient City of Angkor Borei', y: '~1st – 6th century', lat: 10.99, lon: 104.98, k: 'event', d: 'Possibly one of the capitals of Funan, linked to the sea by canals dozens of kilometers long.' },
+        { n: 'Óc Eo Trading Port', y: '~1st – 7th century', lat: 10.24, lon: 105.15, k: 'event', d: "Funan's seaport, now in An Giang (Vietnam); archaeologists even found Roman gold coins." },
+        { n: 'Phnom Da Temple', y: '~6th century', lat: 10.97, lon: 104.96, approx: true, k: 'event', d: 'A hill with Hindu temples and an eight-armed statue of Vishnu, one of the earliest styles of Khmer art.' },
+        { n: 'Envoy Kang Tai Visits Funan', y: '~245', lat: 10.99, lon: 104.98, approx: true, k: 'event', d: 'An envoy of the Wu kingdom (China) recorded that Funan had walled cities and people used gold, silver and pearls for trade.' }
+      ]
+    },
+    {
+      id: 'chenla', t: 'Kingdom of Chenla', y: '~550 – 802',
+      d: 'Chenla rose from the middle Mekong region to replace Funan; later it split into "Land Chenla" (inland) and "Water Chenla" (the watery region).',
+      ev: [
+        { n: 'Wat Phu Temple', y: '~5th – 13th century', lat: 14.85, lon: 105.82, k: 'event', d: 'A temple on a mountain slope in Champasak (in present-day Laos), thought to be the homeland of the Chenla people.' },
+        { n: 'Chenla Conquers Funan', y: '~550 – 630', lat: 11.8, lon: 105.0, approx: true, k: 'battle', vn: 'Bhavavarman I, Mahendravarman', vs: 'Funan', d: 'Chenla kings gradually took Funan\'s lands and became the strongest kingdom in the lower Mekong.' },
+        { n: 'Capital Isanapura (Sambor Prei Kuk)', y: '~616 – 635', lat: 12.871, lon: 105.043, k: 'event', vn: 'Isanavarman I', d: 'More than 100 brick temples in the forest, with unique octagonal towers; now a World Heritage Site.' },
+        { n: 'Chenla Splits in Two', y: '~707', lat: 12.5, lon: 105.0, approx: true, k: 'event', d: 'The kingdom split into Land Chenla in the north and Water Chenla in the south, broken into many small states.' }
+      ]
+    },
+    {
+      id: 'angkor', t: 'Khmer Empire – the Angkor Era', y: '802 – 1431',
+      d: 'The Khmer Empire ruled most of mainland Southeast Asia and built hundreds of stone temples and a huge system of reservoirs; Angkor was once one of the largest cities in the world.',
+      ev: [
+        { n: 'Jayavarman II Crowned on Mount Kulen', y: '802', lat: 13.57, lon: 104.11, approx: true, k: 'event', vn: 'Jayavarman II', d: 'He declared himself "king of kings" (Chakravartin) and proclaimed Cambodia independent from Java, beginning the Angkor era.' },
+        { n: 'Bakong Temple at Hariharalaya', y: '881', lat: 13.336, lon: 103.974, k: 'event', vn: 'Indravarman I', d: 'The first Khmer pyramid-shaped temple-mountain, in the capital Hariharalaya (Roluos).' },
+        { n: 'Capital Yasodharapura – Bakheng Hill', y: '~889 – 910', lat: 13.4237, lon: 103.856, k: 'event', vn: 'Yasovarman I', d: 'The king moved the capital around Phnom Bakheng hill – the start of the Angkor area; he dug the 7 km-long Eastern Baray reservoir.' },
+        { n: 'Capital Koh Ker', y: '928 – 944', lat: 13.784, lon: 104.537, k: 'event', vn: 'Jayavarman IV', d: 'A temporary capital with the seven-tiered, 36 m-high pyramid of Prasat Thom in the forest.' },
+        { n: 'Banteay Srei Temple', y: '967', lat: 13.599, lon: 103.963, k: 'event', vn: 'Yajnavaraha', d: '"Citadel of the Women" in pink sandstone, with the finest carving of all the Khmer temples.' },
+        { n: 'Preah Vihear Temple', y: '11th – 12th century', lat: 14.390, lon: 104.680, k: 'event', vn: 'Suryavarman I, Suryavarman II', d: 'A temple on the edge of the Dângrêk cliff, more than 500 m high, looking down on the Cambodian plain.' },
+        { n: 'Angkor Wat Temple', y: '~1113 – 1150', lat: 13.4125, lon: 103.867, k: 'event', vn: 'Suryavarman II', d: "The largest religious monument in the world; its image is at the center of Cambodia's national flag." },
+        { n: 'Cham Forces Capture Angkor', y: '1177', lat: 13.44, lon: 103.86, approx: true, k: 'battle', vs: 'Jaya Indravarman IV (Champa)', d: 'The Cham navy sailed up the Mekong and the Tonlé Sap lake and struck the capital Angkor by surprise.' },
+        { n: 'Naval Battle on the Tonlé Sap', y: '1181', lat: 13.0, lon: 104.0, approx: true, k: 'battle', vn: 'Jayavarman VII', vs: 'Cham forces', d: 'Jayavarman VII drove out the Cham forces; scenes of the naval battle are carved on the walls of the Bayon temple.' },
+        { n: 'Ta Prohm Temple', y: '1186', lat: 13.4349, lon: 103.889, k: 'event', vn: 'Jayavarman VII', d: "The temple of the king's mother; today giant tree roots wrap around its stone walls." },
+        { n: 'Angkor Thom and the Bayon Temple', y: '~1190', lat: 13.4412, lon: 103.8589, k: 'event', vn: 'Jayavarman VII', d: 'A square city 3 km on each side; the Bayon has more than 200 smiling stone faces looking in four directions.' },
+        { n: 'Zhou Daguan Comes to Angkor', y: '1296 – 1297', lat: 13.4412, lon: 103.860, k: 'event', vn: 'King Indravarman III', d: "A Yuan dynasty envoy stayed almost a year and wrote \"The Customs of Cambodia\" – a description of life in Angkor." }
+      ]
+    },
+    {
+      id: 'postangkor', t: 'Post-Angkor Period', y: '1431 – 1863',
+      d: 'After Ayutthaya took Angkor, the capital moved to the Phnom Penh, Longvek and Oudong area; Cambodia was often caught between Siam and Đại Việt.',
+      ev: [
+        { n: 'Ayutthaya Takes Angkor', y: '1431', lat: 13.44, lon: 103.86, k: 'battle', vn: 'King Ponhea Yat', vs: 'King Borommarachathirat II (Ayutthaya)', d: 'Angkor fell after a siege; the court gradually left the old capital.' },
+        { n: 'Capital Phnom Penh – Wat Phnom Hill', y: '1434', lat: 11.5762, lon: 104.9230, k: 'event', vn: 'King Ponhea Yat', d: 'By legend, Lady Penh found Buddha statues floating on the river and built a hill and temple – the origin of the name Phnom Penh.' },
+        { n: 'Capital Longvek', y: '~1530 – 1594', lat: 11.89, lon: 104.80, approx: true, k: 'event', vn: 'King Ang Chan I', d: 'The city of Longvek on the Tonlé Sap river was a trading center with Portuguese, Spanish and Japanese merchants.' },
+        { n: 'Fall of Longvek', y: '1594', lat: 11.89, lon: 104.80, approx: true, k: 'battle', vn: 'King Satha I', vs: 'King Naresuan (Ayutthaya)', d: 'Siamese troops took the capital Longvek; by legend, the thorny bamboo hedge protecting the city was cut down because of silver coins thrown at it.' },
+        { n: 'Capital Oudong', y: '1618 – 1866', lat: 11.82, lon: 104.74, k: 'event', vn: 'King Chey Chettha II', d: 'A capital on a ridge of hills with many stupas holding the ashes of kings, lasting almost 250 years.' },
+        { n: 'Siamese–Vietnamese War in Cambodia', y: '1841 – 1845', lat: 11.6, lon: 104.9, approx: true, k: 'battle', vn: 'Ang Duong', vs: 'Siamese forces and the Nguyễn dynasty', d: 'Siam and the Nguyễn dynasty fought for influence; in the end Ang Duong took the throne and paid tribute to both countries.' }
+      ]
+    },
+    {
+      id: 'french', t: 'French Protectorate', y: '1863 – 1953',
+      d: 'King Norodom signed a treaty accepting French protection; Cambodia became part of French Indochina for 90 years.',
+      ev: [
+        { n: 'Henri Mouhot Arrives at Angkor', y: '1860', lat: 13.4125, lon: 103.867, k: 'event', d: 'The French naturalist wrote about Angkor, making Europeans fascinated with the temple in the forest.' },
+        { n: 'Protectorate Treaty', y: '1863', lat: 11.82, lon: 104.74, k: 'event', vn: 'King Norodom', vs: 'Admiral de La Grandière (France)', d: 'King Norodom signed the treaty at Oudong hoping France would shield him from Siam; in reality France gradually took all power.' },
+        { n: 'Royal Palace of Phnom Penh', y: '1866', lat: 11.5636, lon: 104.9310, k: 'event', vn: 'King Norodom', d: 'The capital officially moved to Phnom Penh at the meeting of four rivers; the Silver Pagoda has a floor paved with more than 5,000 silver tiles.' },
+        { n: 'Pou Kombo Rebellion', y: '1866 – 1867', lat: 11.3, lon: 105.5, approx: true, k: 'battle', vn: 'Pou Kombo', vs: 'French forces', d: 'One of the first big uprisings against the French and the Norodom court, at times coming close to the capital.' },
+        { n: 'Battambang and Siem Reap Return', y: '1907', lat: 13.10, lon: 103.20, k: 'event', vn: 'King Sisowath', d: 'Under a Franco-Siamese treaty, the two western provinces (including Angkor) were returned to Cambodia.' },
+        { n: 'Monks\' Protest', y: '1942', lat: 11.57, lon: 104.92, k: 'event', vn: 'Monk Hem Chieu, Pach Chhoeun', vs: 'French authorities', d: 'Hundreds of monks took to the streets to protest the arrest of the monk Hem Chieu – the start of the nationalist movement.' },
+        { n: 'Declaration of Independence under Japan', y: '1945', lat: 11.5636, lon: 104.9310, k: 'event', vn: 'King Norodom Sihanouk', d: 'After Japan overthrew the French, the king declared independence; France returned at the end of 1945.' }
+      ]
+    },
+    {
+      id: 'sangkum', t: 'Independence and the Sangkum Era', y: '1953 – 1970',
+      d: 'King Norodom Sihanouk campaigned diplomatically to win full independence in 1953 and pursued a policy of neutrality.',
+      ev: [
+        { n: 'Independence Day', y: '9 Nov 1953', lat: 11.5564, lon: 104.9282, k: 'event', vn: 'King Norodom Sihanouk', d: 'France handed back independence; the lotus-shaped Independence Monument was built in 1958 to celebrate it.' },
+        { n: 'Geneva Conference', y: '1954', lat: 46.226, lon: 6.140, k: 'event', vn: 'Delegation of the Kingdom of Cambodia', d: "The international conference on Indochina recognized Cambodia's independence and territorial integrity." },
+        { n: 'Sangkum Movement', y: '1955', lat: 11.57, lon: 104.92, k: 'event', vn: 'Norodom Sihanouk', d: 'Sihanouk abdicated in favor of his father to go into politics, founded the Sangkum Reastr Niyum movement and won the election.' },
+        { n: 'Preah Vihear Ruling', y: '1962', lat: 14.390, lon: 104.680, k: 'event', vn: 'Norodom Sihanouk', vs: 'Thailand', d: 'The International Court of Justice in The Hague ruled that the temple lies under Cambodian sovereignty.' },
+        { n: '1970 Coup', y: '1970', lat: 11.57, lon: 104.92, k: 'event', vn: 'Lon Nol, Sirik Matak', vs: 'Norodom Sihanouk', d: 'While Sihanouk was abroad, the National Assembly removed him; the Khmer Republic was born and civil war spread.' }
+      ]
+    },
+    {
+      id: 'khmerrouge', t: 'Civil War and the Khmer Rouge Regime', y: '1970 – 1979',
+      d: 'After civil war, the Khmer Rouge took power in 1975, emptied the cities and set up an extreme regime; about 1.5 – 2 million people died from executions, hunger and forced labor.',
+      ev: [
+        { n: 'Civil War and Bombing Campaigns', y: '1970 – 1975', lat: 12.0, lon: 105.5, approx: true, k: 'battle', vn: 'Lon Nol (Khmer Republic)', vs: 'Khmer Rouge', d: 'The civil war devastated the country; American planes bombed the east heavily, and many civilians were killed.' },
+        { n: 'Fall of Phnom Penh', y: '17 Apr 1975', lat: 11.5564, lon: 104.9282, k: 'event', vs: 'Khmer Rouge (Pol Pot)', d: 'The Khmer Rouge entered the capital and forced all of its more than two million residents to leave for the countryside within a few days.' },
+        { n: 'Tuol Sleng Prison (S-21)', y: '1976 – 1979', lat: 11.5494, lon: 104.9178, k: 'event', d: 'A school turned into a prison; about 14,000 – 20,000 people were held, and very few survived. Now a memorial museum.' },
+        { n: 'Choeung Ek Killing Fields', y: '1975 – 1979', lat: 11.4844, lon: 104.9019, k: 'event', d: 'The place where thousands of S-21 prisoners were murdered; the memorial stupa keeps the victims\' remains so later generations do not forget.' },
+        { n: 'Khmer Rouge Attacks on the Vietnamese Border', y: '1977 – 1978', lat: 10.60, lon: 104.95, approx: true, k: 'battle', vs: 'Khmer Rouge', d: "Khmer Rouge troops attacked Vietnam's southwestern provinces, as in the Ba Chúc massacre (An Giang) in 1978." },
+        { n: 'Overthrow of the Khmer Rouge Regime', y: '7 Jan 1979', lat: 11.5564, lon: 104.9282, k: 'event', vn: 'Kampuchean United Front for National Salvation (Heng Samrin)', vs: 'Khmer Rouge (Pol Pot)', d: 'The Vietnamese army and the Front entered Phnom Penh, ending the genocidal regime; 7 January is marked in Cambodia every year.' }
+      ]
+    },
+    {
+      id: 'modern', t: 'Peace and Reconstruction', y: '1979 – present',
+      d: 'After years of conflict, the 1991 Paris Agreements opened the way to UN-supervised general elections; Cambodia restored the monarchy and rebuilt the country.',
+      ev: [
+        { n: 'Paris Peace Agreements', y: '1991', lat: 48.8566, lon: 2.3522, k: 'event', vn: 'Norodom Sihanouk, Hun Sen', d: '19 countries signed an agreement ending the conflict in Cambodia, giving the United Nations supervision of the transition.' },
+        { n: 'Angkor Becomes a World Heritage Site', y: '1992', lat: 13.4125, lon: 103.867, k: 'event', d: 'UNESCO recognized the Angkor complex; many countries joined in restoring the temples.' },
+        { n: 'UNTAC-Organized General Election', y: '1993', lat: 11.57, lon: 104.92, k: 'event', vn: 'Norodom Ranariddh, Hun Sen', d: 'Almost 90% of voters turned out; the new constitution restored the kingdom, and Norodom Sihanouk became king again.' },
+        { n: 'Joining ASEAN', y: '1999', lat: 21.03, lon: 105.85, k: 'event', vn: 'Hun Sen', d: 'The admission ceremony was held in Hanoi; Cambodia became the tenth member of ASEAN.' },
+        { n: 'King Norodom Sihamoni Takes the Throne', y: '2004', lat: 11.5636, lon: 104.9310, k: 'event', vn: 'King Norodom Sihamoni', d: 'The king father Sihanouk abdicated; his son, a former ballet dancer, was chosen king by the Royal Council of the Throne.' },
+        { n: 'Khmer Rouge Tribunal', y: '2006 – 2022', lat: 11.53, lon: 104.85, approx: true, k: 'event', d: 'A UN-assisted court convicted senior Khmer Rouge leaders of genocide and crimes against humanity.' },
+        { n: 'Preah Vihear Becomes a World Heritage Site', y: '2008', lat: 14.390, lon: 104.680, k: 'event', d: 'The temple on the cliff was recognized by UNESCO, despite periods of border tension with Thailand.' },
+        { n: 'Death of the King Father Norodom Sihanouk', y: '2012', lat: 11.564, lon: 104.931, k: 'event', vn: 'Norodom Sihanouk', d: 'The leader who guided Cambodia to independence in 1953 died; hundreds of thousands of people came to the Royal Palace in Phnom Penh to pay tribute.' },
+        { n: 'SEA Games 32 in Phnom Penh', y: '2023', lat: 11.62, lon: 104.85, approx: true, k: 'event', d: 'The first time Cambodia hosted the Southeast Asian Games, at the newly built Morodok Techo stadium.' },
+        { n: 'Hun Manet Becomes Prime Minister', y: '2023', lat: 11.567, lon: 104.918, approx: true, k: 'event', vn: 'Hun Manet, Hun Sen', d: 'After almost 40 years leading the government, Hun Sen handed the post of prime minister to his son Hun Manet and became President of the Senate.' },
+        { n: 'Cambodia – Thailand Border Conflict', y: 'Jul 2025', lat: 14.351, lon: 103.267, approx: true, k: 'battle', vn: 'Cambodian army', vs: 'Thai army', d: 'Five days of fighting around ancient temples along the border killed dozens of people and sent hundreds of thousands fleeing; the two sides agreed to a ceasefire with Malaysia mediating.' },
+        { n: 'Techo International Airport', y: 'Sep 2025', lat: 11.35, lon: 104.85, approx: true, k: 'event', d: "The country's largest new airport, about 30 km south of Phnom Penh, replaced the capital's old airport." }
+      ]
+    }
+  ]
+};

@@ -1,0 +1,109 @@
+// Myanmar history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'mm', name: 'Myanmar', flag: '🇲🇲',
+  eras: [
+    {
+      id: 'pyu', t: 'The Pyu and Mon city-states', y: '~200 BCE – 849',
+      d: 'The Pyu built brick-walled cities along the Irrawaddy River, while the Mon founded coastal kingdoms in the south; Buddhism arrived from India very early.',
+      ev: [
+        { n: 'Legend of the Shwedagon Pagoda', y: 'Legend', lat: 16.7983, lon: 96.1497, k: 'legend', vn: 'The merchant brothers Tapussa and Bhallika', d: 'Two merchants were given eight hairs by the Buddha and brought them back to be enshrined on Singuttara Hill, where the golden Shwedagon Pagoda now stands.' },
+        { n: 'Ancient city of Beikthano', y: '~200 BCE – 400', lat: 20.00, lon: 95.38, approx: true, k: 'event', d: 'One of the oldest Pyu cities; its name means "City of the god Vishnu".' },
+        { n: 'City of Sri Ksetra', y: '~5th – 9th century', lat: 18.80, lon: 95.29, k: 'event', d: 'The largest Pyu city, near present-day Pyay, with a circular city wall about 13 km long and tall cylindrical pagodas.' },
+        { n: 'City of Halin', y: '~2nd – 9th century', lat: 22.467, lon: 95.817, k: 'event', d: 'A Pyu city in the north; in 2014 Halin, Beikthano and Sri Ksetra were named UNESCO World Heritage Sites.' },
+        { n: 'Mon kingdom of Thaton', y: '~9th century – 1057', lat: 16.92, lon: 97.37, approx: true, k: 'event', d: 'The coastal Mon were early followers of Theravada Buddhism, and their land was known as the "Golden Land" (Suvarnabhumi).' },
+        { n: 'Nanzhao attacks the Pyu', y: '832', lat: 22.467, lon: 95.817, approx: true, k: 'battle', vs: 'Nanzhao army (Yunnan)', d: 'The Nanzhao kingdom attacked southward and carried off thousands of Pyu; the Pyu cities declined afterward.' }
+      ]
+    },
+    {
+      id: 'pagan', t: 'The Pagan dynasty', y: '849 – 1297',
+      d: 'Pagan (Bagan) was the first kingdom to unite the land of Myanmar; its kings built more than 10,000 temples and pagodas on the plain beside the Irrawaddy River.',
+      ev: [
+        { n: 'Building of Pagan', y: '849', lat: 21.17, lon: 94.86, k: 'event', vn: 'King Pyinbya', d: 'Pagan was surrounded with walls and became the center of the Bamar people, newcomers from the north.' },
+        { n: 'Anawrahta conquers Thaton', y: '1057', lat: 16.92, lon: 97.37, k: 'battle', vn: 'King Anawrahta', vs: 'King Manuha (Thaton)', d: 'Anawrahta captured Thaton and brought scriptures, monks and skilled craftsmen back to Pagan; Theravada Buddhism spread across the country.' },
+        { n: 'Shwezigon Pagoda', y: '~1102', lat: 21.197, lon: 94.894, k: 'event', vn: 'King Anawrahta, King Kyansittha', d: 'A gold-covered stupa holding relics of the Buddha, which became the model for many later Myanmar pagodas.' },
+        { n: 'Ananda Temple', y: '1105', lat: 21.1708, lon: 94.8681, k: 'event', vn: 'King Kyansittha', d: 'A white cross-shaped temple with four standing Buddha statues, each 9.5 m tall, facing the four directions; it is called the "masterpiece of Bagan".' },
+        { n: 'Battle of Ngasaunggyan', y: '1277', lat: 24.4, lon: 97.6, approx: true, k: 'battle', vn: 'King Narathihapate', vs: 'Yuan army (Mongols)', d: 'The Pagan war elephants were beaten by Mongol mounted archers near what is now the Yunnan border.' },
+        { n: 'Fall of Pagan', y: '1287', lat: 21.17, lon: 94.86, k: 'battle', vn: 'King Narathihapate', vs: 'Yuan army (Mongols)', d: 'The king fled the capital as the Mongol army advanced south; the kingdom broke apart into many pieces.' },
+      ]
+    },
+    {
+      id: 'warring', t: 'The age of divided kingdoms', y: '1287 – 1555',
+      d: 'After Pagan, Myanmar split into several states: Ava in the north, the Mon kingdom of Hanthawaddy in the south, Mrauk U in Arakan, and the small Shan states.',
+      ev: [
+        { n: 'Capital at Ava (Inwa)', y: '1364', lat: 21.858, lon: 95.977, k: 'event', vn: 'King Thado Minbya', d: 'Ava was built on an artificial island between rivers and served as the Bamar capital for nearly 500 years (with breaks).' },
+        { n: 'The Forty Years War', y: '1385 – 1424', lat: 18.5, lon: 95.5, approx: true, k: 'battle', vn: 'King Razadarit (Hanthawaddy)', vs: 'King Minkhaung I (Ava)', d: 'The Bamar and Mon kingdoms fought for forty years, giving rise to many tales of the brave prince Minyekyawswa.' },
+        { n: 'Kingdom of Mrauk U', y: '1430', lat: 20.59, lon: 93.19, k: 'event', vn: 'King Min Saw Mon', d: 'The coastal Arakan kingdom grew rich from trade across the Bay of Bengal and is famous for its temples that look like stone fortresses.' },
+        { n: 'Queen Shin Sawbu', y: '1453 – 1472', lat: 17.336, lon: 96.481, k: 'event', vn: 'Queen Shin Sawbu', d: 'One of Myanmar\'s rare queens, she ruled Hanthawaddy (Bago) peacefully and covered the Shwedagon Pagoda in gold equal to her own weight.' },
+        { n: 'The great Dhammazedi Bell', y: '1484', lat: 16.7983, lon: 96.1497, k: 'event', vn: 'King Dhammazedi', d: 'A bronze bell weighing nearly 300 tons was cast for the Shwedagon Pagoda; it sank in the river in 1608 and has never been found.' }
+      ]
+    },
+    {
+      id: 'toungoo', t: 'The Toungoo Empire', y: '1510 – 1752',
+      d: 'From the small town of Toungoo, kings Tabinshwehti and Bayinnaung built the largest empire in the history of mainland Southeast Asia.',
+      ev: [
+        { n: 'Tabinshwehti captures Pegu', y: '1539', lat: 17.336, lon: 96.481, k: 'battle', vn: 'King Tabinshwehti, General Bayinnaung', vs: 'Kingdom of Hanthawaddy', d: 'The young king of Toungoo captured the Mon capital and moved his own capital there, beginning the unification of the country.' },
+        { n: 'Kanbawzathadi Palace', y: '1556', lat: 17.33, lon: 96.48, approx: true, k: 'event', vn: 'King Bayinnaung', d: 'Bayinnaung\'s magnificent palace at Bago; today part of it has been rebuilt from the old foundations.' },
+        { n: 'Bayinnaung captures Ayutthaya', y: '1564, 1569', lat: 14.355, lon: 100.568, k: 'battle', vn: 'King Bayinnaung', vs: 'Kingdom of Ayutthaya (Siam)', d: 'The Siamese capital fell twice; Bayinnaung\'s empire stretched from Manipur to Laos and Siam.' },
+        { n: 'Battle of Nong Sarai', y: '1593', lat: 14.64, lon: 99.97, approx: true, k: 'battle', vn: 'Crown Prince Mingyi Swa', vs: 'King Naresuan (Siam)', d: 'In a battle fought on elephant back, the Burmese crown prince was killed; Siam regained its independence.' },
+        { n: 'Capital moved to Ava', y: '1635', lat: 21.858, lon: 95.977, k: 'event', vn: 'King Thalun', d: 'The Restored Toungoo dynasty placed its capital in the north, farther from the sea, focusing on farming in the dry zone.' },
+        { n: 'The Mon capture Ava', y: '1752', lat: 21.858, lon: 95.977, k: 'battle', vn: 'King Mahadhammaraza Dipadi', vs: 'Restored Hanthawaddy kingdom (Mon)', d: 'Mon forces from the south marched north and captured the capital Ava, ending the Toungoo dynasty.' }
+      ]
+    },
+    {
+      id: 'konbaung', t: 'The Konbaung dynasty', y: '1752 – 1885',
+      d: 'Myanmar\'s last dynasty united the country for the third time and expanded its territory, but then gradually lost land in three wars with Britain.',
+      ev: [
+        { n: 'Alaungpaya founds the Konbaung dynasty', y: '1752', lat: 22.57, lon: 95.70, k: 'event', vn: 'King Alaungpaya', d: 'The headman of Shwebo gathered an army against the Mon and reunified the country in just a few years.' },
+        { n: 'Founding of Yangon', y: '1755', lat: 16.80, lon: 96.15, k: 'event', vn: 'King Alaungpaya', d: 'The king renamed the village of Dagon beside the Shwedagon Pagoda as Yangon, meaning "End of War".' },
+        { n: 'Sino-Burmese War', y: '1765 – 1769', lat: 24.2, lon: 97.2, approx: true, k: 'battle', vn: 'General Maha Thiha Thura', vs: 'Qing dynasty (Qianlong Emperor)', d: 'The Qing sent armies four times and never won; the two sides signed the Treaty of Kaungton.' },
+        { n: 'Mahamuni Buddha image', y: '1785', lat: 21.952, lon: 96.078, k: 'event', vn: 'King Bodawpaya', d: 'After conquering Arakan, the king brought the sacred Buddha image to his capital; today gold leaf is applied to the statue every day.' },
+        { n: 'General Maha Bandula killed', y: '1825', lat: 17.26, lon: 95.59, approx: true, k: 'battle', vn: 'General Maha Bandula', vs: 'British army', d: 'In the First Anglo-Burmese War, Myanmar\'s most famous general was killed at Danubyu; Myanmar lost Arakan and Tenasserim.' },
+        { n: 'U Bein Bridge', y: '~1850', lat: 21.893, lon: 96.058, k: 'event', d: 'The 1.2 km teak bridge across Taungthaman Lake is considered the longest teak bridge in the world.' },
+        { n: 'King Mindon builds Mandalay', y: '1857', lat: 21.995, lon: 96.096, k: 'event', vn: 'King Mindon', d: 'The new capital had a square palace, walls 2 km long on each side, and a wide moat all around.' },
+        { n: 'Buddhist scriptures carved in stone', y: '1868 – 1871', lat: 22.004, lon: 96.112, k: 'event', vn: 'King Mindon', d: 'The whole Tripitaka was carved on 729 stone slabs at Kuthodaw Pagoda, called "the world\'s largest book".' },
+        { n: 'Fall of Mandalay', y: '28 Nov 1885', lat: 21.995, lon: 96.096, k: 'battle', vn: 'King Thibaw', vs: 'British army', d: 'After a war of less than a month, King Thibaw was sent into exile in India; Myanmar lost its independence.' }
+      ]
+    },
+    {
+      id: 'british', t: 'British rule and the World Wars', y: '1886 – 1948',
+      d: 'Burma became a province of British India; the nationalist movement grew, and then the country became a major battlefield between Japan and the Allies.',
+      ev: [
+        { n: 'Student strike', y: '1920', lat: 16.83, lon: 96.135, approx: true, k: 'event', d: 'Students at Rangoon University protested a new university law; the day of the strike became Myanmar\'s National Day.' },
+        { n: 'Saya San rebellion', y: '1930 – 1932', lat: 17.65, lon: 95.79, approx: true, k: 'battle', vn: 'Saya San', vs: 'British government', d: 'Peasants made poor by heavy taxes and falling rice prices rose up in Tharrawaddy, and the revolt spread to many provinces.' },
+        { n: 'The Thirty Comrades', y: '1941', lat: 13.75, lon: 100.50, approx: true, k: 'event', vn: 'Aung San', d: 'Aung San and 29 others secretly went abroad for training, then formed the Burma Independence Army in Bangkok.' },
+        { n: 'The Death Railway', y: '1942 – 1943', lat: 15.96, lon: 97.73, k: 'event', d: 'Japan forced prisoners of war and Asian laborers to build the Thailand–Burma railway; tens of thousands died of disease and exhaustion.' },
+        { n: 'Turning against Japan', y: '27 Mar 1945', lat: 16.80, lon: 96.15, approx: true, k: 'battle', vn: 'Aung San', vs: 'Japanese army', d: 'Aung San\'s army switched sides to fight Japan; this day is commemorated as Armed Forces Day.' },
+        { n: 'Battle of Meiktila and Mandalay', y: 'Feb – Mar 1945', lat: 20.88, lon: 95.86, k: 'battle', vs: 'Japanese army', d: 'British-Indian forces took the transport hub of Meiktila and then Mandalay, opening the way to liberate Rangoon.' },
+        { n: 'Panglong Agreement', y: '12 Feb 1947', lat: 20.88, lon: 97.25, approx: true, k: 'event', vn: 'Aung San, Shan, Kachin and Chin leaders', d: 'The peoples agreed to form one Union together; 12 February is Myanmar\'s Union Day.' },
+        { n: 'Assassination of Aung San', y: '19 Jul 1947', lat: 16.776, lon: 96.163, k: 'event', vn: 'Aung San', d: 'The architect of independence and six ministers were murdered at the government building, only six months before independence day.' }
+      ]
+    },
+    {
+      id: 'independence', t: 'Independence and military rule', y: '1948 – 2010',
+      d: 'The Union of Burma became independent in 1948 but soon became caught up in ethnic conflict; from 1962 the army held power for almost half a century.',
+      ev: [
+        { n: 'Independence Day', y: '4 Jan 1948', lat: 16.776, lon: 96.163, k: 'event', vn: 'Prime Minister U Nu', d: 'The independence ceremony was held at 4:20 in the morning, a time chosen by astrologers as auspicious.' },
+        { n: 'Sixth Buddhist Council', y: '1954 – 1956', lat: 16.86, lon: 96.16, approx: true, k: 'event', vn: 'Prime Minister U Nu', d: 'Thousands of monks from many countries gathered in an artificial cave in Yangon to recite and review the Tripitaka.' },
+        { n: 'Ne Win coup', y: '2 Mar 1962', lat: 16.80, lon: 96.15, k: 'event', vn: 'General Ne Win', d: 'The army seized power, set the country on the "Burmese Way to Socialism" and closed it off from the outside world.' },
+        { n: 'The 8888 Uprising', y: '8 Aug 1988', lat: 16.80, lon: 96.15, k: 'event', vn: 'Aung San Suu Kyi', d: 'Hundreds of thousands of people demonstrated for democracy; the army cracked down and set up a new military government.' },
+        { n: 'Country renamed Myanmar', y: '1989', lat: 16.80, lon: 96.15, k: 'event', d: 'The government changed the English name from Burma to Myanmar and Rangoon to Yangon; some countries still use the old names.' },
+        { n: 'Aung San Suu Kyi receives the Nobel Peace Prize', y: '1991', lat: 59.912, lon: 10.734, k: 'event', vn: 'Aung San Suu Kyi', d: 'She was under house arrest at the time, so her son accepted the prize for her in Oslo (Norway).' },
+        { n: 'New capital Naypyidaw', y: '2005 – 2006', lat: 19.75, lon: 96.12, k: 'event', d: 'The government suddenly moved the capital to a newly built city in the middle of the country, with highways up to 20 lanes wide.' },
+        { n: 'Cyclone Nargis', y: '2 May 2008', lat: 16.0, lon: 95.0, approx: true, k: 'event', d: 'A powerful cyclone swept into the Irrawaddy Delta, leaving more than 130,000 people dead or missing, the worst natural disaster in Myanmar\'s history.' }
+      ]
+    },
+    {
+      id: 'modern', t: 'Reform and crisis', y: '2010 – present',
+      d: 'A decade of opening up and free elections was cut short when the army seized power again in 2021; the country fell into widespread armed conflict.',
+      ev: [
+        { n: 'Aung San Suu Kyi is freed', y: '13 Nov 2010', lat: 16.80, lon: 96.15, k: 'event', vn: 'Aung San Suu Kyi', d: 'After about 15 years of house arrest in total, she walked out of her lakeside house on Inya Lake before a crowd of supporters.' },
+        { n: 'SEA Games 27', y: '2013', lat: 19.75, lon: 96.12, approx: true, k: 'event', d: 'Myanmar hosted the Southeast Asian Games for the first time in 44 years, mainly in the capital Naypyidaw.' },
+        { n: 'NLD wins the general election', y: 'Nov 2015', lat: 19.75, lon: 96.12, approx: true, k: 'event', vn: 'Aung San Suu Kyi', d: 'The National League for Democracy won by a landslide; the next year Myanmar had its first civilian government in more than 50 years.' },
+        { n: 'Rakhine crisis and the Rohingya', y: '2017', lat: 20.82, lon: 92.37, approx: true, k: 'event', d: 'After military operations in Rakhine State, more than 700,000 Rohingya fled to Bangladesh; the United Nations and the International Court of Justice investigated.' },
+        { n: 'Bagan becomes a World Heritage Site', y: '2019', lat: 21.17, lon: 94.86, k: 'event', d: 'More than 3,500 surviving temples on the Bagan plain were recognized by UNESCO; hot-air balloons float over the pagodas at sunrise.' },
+        { n: 'The military seizes power', y: '1 Feb 2021', lat: 19.75, lon: 96.12, k: 'event', vn: 'General Min Aung Hlaing', d: 'The army arrested elected leaders and declared a state of emergency; protests spread and then turned into armed conflict.' },
+        { n: 'Sagaing–Mandalay earthquake', y: '28 Mar 2025', lat: 22.0, lon: 95.9, approx: true, k: 'event', d: 'A magnitude 7.7 earthquake collapsed many houses, temples and bridges in the central region; thousands were killed, and the shaking reached as far as Bangkok.' }
+      ]
+    }
+  ]
+};

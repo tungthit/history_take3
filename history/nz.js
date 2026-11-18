@@ -1,0 +1,79 @@
+// New Zealand history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'nz', name: 'New Zealand', flag: '🇳🇿',
+  eras: [
+    {
+      id: 'maori', t: 'The Māori arrive in Aotearoa', y: '~1250 – 1642',
+      d: 'Polynesians sailed thousands of kilometres across the Pacific to reach these islands around the 13th century and became the Māori; they called the land Aotearoa – "land of the long white cloud".',
+      ev: [
+        { n: 'Kupe discovers Aotearoa', y: 'legend', lat: -35.53, lon: 173.40, k: 'legend', vn: 'The navigator Kupe', d: 'Legend says Kupe chased a giant octopus from his homeland Hawaiki and found new land; he returned home from the mouth of the Hokianga.' },
+        { n: 'Canoes across the ocean', y: '~1250 – 1300', lat: -37.00, lon: 175.90, approx: true, k: 'event', vn: 'Ancestors of the Māori', d: 'Double-hulled waka such as Tainui and Te Arawa brought Polynesians here; each Māori tribe remembers the name of its ancestors\' canoe.' },
+        { n: 'The ancient village of Wairau Bar', y: '~1300', lat: -41.50, lon: 174.06, approx: true, k: 'event', vn: 'The first settlers', d: 'One of the oldest settlement sites in New Zealand, with burials, ornaments and moa eggs.' },
+        { n: 'The moa goes extinct', y: '~1400 – 1450', lat: -44.00, lon: 170.50, approx: true, k: 'event', vn: 'The Māori', d: 'The giant flightless bird, up to 3.6 m tall, was hunted to extinction in only about 100 – 150 years.' },
+        { n: 'Pā fortresses on Auckland\'s volcanoes', y: '~1500 – 1700', lat: -36.90, lon: 174.78, approx: true, k: 'event', vn: 'The Māori tribes of Tāmaki', d: 'The Māori built terraces and wooden palisades on small volcanic hills, turning them into fortified villages.' }
+      ]
+    },
+    {
+      id: 'chauau', t: 'The Europeans arrive', y: '1642 – 1839',
+      d: 'Abel Tasman and James Cook mapped the islands; seal hunters, whalers and missionaries followed, bringing muskets that set off wars between tribes.',
+      ev: [
+        { n: 'Abel Tasman reaches Golden Bay', y: 'Dec 1642', lat: -40.80, lon: 172.85, approx: true, k: 'battle', vn: 'The Ngāti Tūmatakōkiri people', vs: 'Abel Tasman (Dutch)', d: 'A Māori canoe rammed Tasman\'s boat and four sailors died; Tasman sailed away without landing.' },
+        { n: 'James Cook lands at Gisborne', y: 'Oct 1769', lat: -38.67, lon: 178.02, k: 'event', vn: 'The Māori of Tūranga', vs: 'Captain James Cook (British)', d: 'The first meeting ended in conflict; Cook then sailed around both islands and drew a fairly accurate map of them.' },
+        { n: 'Ship Cove', y: '1770 – 1777', lat: -41.10, lon: 174.24, k: 'event', vn: 'Captain James Cook (British)', d: 'Cook stopped here five times on his three voyages to take on water, repair his ships and trade with the Māori.' },
+        { n: 'The first Christmas sermon', y: '25 Dec 1814', lat: -35.21, lon: 174.10, approx: true, k: 'event', vn: 'Chief Ruatara', vs: 'Reverend Samuel Marsden', d: 'At Oihi in the Bay of Islands, Chief Ruatara translated the missionary\'s sermon for the villagers.' },
+        { n: 'The Musket Wars', y: '1807 – 1842', lat: -35.35, lon: 173.95, approx: true, k: 'battle', vn: 'Hongi Hika (Ngāpuhi)', vs: 'Other Māori tribes', d: 'Chief Hongi Hika brought guns back from Britain; tribes fought each other with muskets and tens of thousands died.' },
+        { n: 'The Declaration of Independence by the chiefs', y: '1835', lat: -35.268, lon: 174.081, k: 'event', vn: 'The northern chiefs', d: '34 Māori chiefs signed a declaration that New Zealand was an independent country governed by the tribes together.' }
+      ]
+    },
+    {
+      id: 'waitangi', t: 'The Treaty of Waitangi and colonisation', y: '1840 – 1859',
+      d: 'The 1840 Treaty of Waitangi between Britain and the Māori chiefs is the founding document of the nation; but the English and Māori versions were understood differently, leading to disputes that continue today.',
+      ev: [
+        { n: 'Signing of the Treaty of Waitangi', y: '6 Feb 1840', lat: -35.268, lon: 174.081, k: 'event', vn: 'More than 500 Māori chiefs (Hōne Heke)', vs: 'William Hobson (British)', d: 'More than 500 chiefs signed the treaty; 6 February is now New Zealand\'s national day – Waitangi Day.' },
+        { n: 'Founding of Wellington', y: '1840', lat: -41.286, lon: 174.776, k: 'event', vn: 'The New Zealand Company', d: 'The first ships carrying British settlers reached the natural harbour of Port Nicholson, the beginning of the city of Wellington.' },
+        { n: 'Cutting down the Kororāreka flagpole', y: '1845', lat: -35.26, lon: 174.12, k: 'battle', vn: 'Hōne Heke, Kawiti', vs: 'British troops', d: 'Hōne Heke cut down the British flagpole on the hill four times in protest, starting the Flagstaff War.' },
+        { n: 'Ruapekapeka Pā', y: 'Jan 1846', lat: -35.44, lon: 174.20, approx: true, k: 'battle', vn: 'Te Ruki Kawiti', vs: 'British troops (Henry Despard)', d: 'The fortress had underground bunkers to shelter from artillery; later military engineers saw it as a forerunner of modern trenches.' },
+        { n: 'The Māori King Movement', y: '1858', lat: -37.67, lon: 175.15, approx: true, k: 'event', vn: 'King Pōtatau Te Wherowhero', d: 'The tribes of the Waikato chose the first Māori king so they could hold on to their land together and not sell it to settlers.' }
+      ]
+    },
+    {
+      id: 'chientranh', t: 'The New Zealand Wars', y: '1860 – 1881',
+      d: 'Land disputes led to wars between the colonial government and many Māori tribes; the Māori had millions of hectares of land confiscated.',
+      ev: [
+        { n: 'The Otago gold rush', y: '1861', lat: -45.91, lon: 169.70, approx: true, k: 'event', vn: 'Gabriel Read', d: 'Gold was found at Gabriel\'s Gully; diggers flooded in and made Dunedin the largest city in the country at that time.' },
+        { n: 'Battle of Rangiriri', y: '20 Nov 1863', lat: -37.43, lon: 175.13, k: 'battle', vn: 'Waikato warriors', vs: 'British troops (Duncan Cameron)', d: 'British troops invaded the Waikato; the Rangiriri fortress fell after fierce fighting.' },
+        { n: 'Battle of Gate Pā', y: '29 Apr 1864', lat: -37.71, lon: 176.15, k: 'battle', vn: 'Rāwiri Puhirake', vs: 'British troops', d: 'The Māori beat back the British and even cared for wounded enemy soldiers, and are remembered as an example of humanity.' },
+        { n: 'Battle of Ōrākau', y: '31 Mar – 2 Apr 1864', lat: -38.03, lon: 175.40, approx: true, k: 'battle', vn: 'Rewi Maniapoto', vs: 'British troops', d: 'Besieged with no water to drink, the Māori answered the call to surrender: "We will fight on forever".' },
+        { n: 'Moving the capital to Wellington', y: '1865', lat: -41.278, lon: 174.776, k: 'event', vn: 'The colonial government', d: 'The capital moved from Auckland to Wellington because it is central, close to both islands.' },
+        { n: 'Non-violent resistance at Parihaka', y: '1881', lat: -39.29, lon: 173.84, k: 'event', vn: 'Te Whiti o Rongomai, Tohu Kākahi', vs: 'Government troops', d: 'Villagers sat quietly and children sang greetings as 1,600 soldiers marched in – an example of struggle without violence.' }
+      ]
+    },
+    {
+      id: 'tutri', t: 'A self-governing nation and two world wars', y: '1882 – 1945',
+      d: 'New Zealand led the world in women\'s rights, became a self-governing dominion and sent troops to fight in both world wars.',
+      ev: [
+        { n: 'The first frozen meat shipment', y: '1882', lat: -45.83, lon: 170.63, approx: true, k: 'event', vn: 'The ship Dunedin', d: 'The ship carried chilled mutton to Britain, helping sheep farming become New Zealand\'s main industry.' },
+        { n: 'Women win the vote', y: '19 Sep 1893', lat: -43.53, lon: 172.64, approx: true, k: 'event', vn: 'Kate Sheppard', d: 'New Zealand was the first self-governing country in the world to let women vote, thanks to a petition 270 m long.' },
+        { n: 'Battle of Chunuk Bair', y: '8 Aug 1915', lat: 40.23, lon: 26.31, k: 'battle', vn: 'Lieutenant Colonel William Malone', vs: 'Ottoman troops (Mustafa Kemal)', d: 'New Zealand soldiers took the hilltop at Gallipoli but held it for only two days, suffering very heavy losses.' },
+        { n: 'Battle of Passchendaele', y: '12 Oct 1917', lat: 50.90, lon: 3.02, k: 'battle', vn: 'The New Zealand Division', vs: 'German troops', d: 'In the mud of Belgium, more than 840 New Zealand soldiers were killed in a single morning – the country\'s darkest day.' },
+        { n: 'Hawke\'s Bay earthquake', y: '3 Feb 1931', lat: -39.49, lon: 176.91, k: 'event', vn: 'The people of Napier', d: 'The earthquake destroyed the city of Napier; it was rebuilt in a beautiful Art Deco style.' },
+        { n: 'Battle of Crete', y: 'May 1941', lat: 35.51, lon: 23.92, approx: true, k: 'battle', vn: 'General Bernard Freyberg', vs: 'German paratroopers', d: 'New Zealand soldiers, together with British, Australian and Greek troops, fought the first large airborne invasion in history.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Modern New Zealand', y: '1946 – present',
+      d: 'New Zealand is known for its nuclear-free policy and for protecting Māori culture and nature; the country also suffers many earthquakes and volcanic eruptions.',
+      ev: [
+        { n: 'Edmund Hillary climbs Everest', y: '29 May 1953', lat: 27.988, lon: 86.925, k: 'event', vn: 'Edmund Hillary, Tenzing Norgay', d: 'A New Zealand beekeeper and the Sherpa Tenzing were the first people to stand on the roof of the world.' },
+        { n: 'The Waitangi Tribunal', y: '1975', lat: -41.28, lon: 174.78, approx: true, k: 'event', vn: 'Whina Cooper', d: 'After Whina Cooper\'s land march, a tribunal was set up to examine breaches of the Treaty of Waitangi.' },
+        { n: 'Sinking of the Rainbow Warrior', y: '10 Jul 1985', lat: -36.84, lon: 174.77, k: 'event', vn: 'Prime Minister David Lange', vs: 'French intelligence', d: 'The Greenpeace ship that protested against nuclear tests was bombed and sunk in Auckland harbour by French agents.' },
+        { n: 'The nuclear-free law', y: '1987', lat: -41.278, lon: 174.776, k: 'event', vn: 'Prime Minister David Lange', d: 'New Zealand banned nuclear weapons and nuclear-powered ships from its territory; Māori became an official language the same year.' },
+        { n: 'Christchurch earthquake', y: '22 Feb 2011', lat: -43.53, lon: 172.64, k: 'event', vn: 'The people of Christchurch', d: 'The earthquake killed 185 people and brought down many buildings, including the spire of the cathedral.' },
+        { n: 'All Blacks win the Rugby World Cup', y: '2011', lat: -36.875, lon: 174.744, k: 'event', vn: 'The All Blacks (Richie McCaw)', vs: 'France', d: 'At home at Eden Park, the rugby team famous for the haka dance won the world cup.' },
+        { n: 'Rockets from the Māhia Peninsula', y: '2018', lat: -39.26, lon: 177.86, k: 'event', vn: 'Rocket Lab (Peter Beck)', d: 'The Electron rocket put satellites into orbit, making New Zealand one of the few countries able to launch satellites.' },
+        { n: 'Whakaari volcano erupts', y: '9 Dec 2019', lat: -37.52, lon: 177.18, k: 'event', vn: 'Rescue crews', d: 'The volcano on White Island erupted suddenly while tourists were visiting, killing 22 people.' },
+        { n: 'The Hīkoi mō te Tiriti march', y: '19 Nov 2024', lat: -41.278, lon: 174.776, k: 'event', vn: 'The Māori and their supporters', d: 'About 40,000 people walked to parliament to protest a bill on how the Treaty of Waitangi is interpreted; the bill was rejected in 2025.' }
+      ]
+    }
+  ]
+};

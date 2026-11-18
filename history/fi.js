@@ -1,0 +1,78 @@
+// Finland history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'fi', name: 'Finland', flag: '🇫🇮',
+  eras: [
+    {
+      id: 'codai', t: 'Ancient times and the Middle Ages', y: '~3000 BCE – 1523',
+      d: 'Finns and Sámi lived among forests and lakes; from the 12th–13th centuries, the land gradually became part of the Kingdom of Sweden.',
+      ev: [
+        { n: 'Astuvansalmi rock paintings', y: '~3000 BCE', lat: 61.800, lon: 26.750, approx: true, k: 'event', vn: 'Ancient hunter-gatherers', d: 'Figures of elk, people and boats painted in red ochre on a cliff beside Lake Saimaa.' },
+        { n: 'Sammallahdenmäki burial cairns', y: '~1500 – 500 BCE', lat: 61.250, lon: 21.890, approx: true, k: 'event', vn: 'People of the Bronze Age', d: 'More than 30 tombs built of granite stones on a hill, now a UNESCO World Heritage Site.' },
+        { n: 'Legend of Bishop Henry and Lalli', y: '~1156', lat: 61.110, lon: 22.340, approx: true, k: 'legend', vn: 'Lalli, Bishop Henry', d: 'The story tells how the farmer Lalli killed the bishop on the frozen Lake Köyliö; the bishop later became the patron saint of Finland.' },
+        { n: 'Turku Castle and Cathedral', y: '~1280 – 1300', lat: 60.452, lon: 22.278, k: 'event', vn: 'Swedish bishops and officials', d: 'Turku was the most important city and was the capital of Finland until 1812.' },
+        { n: 'Treaty of Nöteborg', y: '1323', lat: 59.954, lon: 31.038, k: 'event', vn: 'King Magnus Eriksson (Sweden)', vs: 'Republic of Novgorod', d: 'The first treaty to draw a border between Sweden and Novgorod, dividing the region of Karelia in two.' },
+        { n: 'Olavinlinna Castle', y: '1475', lat: 61.864, lon: 28.900, k: 'event', vn: 'Erik Axelsson Tott', d: 'A stone castle on an island in a swift current, now the home of a summer opera festival.' }
+      ]
+    },
+    {
+      id: 'thuydien', t: 'The Swedish period', y: '1523 – 1809',
+      d: 'Finland is part of the Kingdom of Sweden, gets written Finnish and its first university, but is often a battlefield between Sweden and Russia.',
+      ev: [
+        { n: 'The first ABC book', y: '1543', lat: 60.452, lon: 22.278, k: 'event', vn: 'Mikael Agricola', d: 'Bishop Agricola writes the first primer in the Finnish language, and is called the "father of written Finnish".' },
+        { n: 'Founding of Helsinki', y: '1550', lat: 60.215, lon: 24.980, k: 'event', vn: 'King Gustav Vasa', d: 'The king founds the city at the mouth of the Vantaa river to compete with Tallinn; later the city moved closer to the sea.' },
+        { n: 'The Club War', y: '1596 – 1597', lat: 62.730, lon: 22.580, approx: true, k: 'battle', vn: 'Jaakko Ilkka', vs: 'Klaus Fleming', d: 'Peasants armed with clubs rise up against heavy taxes and soldiers quartered in their villages, but are defeated.' },
+        { n: 'Royal Academy of Turku', y: '1640', lat: 60.452, lon: 22.276, k: 'event', vn: 'Count Per Brahe', d: 'The first university in Finland, later moved to Helsinki and became the University of Helsinki.' },
+        { n: 'Battle of Napue', y: '1714', lat: 63.000, lon: 22.320, approx: true, k: 'battle', vn: 'General Carl Gustaf Armfeldt', vs: 'The Russian army (Mikhail Golitsyn)', d: 'The defeat begins a period of Russian occupation of Finland, which Finns call the "Greater Wrath".' },
+        { n: 'Suomenlinna sea fortress', y: '1748', lat: 60.145, lon: 24.988, k: 'event', vn: 'Augustin Ehrensvärd', d: 'A fortress spread over six islands off Helsinki, now a World Heritage Site where people live.' },
+        { n: 'Battle of Koljonvirta', y: '1808', lat: 63.560, lon: 27.190, approx: true, k: 'battle', vn: 'Georg Carl von Döbeln', vs: 'The Russian army', d: "One of the battles praised by the poet Runeberg in his collection of poems about the Finnish War." }
+      ]
+    },
+    {
+      id: 'daicongquoc', t: 'The Grand Duchy of Finland', y: '1809 – 1917',
+      d: 'Finland belongs to the Russian Empire but has broad autonomy; Finns revive their language, poetry and music.',
+      ev: [
+        { n: 'Diet of Porvoo', y: '1809', lat: 60.395, lon: 25.660, k: 'event', vn: 'The Estates of Finland', vs: 'Tsar Alexander I', d: "The Tsar promises to keep Finland's laws and religion; Finland becomes an autonomous Grand Duchy." },
+        { n: 'Helsinki becomes the capital', y: '1812', lat: 60.169, lon: 24.952, k: 'event', vn: 'Architect Carl Ludvig Engel', d: 'The capital moves from Turku to Helsinki; Senate Square, with its white cathedral, is built in the neoclassical style.' },
+        { n: 'The epic Kalevala', y: '1835', lat: 64.227, lon: 27.730, approx: true, k: 'event', vn: 'Elias Lönnrot', d: 'A doctor from Kajaani travels all over Karelia writing down folk songs, and collects them into an epic about the hero Väinämöinen.' },
+        { n: 'The music "Finlandia"', y: '1899 – 1900', lat: 60.456, lon: 25.106, approx: true, k: 'event', vn: 'Jean Sibelius', d: 'The symphonic piece becomes a symbol of the Finnish national spirit.' },
+        { n: 'Women win the vote', y: '1906', lat: 60.171, lon: 24.954, k: 'event', vn: 'The Parliament of Finland', d: 'Finland is the first European country to give women the right to vote, and the first in the world to let women stand for parliament.' },
+        { n: 'Declaration of independence', y: '6 Dec 1917', lat: 60.169, lon: 24.953, k: 'event', vn: 'P. E. Svinhufvud', d: 'After the Russian Revolution, parliament declares independence; on 6 December Finns light two candles in the window.' }
+      ]
+    },
+    {
+      id: 'doclap', t: 'Independent Finland', y: '1918 – 1939',
+      d: 'The first year of independence brings a short but painful civil war; afterwards Finland builds a republic and becomes famous for its runners.',
+      ev: [
+        { n: 'Battle of Tampere', y: '1918', lat: 61.498, lon: 23.760, k: 'battle', vn: 'The Whites (Carl Gustaf Mannerheim)', vs: 'The Reds', d: 'The largest battle of the Finnish Civil War; the Whites take the industrial city after street fighting.' },
+        { n: 'Treaty of Tartu', y: '1920', lat: 58.380, lon: 26.720, k: 'event', vn: 'Juho Kusti Paasikivi', vs: 'Soviet Russia', d: 'The two sides recognize the border; Finland gains the port of Petsamo on the Arctic Ocean.' },
+        { n: 'The Åland Islands', y: '1921', lat: 60.097, lon: 19.935, k: 'event', vn: 'Finland', vs: 'Sweden', d: 'The League of Nations decides that Åland belongs to Finland but is self-governing, Swedish-speaking and has no army.' },
+        { n: 'The "Flying Finn" Paavo Nurmi', y: '1924', lat: 48.929, lon: 2.248, k: 'event', vn: 'Paavo Nurmi', d: 'At the Paris Olympics, Nurmi wins 5 gold medals, including two races only about an hour apart.' }
+      ]
+    },
+    {
+      id: 'thechien', t: 'World War II', y: '1939 – 1945',
+      d: 'Finland fights three wars: the Winter War and the Continuation War against the Soviet Union, then the Lapland War against Germany; the country loses part of Karelia but keeps its independence.',
+      ev: [
+        { n: 'Battle of Suomussalmi', y: '1939 – 1940', lat: 64.890, lon: 28.910, k: 'battle', vn: 'Colonel Hjalmar Siilasvuo', vs: 'The Red Army', d: 'Finnish ski troops in white cloaks cut Soviet columns into pieces on forest roads in −40°C cold.' },
+        { n: 'The Mannerheim Line at Summa', y: '1940', lat: 60.570, lon: 28.820, approx: true, k: 'battle', vn: 'Marshal Carl Gustaf Mannerheim', vs: 'The Red Army', d: 'The line on the Karelian Isthmus held out for two months before being broken through in February 1940.' },
+        { n: 'Treaty of Moscow and the evacuation of Viipuri', y: '1940', lat: 60.710, lon: 28.750, k: 'event', vn: 'The people of Karelia', vs: 'Soviet Union', d: 'Finland gives up the city of Viipuri (Vyborg) and many parts of Karelia; more than 400,000 people have to move elsewhere.' },
+        { n: 'Battle of Tali-Ihantala', y: '1944', lat: 60.800, lon: 28.730, approx: true, k: 'battle', vn: 'General Karl Lennart Oesch', vs: 'The Red Army', d: 'The largest battle ever fought in Northern Europe; the Finnish army halts the attack, opening the way to an armistice.' },
+        { n: 'The Lapland War', y: '1944 – 1945', lat: 66.500, lon: 25.730, k: 'battle', vn: 'General Hjalmar Siilasvuo', vs: 'The German army', d: 'Finland drives the Germans north; as they retreat, the Germans burn almost the whole city of Rovaniemi.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Modern Finland', y: '1945 – present',
+      d: 'Finland becomes a wealthy country with famous education and technology, joins the European Union in 1995 and NATO in 2023.',
+      ev: [
+        { n: 'Helsinki Olympics', y: '1952', lat: 60.187, lon: 24.927, k: 'event', vn: 'Paavo Nurmi (the torch lighter)', d: 'The first Olympics the Soviet Union took part in; the legendary Paavo Nurmi lights the opening torch.' },
+        { n: 'Helsinki Final Act', y: '1975', lat: 60.176, lon: 24.934, k: 'event', vn: 'President Urho Kekkonen', d: '35 countries of Eastern and Western Europe, together with the USA and Canada, sign the document at Finlandia Hall, easing Cold War tensions.' },
+        { n: 'Santa Claus Village in Rovaniemi', y: '1985', lat: 66.543, lon: 25.847, k: 'event', vn: 'The people of Lapland', d: 'Right on the Arctic Circle, children all over the world send letters to "Santa Claus" here.' },
+        { n: 'Linux is born', y: '1991', lat: 60.172, lon: 24.950, k: 'event', vn: 'Linus Torvalds', d: 'A student at the University of Helsinki writes the Linux operating system, which now runs on most servers and Android phones.' },
+        { n: 'Joining the European Union', y: '1995', lat: 60.169, lon: 24.953, approx: true, k: 'event', vn: 'President Martti Ahtisaari', d: 'Finland joins the EU, and in 2002 is the only Nordic country to use the euro.' },
+        { n: 'The game Angry Birds', y: '2009', lat: 60.180, lon: 24.830, k: 'event', vn: 'The company Rovio', d: 'The game about angry birds, from a company in Espoo, is downloaded billions of times.' },
+        { n: 'Joining NATO', y: '4 Apr 2023', lat: 50.877, lon: 4.425, k: 'event', vn: 'President Sauli Niinistö', d: 'After the war in Ukraine, Finland gives up its policy of non-alignment and becomes the 31st member of NATO.' },
+        { n: 'Onkalo nuclear waste repository', y: '2024 – 2025', lat: 61.236, lon: 21.440, approx: true, k: 'event', vn: 'The company Posiva', d: 'The repository, dug about 400 m deep into granite at Olkiluoto, is the first place in the world to store used nuclear fuel for the long term.' }
+      ]
+    }
+  ]
+};

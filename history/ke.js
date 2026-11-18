@@ -1,0 +1,91 @@
+// Kenya history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'ke', name: 'Kenya', flag: '🇰🇪',
+  eras: [
+    {
+      id: 'tien-su', t: 'Prehistory by Lake Turkana', y: '~3.3 million years ago – 500',
+      d: 'Around Lake Turkana, scientists found stone tools and famous early human fossils; later the Bantu, Nilotic and Cushitic peoples came to live here.',
+      ev: [
+        { n: 'Lomekwi Stone Tools', y: '~3.3 million years ago', lat: 3.91, lon: 35.75, approx: true, k: 'event', vn: 'Human ancestors', d: 'Stones chipped into blades are the oldest tools ever found, older even than the genus Homo.' },
+        { n: 'Koobi Fora', y: '~1.9 million years ago', lat: 3.95, lon: 36.19, approx: true, k: 'event', vn: 'Richard and Meave Leakey', d: 'The east shore of Lake Turkana is a treasure trove of fossils: several early human species lived here at the same time and in the same place.' },
+        { n: 'Turkana Boy', y: '~1.5 million years ago', lat: 4.07, lon: 35.88, approx: true, k: 'event', vn: 'Kamoya Kimeu', d: 'In 1984, the Kenyan scientist Kamoya Kimeu found an almost complete skeleton of a Homo erectus boy.' },
+        { n: 'Olorgesailie', y: '~1 million years ago', lat: -1.58, lon: 36.45, k: 'event', vn: 'Homo erectus', d: 'Thousands of stone hand axes lie scattered on the ground like an ancient "workshop" in the Rift Valley.' },
+        { n: 'The Bantu Peoples Arrive', y: '~500', lat: -0.1, lon: 34.75, approx: true, k: 'event', vn: 'The Bantu', d: 'Farmers who knew ironworking came from the west to the Lake Victoria region; ancestors of the later Luhya and Kikuyu.' }
+      ]
+    },
+    {
+      id: 'swahili', t: 'The Swahili Coast', y: '~800 – 1498',
+      d: 'Swahili port cities such as Mombasa, Malindi and Lamu grew rich from trade across the Indian Ocean with Arabia, Persia, India and China.',
+      ev: [
+        { n: 'Pate Island and Shanga', y: '~800', lat: -2.10, lon: 41.03, approx: true, k: 'event', vn: 'The Swahili people', d: 'At Shanga on Pate Island, archaeologists found an ancient mosque and coins, early traces of Swahili culture.' },
+        { n: 'Ancient City of Gedi', y: '~1100 – 1600', lat: -3.31, lon: 40.02, k: 'event', vn: 'The Swahili people', d: 'A coral-stone city in the forest with a palace, flushing toilets and Chinese porcelain, then mysteriously abandoned.' },
+        { n: 'Lamu Old Town', y: '~1370', lat: -2.27, lon: 40.90, k: 'event', vn: 'The Swahili people', d: 'The oldest continuously inhabited Swahili town; the island has almost no cars, and people get around by donkey and dhow sailboat.' },
+        { n: 'Zheng He\'s Fleet Visits Malindi', y: '~1418', lat: -3.22, lon: 40.12, k: 'event', vn: 'King of Malindi', vs: 'Zheng He (Ming dynasty)', d: 'Malindi sent the Ming emperor a giraffe as a gift; the Chinese thought it was the qilin, a mythical unicorn.' }
+      ]
+    },
+    {
+      id: 'bo-oman', t: 'Portugal and Oman', y: '1498 – 1895',
+      d: 'Portugal controlled the coast for 200 years until the Omanis and the Swahili drove them out; later European missionaries moved inland.',
+      ev: [
+        { n: 'Vasco da Gama in Malindi', y: '1498', lat: -3.2236, lon: 40.1281, k: 'event', vn: 'King of Malindi', vs: 'Vasco da Gama (Portugal)', d: 'The king of Malindi gave Vasco da Gama a pilot to guide him to India; the stone pillar da Gama set up is still there.' },
+        { n: 'Fort Jesus', y: '1593', lat: -4.0627, lon: 39.6795, k: 'event', vn: 'The Swahili of Mombasa', vs: 'Portugal', d: 'The Portuguese built a fort shaped like a lying human figure in Mombasa to hold the sea route to India.' },
+        { n: 'Siege of Fort Jesus', y: '1696 – 1698', lat: -4.0627, lon: 39.6795, k: 'battle', vn: 'Omani forces and the Swahili', vs: 'Portuguese garrison', d: 'The siege lasted almost three years; when the fort fell, Portugal lost control of the Kenyan coast.' },
+        { n: 'Battle of Shela', y: '~1812', lat: -2.30, lon: 40.91, approx: true, k: 'battle', vn: 'The people of Lamu', vs: 'Allied forces of Mombasa and Pate', d: 'Lamu won the battle on Shela beach, then gained the protection of the Sultan of Oman and became a wealthy port.' },
+        { n: 'Krapf Sees Mount Kenya', y: '1849', lat: -0.15, lon: 37.31, k: 'event', vn: 'Chief Kivoi', vs: 'Missionary Johann Ludwig Krapf', d: 'The German missionary reported a snow-capped mountain right on the equator; European scientists did not believe him at the time.' }
+      ]
+    },
+    {
+      id: 'thuoc-dia', t: 'British Colonial Era', y: '1895 – 1952',
+      d: 'Britain set up the East Africa Protectorate and built the Uganda Railway; white settlers took the fertile highlands, while Africans lost land and had their rights restricted.',
+      ev: [
+        { n: 'Uganda Railway', y: '1896 – 1901', lat: -4.05, lon: 39.66, approx: true, k: 'event', vn: 'Indian and African workers', d: 'The railway from Mombasa to Lake Victoria was called the "Lunatic Express" because it was so costly and hard to build.' },
+        { n: 'Nandi Resistance', y: '1895 – 1905', lat: 0.20, lon: 35.10, approx: true, k: 'battle', vn: 'Koitalel arap Samoei', vs: 'British Army', d: 'The Nandi leader resisted the railway for 10 years, until a British officer killed him at a negotiation meeting.' },
+        { n: 'The Man-Eaters of Tsavo', y: '1898', lat: -2.98, lon: 38.47, approx: true, k: 'event', vn: 'Railway workers', d: 'Two maneless male lions halted work on the Tsavo River bridge for months; the story was made into a film.' },
+        { n: 'Founding of Nairobi', y: '1899', lat: -1.286, lon: 36.817, k: 'event', vn: 'The Maasai, railway workers', d: 'A railway depot on a swamp with the Maasai name "Enkare Nairobi" – "cool water" – quickly became the capital.' },
+        { n: 'Harry Thuku Protest', y: '1922', lat: -1.286, lon: 36.817, k: 'event', vn: 'Harry Thuku', vs: 'British colonial government', d: 'People protested in Nairobi demanding the release of the activist Harry Thuku; police opened fire and many people died.' },
+        { n: 'A Princess Becomes Queen at Treetops', y: '1952', lat: -0.36, lon: 36.92, approx: true, k: 'event', vn: 'Treetops Hotel', d: 'Princess Elizabeth was watching wildlife from a tree hotel in the Aberdares when her father died; she became Queen Elizabeth II.' }
+      ]
+    },
+    {
+      id: 'mau-mau', t: 'Mau Mau and Independence', y: '1952 – 1963',
+      d: 'The Mau Mau uprising demanded land and freedom; Britain declared a state of emergency, detained tens of thousands of people, and finally had to grant independence.',
+      ev: [
+        { n: 'State of Emergency', y: 'Oct 1952', lat: -1.286, lon: 36.817, k: 'event', vn: 'Mau Mau fighters', vs: 'British colonial government', d: 'Britain declared a state of emergency and arrested nationalist leaders; the conflict lasted until 1960.' },
+        { n: 'Kapenguria Trial', y: '1952 – 1953', lat: 1.24, lon: 35.11, k: 'event', vn: 'Jomo Kenyatta and 5 leaders', vs: 'British colonial government', d: 'Kenyatta was tried in a remote town and jailed for 7 years, though there was no solid evidence that he led the Mau Mau.' },
+        { n: 'Capture of Dedan Kimathi', y: '1956', lat: -0.42, lon: 36.95, approx: true, k: 'battle', vn: 'Dedan Kimathi', vs: 'British colonial police', d: 'The Mau Mau leader in the Aberdare forest was captured and executed in 1957; his statue now stands in central Nairobi.' },
+        { n: 'Hola Camp Massacre', y: '1959', lat: -1.49, lon: 40.03, k: 'event', vn: 'The detainees', d: 'Eleven detainees at Hola camp were beaten to death; the affair shocked Britain and sped up independence.' },
+        { n: 'Lancaster House Conferences', y: '1960 – 1963', lat: 51.505, lon: -0.139, k: 'event', vn: 'Tom Mboya, Ronald Ngala', vs: 'British government', d: 'Kenyan leaders negotiated a constitution in London, paving the way for elections and independence.' },
+        { n: 'Independence Day', y: '12 Dec 1963', lat: -1.316, lon: 36.81, k: 'event', vn: 'Jomo Kenyatta', d: 'At midnight in Uhuru Gardens, the Kenyan flag was raised; a year later Kenya became a republic with Kenyatta as president.' }
+      ]
+    },
+    {
+      id: 'kenyatta-moi', t: 'The Kenyatta and Moi Era', y: '1963 – 2002',
+      d: 'Kenya was more stable than many neighbors, but power was concentrated in one party; in 1991 multiparty politics was restored.',
+      ev: [
+        { n: 'Assassination of Tom Mboya', y: '1969', lat: -1.284, lon: 36.82, k: 'event', vn: 'Tom Mboya', d: 'The young politician, who had helped hundreds of Kenyan students go to the USA to study, was shot dead on a Nairobi street.' },
+        { n: 'Green Belt Movement', y: '1977', lat: -1.286, lon: 36.817, approx: true, k: 'event', vn: 'Wangari Maathai', d: 'Wangari Maathai mobilized rural women to plant more than 30 million trees across Kenya.' },
+        { n: 'Moi Becomes President', y: '1978', lat: -1.286, lon: 36.817, k: 'event', vn: 'Daniel arap Moi', d: 'After Kenyatta died, Vice President Moi took over and ruled for 24 years.' },
+        { n: 'Ivory Burning', y: '1989', lat: -1.37, lon: 36.85, approx: true, k: 'event', vn: 'Daniel arap Moi, Richard Leakey', d: 'Kenya burned 12 tonnes of elephant tusks in Nairobi National Park to urge the world to ban the ivory trade.' },
+        { n: 'Saba Saba Protest', y: '7 Jul 1990', lat: -1.286, lon: 36.817, k: 'event', vn: 'Kenneth Matiba, Charles Rubia', vs: 'Moi government', d: 'People protested to demand multiparty politics; in 1991 Kenya dropped one-party rule.' },
+        { n: 'US Embassy Bombing', y: '7 Aug 1998', lat: -1.2895, lon: 36.8186, k: 'event', vn: 'The people of Nairobi', d: 'Al-Qaeda bombed the US embassies in Nairobi and Dar es Salaam; more than 200 people died in Nairobi.' }
+      ]
+    },
+    {
+      id: 'hien-dai', t: 'Modern Kenya', y: '2002 – present',
+      d: 'Kenya is the economic hub of East Africa, famous for its long-distance runners, the M-Pesa mobile wallet and national parks; elections are often tense.',
+      ev: [
+        { n: 'Wangari Maathai Wins the Nobel Prize', y: '2004', lat: -1.286, lon: 36.817, approx: true, k: 'event', vn: 'Wangari Maathai', d: 'She was the first African woman to win the Nobel Peace Prize, for her work planting trees and protecting the environment.' },
+        { n: 'M-Pesa Mobile Wallet', y: '2007', lat: -1.286, lon: 36.817, approx: true, k: 'event', vn: 'Safaricom', d: 'A money transfer service over basic mobile phones made it easy for millions of people without bank accounts to send money.' },
+        { n: 'Post-Election Violence', y: '2007 – 2008', lat: 0.514, lon: 35.27, approx: true, k: 'event', vn: 'Mwai Kibaki, Raila Odinga', d: 'A disputed election result caused violence that killed more than 1,100 people; Kofi Annan mediated a coalition government.' },
+        { n: 'New Constitution', y: '2010', lat: -1.286, lon: 36.817, approx: true, k: 'event', vn: 'Kenyan voters', d: 'Through a referendum, Kenya got a new constitution that devolved power to 47 counties and created a Senate.' },
+        { n: 'David Rudisha Breaks the Record', y: '2012', lat: 51.5386, lon: -0.0166, k: 'event', vn: 'David Rudisha', d: 'At the London Olympics, Rudisha ran 800 m in 1 minute 40.91 seconds, a world record that stood for many years.' },
+        { n: 'Westgate Mall Attack', y: 'Sep 2013', lat: -1.2565, lon: 36.8034, k: 'event', vn: 'Kenyan security forces', vs: 'Al-Shabaab group', d: 'Gunmen held a shopping center in Nairobi for four days; 67 people were killed.' },
+        { n: 'Garissa University Attack', y: 'Apr 2015', lat: -0.45, lon: 39.66, k: 'event', vn: 'Students of Garissa University', d: 'The Al-Shabaab group attacked a university dormitory, killing 148 people, most of them students.' },
+        { n: 'Mombasa – Nairobi Standard Gauge Railway', y: '2017', lat: -1.37, lon: 36.92, approx: true, k: 'event', vn: 'Uhuru Kenyatta', d: 'The new China-built railway cut the trip from the coast to the capital to about 5 hours.' },
+        { n: 'Kipchoge Runs a Sub-2-Hour Marathon', y: '2019', lat: 48.21, lon: 16.42, k: 'event', vn: 'Eliud Kipchoge', d: 'In Vienna, Kipchoge became the first person to run 42.195 km in under 2 hours (1:59:40), though it did not count as an official record.' },
+        { n: 'Gen Z Protests', y: 'Jun 2024', lat: -1.2907, lon: 36.8219, approx: true, k: 'event', vn: 'Kenyan youth', vs: 'William Ruto government', d: 'Young people organized protests through social media against a tax-increase bill; the president withdrew the bill, and many people died.' },
+        { n: 'Security Mission in Haiti', y: '2024', lat: 18.54, lon: -72.34, k: 'event', vn: 'Kenyan police', d: 'Kenya led a UN-backed multinational security mission to help Haiti deal with armed gangs.' }
+      ]
+    }
+  ]
+};

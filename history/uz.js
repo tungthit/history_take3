@@ -1,0 +1,101 @@
+// Uzbekistan history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'uz', name: 'Uzbekistan', flag: '🇺🇿',
+  eras: [
+    {
+      id: 'sogdiana', t: 'Sogdiana, Khorezm and Alexander', y: '~700 BCE – 100 BCE',
+      d: 'Between the Amu Darya and Syr Darya rivers, the Sogdians and Khorezmians built oasis cities; Alexander the Great had to fight here for three years.',
+      ev: [
+        { n: 'City of Afrasiyab (ancient Samarkand)', y: '~700 BCE', lat: 39.67, lon: 66.99, k: 'event', vn: 'Sogdians', d: 'On Afrasiyab hill stood the city of Marakanda, the forerunner of Samarkand – one of the oldest cities in Central Asia.' },
+        { n: 'Alexander takes Marakanda', y: '329 BCE', lat: 39.67, lon: 66.99, k: 'battle', vn: 'Spitamenes', vs: 'Alexander the Great', d: 'The Sogdian leader Spitamenes waged guerrilla warfare for two years, inflicting rare, heavy losses on Alexander.' },
+        { n: 'Sogdian Rock', y: '327 BCE', lat: 38.5, lon: 67.5, approx: true, k: 'battle', vn: 'Oxyartes', vs: 'Alexander the Great', d: 'Alexander\'s soldiers climbed the cliff at night to capture the fortress on the rock; he later married Roxana, the chieftain\'s daughter.' },
+        { n: 'Toprak-Kala fortress', y: '~100 – 300 CE', lat: 41.92, lon: 60.82, approx: true, k: 'event', vn: 'Kings of Khorezm', d: 'The mud-brick capital of Khorezm in the middle of the desert, with a palace holding wall paintings and statues of kings.' }
+      ]
+    },
+    {
+      id: 'to-lua', t: 'The Silk Road', y: '~130 BCE – 709 CE',
+      d: 'Caravans carried silk from China through Fergana, Samarkand and Bukhara to Persia; Sogdian merchants became the best traders in Asia.',
+      ev: [
+        { n: 'Zhang Qian arrives in Dayuan', y: '~128 BCE', lat: 40.5, lon: 71.5, approx: true, k: 'event', vn: 'King of Dayuan (Fergana)', vs: 'Envoy Zhang Qian (Han dynasty)', d: 'The Han envoy told of the "blood-sweating horses" of the Fergana valley, beginning relations between China and Central Asia.' },
+        { n: 'War of the Heavenly Horses', y: '104 – 101 BCE', lat: 40.6, lon: 71.6, approx: true, k: 'battle', vn: 'King of Dayuan', vs: 'Li Guangli (Han dynasty)', d: 'Emperor Wu of Han sent an army across the desert all the way to Fergana just to obtain the prized horses.' },
+        { n: 'Buddhist monastery of Fayaz Tepe', y: '~100 CE', lat: 37.25, lon: 67.20, approx: true, k: 'event', vn: 'Monks of the Kushan era', d: 'Near Termez, Buddhist monasteries and stupas show that Buddhism once spread through Central Asia to China.' },
+        { n: 'Xuanzang passes through Samarkand', y: '~630', lat: 39.65, lon: 66.96, k: 'event', vn: 'Sogdian king in Samarkand', vs: 'Monk Xuanzang (Tang dynasty)', d: 'On his journey to India to seek Buddhist scriptures, Xuanzang stopped in Samarkand and described a rich city with skilled traders.' },
+        { n: 'Ambassadors\' wall painting', y: '~660', lat: 39.674, lon: 66.989, k: 'event', vn: 'King Varkhuman', d: 'The painting at Afrasiyab shows envoys from China, Korea and many countries paying homage to the king of Samarkand.' }
+      ]
+    },
+    {
+      id: 'samanid', t: 'The Arabs and the Samanids', y: '709 – 999',
+      d: 'The Arabs brought Islam; under the Samanids, Bukhara became a center of science, producing scholars such as al-Khwarizmi and Ibn Sina.',
+      ev: [
+        { n: 'Qutayba takes Bukhara and Samarkand', y: '709 – 712', lat: 39.775, lon: 64.42, k: 'battle', vn: 'King Tughshada, King Ghurak', vs: 'Qutayba ibn Muslim (Umayyad)', d: 'The Arab general took the two great cities; Islam gradually replaced fire worship and Buddhism in this region.' },
+        { n: 'Battle of Talas', y: '751', lat: 42.52, lon: 72.24, approx: true, k: 'battle', vn: 'Ziyad ibn Salih (Abbasid)', vs: 'Gao Xianzhi (Tang dynasty)', d: 'The Abbasid army defeated the Tang army; according to legend, Chinese prisoners brought the art of papermaking to Samarkand.' },
+        { n: 'Al-Khwarizmi and algebra', y: '~820', lat: 41.378, lon: 60.36, approx: true, k: 'event', vn: 'Muhammad al-Khwarizmi', d: 'The mathematician from Khorezm wrote the book that gave "algebra" its name; the word "algorithm" also comes from his name.' },
+        { n: 'Samanid Mausoleum', y: '~914', lat: 39.776, lon: 64.400, k: 'event', vn: 'Ismail Samani', d: 'The small brick tomb in Bukhara lays its bricks in patterns like woven baskets, changing color with the sunlight through the day.' },
+        { n: 'Al-Biruni is born', y: '973', lat: 41.69, lon: 60.75, approx: true, k: 'event', vn: 'Abu Rayhan al-Biruni', d: 'The scholar from Khorezm calculated the radius of the Earth very accurately and wrote a great book on India.' },
+        { n: 'Ibn Sina is born', y: '980', lat: 39.86, lon: 64.63, approx: true, k: 'event', vn: 'Ibn Sina (Avicenna)', d: 'Born in the village of Afshana near Bukhara, he wrote the "Canon of Medicine", used by European medical schools for 600 years.' }
+      ]
+    },
+    {
+      id: 'mong-co', t: 'Khwarazm and the Mongol Invasion', y: '999 – 1370',
+      d: 'Turkic dynasties followed one another; the mighty Khwarazmian Empire was devastated by Genghis Khan, and the land became part of the Chagatai Khanate.',
+      ev: [
+        { n: 'Kalyan Minaret', y: '1127', lat: 39.776, lon: 64.415, k: 'event', vn: 'Arslan Khan (Karakhanid dynasty)', d: 'The 46 m brick tower in Bukhara was so beautiful that Genghis Khan ordered it spared when he destroyed the city.' },
+        { n: 'Mongols take Bukhara', y: '1220', lat: 39.775, lon: 64.42, k: 'battle', vn: 'Khwarazmian army', vs: 'Genghis Khan', d: 'Genghis Khan attacked after his envoys and merchants were killed in the city of Otrar.' },
+        { n: 'Fall of Samarkand', y: '1220', lat: 39.67, lon: 66.99, k: 'battle', vn: 'Shah Muhammad II (Khwarazm)', vs: 'Genghis Khan', d: 'The city of Afrasiyab was destroyed and never rebuilt; the new Samarkand grew up to the south.' },
+        { n: 'Siege of Urgench', y: '1221', lat: 42.31, lon: 59.15, k: 'battle', vn: 'Khwarazmian army', vs: 'Jochi, Chagatai (Mongol)', d: 'The Khwarazmian capital (now in Turkmenistan) was besieged for months; the Mongols broke the dams so the river water flooded the city.' },
+        { n: 'Jalal ad-Din resists the Mongols', y: '1221', lat: 33.0, lon: 71.6, approx: true, k: 'battle', vn: 'Jalal ad-Din Mingburnu', vs: 'Genghis Khan', d: 'The Khwarazmian prince lost the battle beside the Indus River, then galloped his horse into the river to escape, earning Genghis Khan\'s praise.' }
+      ]
+    },
+    {
+      id: 'timur', t: 'Timur and the Timurids', y: '1370 – 1507',
+      d: 'From Samarkand, Timur (Tamerlane) conquered a vast empire; his descendants turned Samarkand and Herat into centers of art and astronomy.',
+      ev: [
+        { n: 'Timur is born in Kesh', y: '1336', lat: 39.06, lon: 66.83, k: 'event', vn: 'Timur', d: 'Timur was born near Shahrisabz; a leg wound led to him being called "Timur the Lame" (Tamerlane).' },
+        { n: 'Samarkand becomes the capital', y: '1370', lat: 39.6547, lon: 66.9758, approx: true, k: 'event', vn: 'Timur', d: 'Timur chose Samarkand as his capital and brought skilled craftsmen from all the lands he conquered to build it.' },
+        { n: 'Ak-Saray Palace', y: '1380 – 1404', lat: 39.0576, lon: 66.8257, k: 'event', vn: 'Timur', d: 'The palace gateway at Shahrisabz is over 35 m high, covered in blue tiles with the inscription: "If you doubt our power, look at our buildings".' },
+        { n: 'Battle of Ankara', y: '1402', lat: 40.13, lon: 33.0, approx: true, k: 'battle', vn: 'Timur', vs: 'Sultan Bayezid I (Ottoman)', d: 'Timur defeated and captured the Ottoman Sultan, nearly breaking up the Ottoman Empire.' },
+        { n: 'Bibi-Khanym Mosque', y: '1399 – 1404', lat: 39.6606, lon: 66.979, k: 'event', vn: 'Timur', d: 'One of the largest mosques in the world at the time, built after the Indian campaign with hundreds of craftsmen and elephants hauling stone.' },
+        { n: 'Gur-e-Amir Mausoleum', y: '1405', lat: 39.6484, lon: 66.9691, k: 'event', vn: 'Timur, Ulugh Beg', d: 'Timur died while marching to attack the Ming dynasty and was buried under the ribbed blue dome of the Gur-e-Amir mausoleum.' },
+        { n: 'Ulugh Beg Observatory', y: '~1420', lat: 39.675, lon: 67.006, k: 'event', vn: 'Ulugh Beg', d: 'Timur\'s grandson built an observatory with a giant measuring arc, measuring the length of the year with an error of only about 1 minute.' },
+        { n: 'Registan Square', y: '1417 – 1660', lat: 39.6547, lon: 66.9758, k: 'event', vn: 'Ulugh Beg, Yalangtush Bakhodur', d: 'Three tile-covered madrasas surround the square; the Sher-Dor gate shows tigers chasing deer, a rare image.' },
+        { n: 'Babur leaves his homeland', y: '1501 – 1526', lat: 40.78, lon: 72.34, k: 'battle', vn: 'Babur', vs: 'Muhammad Shaybani', d: 'Prince Babur of Andijan lost Samarkand to the Uzbeks, fled to India and founded the Mughal Empire.' }
+      ]
+    },
+    {
+      id: 'han-quoc', t: 'The Khanates of Bukhara, Khiva and Kokand', y: '1500 – 1876',
+      d: 'The Uzbeks under Muhammad Shaybani founded khanates; Bukhara and Khiva became walled cities with countless schools, markets and minarets.',
+      ev: [
+        { n: 'Lyabi-Hauz pond', y: '1620', lat: 39.7739, lon: 64.4199, k: 'event', vn: 'Nadir Divan-Beghi', d: 'The pond in the middle of Bukhara, surrounded by ancient mulberry trees and teahouses, has been a meeting place for the city\'s people for 400 years.' },
+        { n: 'Itchan Kala inner city', y: '~1600 – 1800', lat: 41.378, lon: 60.36, k: 'event', vn: 'Khans of Khiva', d: 'Khiva\'s 10 m high earthen walls enclose more than 50 ancient buildings, like an open-air museum.' },
+        { n: 'Khanate of Kokand', y: '~1709', lat: 40.53, lon: 70.94, k: 'event', vn: 'Shahrukh Bey', d: 'In the fertile Fergana valley a new khanate arose with its capital at Kokand and the palace of Khudayar Khan.' },
+        { n: 'Kalta Minor Minaret', y: '1855', lat: 41.3786, lon: 60.3578, k: 'event', vn: 'Muhammad Amin Khan', d: 'The blue-tiled tower in Khiva was meant to be the tallest in the world but was left unfinished when the khan died, so it is short and stout.' }
+      ]
+    },
+    {
+      id: 'nga-xo', t: 'The Tsarist and Soviet Eras', y: '1865 – 1991',
+      d: 'The Russian Empire conquered the khanates; after the Revolution, Uzbekistan became a Soviet republic specializing in growing cotton.',
+      ev: [
+        { n: 'Russia takes Tashkent', y: '1865', lat: 41.31, lon: 69.28, k: 'battle', vn: 'Alimqul (Kokand)', vs: 'General Mikhail Chernyayev (Russia)', d: 'The Russian army took Tashkent and later made it the capital of Russian Turkestan.' },
+        { n: 'Russia takes Samarkand', y: '1868', lat: 39.65, lon: 66.96, k: 'battle', vn: 'Emir of Bukhara', vs: 'General Konstantin von Kaufman (Russia)', d: 'The Emirate of Bukhara lost and became a Russian protectorate; in 1873 it was Khiva\'s turn.' },
+        { n: 'Uzbek Soviet Socialist Republic', y: '1924', lat: 39.65, lon: 66.96, approx: true, k: 'event', vn: 'Fayzulla Khodzhayev', d: 'The Soviet Union redrew the borders along ethnic lines and founded the Uzbek Soviet Republic, at first with its capital at Samarkand.' },
+        { n: 'Tashkent Declaration', y: '1966', lat: 41.31, lon: 69.28, k: 'event', vn: 'Soviet Premier Kosygin', d: 'India and Pakistan signed a peace agreement in Tashkent; that very night Indian Prime Minister Lal Bahadur Shastri suddenly died.' },
+        { n: 'Tashkent earthquake', y: '1966', lat: 41.31, lon: 69.28, k: 'event', d: 'The earthquake destroyed tens of thousands of homes; people from all over the Soviet Union came to rebuild a modern city.' },
+        { n: 'The Aral Sea dries up', y: '1960 – present', lat: 43.77, lon: 59.02, k: 'event', d: 'River water was diverted to irrigate cotton, and the Aral Sea shrank to a tenth of its size; fishing boats lie stranded in the desert at Moynaq.' }
+      ]
+    },
+    {
+      id: 'doc-lap', t: 'Independent Uzbekistan', y: '1991 – present',
+      d: 'Uzbekistan became independent when the Soviet Union broke up; after 25 years under Islam Karimov, the country opened up more and attracted many visitors to its Silk Road cities.',
+      ev: [
+        { n: 'Declaration of independence', y: 'Aug 31, 1991', lat: 41.31, lon: 69.28, k: 'event', vn: 'Islam Karimov', d: 'Uzbekistan declared independence; September 1 became National Day and Karimov was president until 2016.' },
+        { n: 'Andijan events', y: 'May 2005', lat: 40.78, lon: 72.34, k: 'event', vn: 'Government of Islam Karimov', vs: 'Protesters and armed group', d: 'Security forces opened fire on a crowd in Andijan\'s square; the number of dead is still disputed, from several hundred upward.' },
+        { n: 'Afrosiyob high-speed train', y: '2011', lat: 39.65, lon: 66.96, approx: true, k: 'event', d: 'The first high-speed rail line in Central Asia linked Tashkent with Samarkand, later extended to Bukhara.' },
+        { n: 'Shavkat Mirziyoyev becomes president', y: '2016', lat: 41.31, lon: 69.28, k: 'event', vn: 'Shavkat Mirziyoyev', d: 'The new president opened the borders, allowed free currency exchange and waived visas for visitors from many countries.' },
+        { n: 'Protests in Karakalpakstan', y: 'Jul 2022', lat: 42.46, lon: 59.60, k: 'event', vn: 'People of Karakalpakstan', vs: 'Security forces', d: 'A plan to remove Karakalpakstan\'s autonomy caused protests in Nukus; the government withdrew the proposal, and many people were killed.' },
+        { n: 'SCO summit in Samarkand', y: 'Sep 2022', lat: 39.65, lon: 66.96, k: 'event', vn: 'Shavkat Mirziyoyev', d: 'The leaders of China, Russia, India and many countries came to Samarkand for the Shanghai Cooperation Organisation meeting.' },
+        { n: 'First World Cup qualification', y: 'Jun 2025', lat: 41.31, lon: 69.28, approx: true, k: 'event', vn: 'Uzbekistan national team', d: 'Uzbekistan won a place at the 2026 World Cup, the first time a Central Asian team has reached the finals.' },
+        { n: 'UNESCO General Conference in Samarkand', y: '2025', lat: 39.65, lon: 66.96, approx: true, k: 'event', vn: 'Uzbekistan', d: 'For the first time in 40 years, the UNESCO General Conference met outside Paris, in the Silk Road city of Samarkand.' }
+      ]
+    }
+  ]
+};

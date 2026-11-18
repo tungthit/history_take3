@@ -1,0 +1,110 @@
+// Peru history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'pe', name: 'Peru', flag: '🇵🇪',
+  eras: [
+    {
+      id: 'ancient', t: 'Ancient civilisations', y: '~2600 BCE – 600 CE',
+      d: 'Peru is one of the cradles of civilisation: from the ancient city of Caral, as old as the Egyptian pyramids, to the giant drawings of Nazca.',
+      ev: [
+        { n: 'The ancient city of Caral', y: '~2600 BCE', lat: -10.893, lon: -77.520, k: 'event', vn: 'The Caral – Supe people', d: 'The oldest city in the Americas, with pyramids and a circular plaza, built at the same time as the Egyptian pyramids.' },
+        { n: 'Chavín de Huántar temple', y: '~900 BCE', lat: -9.593, lon: -77.177, k: 'event', vn: 'The Chavín people', d: 'In the dark tunnels beneath the temple stands the Lanzón idol; water rushing through underground channels roars like a growl.' },
+        { n: 'Paracas textiles', y: '~800 BCE – 100 CE', lat: -13.85, lon: -76.25, approx: true, k: 'event', vn: 'The Paracas people', d: 'The Paracas wrapped their dead in brilliantly coloured embroidered cloths, still beautiful today after more than 2,000 years.' },
+        { n: 'The Nazca Lines', y: '~500 BCE – 500 CE', lat: -14.739, lon: -75.130, k: 'event', vn: 'The Nazca people', d: 'Figures of a monkey, a hummingbird and a spider, hundreds of metres long, were scratched into the desert and can only be seen clearly from above.' },
+        { n: 'Cahuachi ceremonial centre', y: '~100 CE', lat: -14.818, lon: -75.117, k: 'event', vn: 'The Nazca people', d: 'Mud-brick pyramids where the Nazca gathered for ceremonies, close to the giant drawings.' },
+        { n: 'The Moche Huaca del Sol temple', y: '~450 CE', lat: -8.135, lon: -78.980, k: 'event', vn: 'The Moche people', d: 'One of the largest mud-brick structures in the Americas, probably built with more than 100 million bricks.' },
+        { n: 'Tomb of the Lord of Sipán', y: '~250 CE', lat: -6.805, lon: -79.600, k: 'event', vn: 'The Moche people', d: 'In 1987 the archaeologist Walter Alva found an intact tomb full of gold and silver – compared to "the Tutankhamun of the Americas".' }
+      ]
+    },
+    {
+      id: 'kingdoms', t: 'Wari, Chimú and Chachapoyas', y: '600 – 1438',
+      d: 'The Wari, Chimú and Chachapoyas kingdoms followed one another in the high mountains and coastal deserts, building roads and large cities of earth.',
+      ev: [
+        { n: 'The Wari capital', y: '~600 – 1000', lat: -13.06, lon: -74.20, approx: true, k: 'event', vn: 'The Wari people', d: 'The Wari empire in the mountains near Ayacucho built roads and rest stations – many of the roads were later reused by the Inca.' },
+        { n: 'Kuélap fortress', y: '~600 – 1500', lat: -6.418, lon: -77.923, k: 'event', vn: 'The Chachapoyas – the "cloud warriors"', d: 'Stone walls up to 20 m high surround more than 400 round houses on a cloud-covered mountaintop in northern Peru.' },
+        { n: 'The city of Chan Chan', y: '~850 – 1470', lat: -8.106, lon: -79.075, k: 'event', vn: 'The Chimú kingdom', d: 'The largest mud-brick city of the Americas before Columbus, its walls decorated with fish and seabirds.' },
+        { n: 'Túcume pyramids', y: '~1100', lat: -6.51, lon: -79.85, k: 'event', vn: 'The Lambayeque (Sicán) people', d: 'A valley with 26 mud-brick pyramids around a hill, which locals call the "Valley of the Pyramids".' },
+        { n: 'Manco Cápac founds Cusco', y: '~1200', lat: -13.5167, lon: -71.978, k: 'legend', vn: 'Manco Cápac, Mama Ocllo', d: 'According to legend, the children of the Sun god travelled from Lake Titicaca looking for the place where a golden staff would sink deep into the ground, and founded Cusco there.' }
+      ]
+    },
+    {
+      id: 'inca', t: 'The Inca Empire', y: '1438 – 1532',
+      d: 'From Cusco, the Inca built Tawantinsuyu – the largest empire in the Americas, stretching from Ecuador to Chile with about 40,000 km of stone roads.',
+      ev: [
+        { n: 'Battle against the Chanka', y: '~1438', lat: -13.52, lon: -71.98, approx: true, k: 'battle', vn: 'Pachacútec', vs: 'The Chanka people', d: 'Legend says stones turned into warriors to help Pachacútec save Cusco; he then expanded the kingdom into an empire.' },
+        { n: 'Sacsayhuamán fortress', y: '~1440', lat: -13.5086, lon: -71.9822, k: 'event', vn: 'Pachacútec', d: 'Stones weighing more than 100 tonnes were fitted together so tightly that not even a knife blade can be slipped between them.' },
+        { n: 'Machu Picchu', y: '~1450', lat: -13.1631, lon: -72.5450, k: 'event', vn: 'Pachacútec', d: 'The city on a mountaintop 2,430 m high was probably a royal retreat for the Inca king; the Spanish never found it.' },
+        { n: 'Ollantaytambo', y: '~1460', lat: -13.258, lon: -72.263, k: 'event', vn: 'Pachacútec', d: 'The Inca town in the Sacred Valley is still lived in and keeps its streets and water channels from Inca times.' },
+        { n: 'The Qhapaq Ñan road', y: '~1470 – 1530', lat: -13.52, lon: -71.97, approx: true, k: 'event', vn: 'Túpac Inca Yupanqui', d: 'Relay runners called chasqui carried messages along the Inca road network, covering about 240 km a day.' },
+        { n: 'Death of Huayna Cápac', y: '~1527', lat: -0.22, lon: -78.51, approx: true, k: 'event', vn: 'Huayna Cápac', d: 'The Inca king probably died of smallpox from Europe, which spread even before the Spanish arrived; his two sons fought over the throne.' },
+        { n: 'Civil war of Huáscar and Atahualpa', y: '1532', lat: -13.55, lon: -72.00, approx: true, k: 'battle', vn: 'Atahualpa (generals Quizquiz, Chalcuchímac)', vs: 'Huáscar', d: 'Atahualpa\'s army won near Cusco and captured Huáscar, but the empire was exhausted just as the Spanish arrived.' }
+      ]
+    },
+    {
+      id: 'conquest', t: 'The Spanish conquest', y: '1532 – 1572',
+      d: 'Fewer than 200 soldiers under Francisco Pizarro captured King Atahualpa and seized the Inca Empire; the Inca held out for another 40 years at Vilcabamba.',
+      route: { t: 'Pizarro\'s march 1532 – 1533', pts: [[-3.57, -80.45], [-4.90, -80.80], [-6.30, -79.50], [-7.16, -78.51], [-9.53, -77.53], [-11.77, -75.50], [-13.65, -73.95], [-13.52, -71.98]] },
+      ev: [
+        { n: 'Pizarro lands at Tumbes', y: '1532', lat: -3.567, lon: -80.450, k: 'event', vn: 'Francisco Pizarro (Spanish)', d: 'Pizarro\'s small force came ashore in northern Peru and then marched deep into Inca land.' },
+        { n: 'Battle of Cajamarca', y: '16 Nov 1532', lat: -7.157, lon: -78.517, k: 'battle', vn: 'Emperor Atahualpa', vs: 'Francisco Pizarro', d: 'The Spanish ambushed with guns and horses right in the plaza and captured Atahualpa in the midst of thousands of attendants.' },
+        { n: 'The Ransom Room', y: '1533', lat: -7.1567, lon: -78.5185, k: 'event', vn: 'Emperor Atahualpa', vs: 'Francisco Pizarro', d: 'Atahualpa promised to fill a room with gold to buy his freedom; the Spanish took the gold but still executed him.' },
+        { n: 'Founding of Lima', y: '18 Jan 1535', lat: -12.0464, lon: -77.0428, k: 'event', vn: 'Francisco Pizarro', d: 'Pizarro called Lima the "City of the Kings"; it became the capital of Spanish South America.' },
+        { n: 'Manco Inca besieges Cusco', y: '1536', lat: -13.5086, lon: -71.9822, k: 'battle', vn: 'Manco Inca', vs: 'Hernando and Juan Pizarro', d: 'Tens of thousands of Inca warriors besieged the city for 10 months; the fiercest fighting was around Sacsayhuamán.' },
+        { n: 'Battle of Ollantaytambo', y: '1537', lat: -13.258, lon: -72.263, k: 'battle', vn: 'Manco Inca', vs: 'Hernando Pizarro', d: 'Manco Inca had water released to flood the fields, forcing the Spanish cavalry to flee – a rare victory.' },
+        { n: 'Fall of Vilcabamba', y: '1572', lat: -12.92, lon: -73.21, k: 'battle', vn: 'Túpac Amaru', vs: 'Viceroy Francisco de Toledo', d: 'The last Inca stronghold in the jungle was taken; the last Inca king, Túpac Amaru, was executed in Cusco.' }
+      ]
+    },
+    {
+      id: 'viceroyalty', t: 'The Viceroyalty of Peru', y: '1542 – 1781',
+      d: 'Lima was the richest centre of Spanish South America, while the indigenous people had to do back-breaking work in the mines, leading to the uprising of Túpac Amaru II.',
+      ev: [
+        { n: 'San Marcos University', y: '1551', lat: -12.056, lon: -77.084, k: 'event', vn: 'The friar Tomás de San Martín', d: 'The oldest university in the Americas still in continuous operation was founded in Lima.' },
+        { n: 'Huancavelica mercury mine', y: '1563', lat: -12.78, lon: -74.97, k: 'event', vn: 'Indigenous workers', d: 'The mercury here was used to separate silver at Potosí; many miners were poisoned, so it was called the "mine of death".' },
+        { n: 'Saint Rose of Lima', y: '1617', lat: -12.046, lon: -77.03, k: 'event', vn: 'Rosa de Lima', d: 'She was the first person born in the Americas to be declared a saint by the Catholic Church.' },
+        { n: 'Lima – Callao earthquake and tsunami', y: '28 Oct 1746', lat: -12.06, lon: -77.15, k: 'event', vn: 'The people of Lima and Callao', d: 'A tsunami swept away the port of Callao; only a few hundred of about 5,000 inhabitants survived.' },
+        { n: 'Battle of Sangarará', y: '18 Nov 1780', lat: -13.95, lon: -71.60, k: 'battle', vn: 'Túpac Amaru II, Micaela Bastidas', vs: 'Spanish troops', d: 'A descendant of the Inca kings led the biggest uprising of the colonial era and won the first battle.' },
+        { n: 'Execution of Túpac Amaru II', y: '18 May 1781', lat: -13.5167, lon: -71.978, k: 'event', vn: 'Túpac Amaru II, Micaela Bastidas', d: 'He and his wife were executed in the plaza of Cusco; his name became a symbol of the indigenous struggle.' }
+      ]
+    },
+    {
+      id: 'independence', t: 'Independence and the 19th century', y: '1820 – 1866',
+      d: 'San Martín declared independence in 1821, Bolívar and Sucre fought the decisive battle at Ayacucho in 1824; Peru grew rich from guano, bird droppings.',
+      ev: [
+        { n: 'San Martín lands at Paracas', y: '8 Sep 1820', lat: -13.71, lon: -76.20, k: 'event', vn: 'José de San Martín', d: 'The liberation army from Chile came ashore near Pisco; tradition says the red and white of Peru\'s flag come from the flamingos here.' },
+        { n: 'Declaration of independence', y: '28 Jul 1821', lat: -12.0453, lon: -77.0311, k: 'event', vn: 'José de San Martín', d: 'In the Plaza Mayor in Lima, San Martín declared Peru independent; 28 July is Peru\'s national day.' },
+        { n: 'Battle of Junín', y: '6 Aug 1824', lat: -11.05, lon: -76.13, approx: true, k: 'battle', vn: 'Simón Bolívar', vs: 'Spanish troops (José de Canterac)', d: 'A battle fought entirely by cavalry with lances and swords, without a single gunshot, on a plateau more than 4,000 m high.' },
+        { n: 'Battle of Ayacucho', y: '9 Dec 1824', lat: -13.045, lon: -74.135, k: 'battle', vn: 'Antonio José de Sucre', vs: 'Viceroy José de la Serna', d: 'The last major battle of the South American wars of independence; the Viceroy was captured and Spain lost Peru.' },
+        { n: 'The guano era', y: '1840 – 1870', lat: -13.64, lon: -76.40, k: 'event', vn: 'The Peruvian government', d: 'Bird droppings piled dozens of metres high on the Chincha Islands were sold to Europe as fertiliser, bringing in a great deal of money.' },
+        { n: 'Abolition of slavery', y: '1854', lat: -12.07, lon: -75.21, k: 'event', vn: 'President Ramón Castilla', d: 'In Huancayo, Castilla signed the decree abolishing slavery and the tax on indigenous people.' },
+        { n: 'Battle of Callao', y: '2 May 1866', lat: -12.06, lon: -77.15, k: 'battle', vn: 'Mariano Ignacio Prado', vs: 'Spanish fleet (Casto Méndez Núñez)', d: 'Coastal guns drove off the Spanish fleet, ending Spain\'s hopes of returning.' }
+      ]
+    },
+    {
+      id: 'pacific', t: 'The War of the Pacific and the 20th century', y: '1879 – 1979',
+      d: 'Peru lost to Chile in the War of the Pacific; in the 20th century Machu Picchu became known to the whole world.',
+      ev: [
+        { n: 'Battle of Angamos', y: '8 Oct 1879', lat: -23.05, lon: -70.53, approx: true, k: 'battle', vn: 'Admiral Miguel Grau', vs: 'Chilean navy', d: 'Grau died aboard the Huáscar; he is honoured for having rescued Chilean sailors after the Battle of Iquique.' },
+        { n: 'Battle of Arica', y: '7 Jun 1880', lat: -18.48, lon: -70.32, k: 'battle', vn: 'Colonel Francisco Bolognesi', vs: 'Chilean troops', d: 'Bolognesi declared he would fight "to the last bullet" and died defending the rock of Morro de Arica.' },
+        { n: 'Battles of San Juan and Miraflores', y: 'Jan 1881', lat: -12.12, lon: -77.03, approx: true, k: 'battle', vn: 'Nicolás de Piérola', vs: 'Chilean troops (Manuel Baquedano)', d: 'The Chilean army won in the suburbs and occupied Lima for almost three years.' },
+        { n: 'Battle of Huamachuco', y: '10 Jul 1883', lat: -7.81, lon: -78.05, k: 'battle', vn: 'Andrés Avelino Cáceres', vs: 'Chilean troops (Alejandro Gorostiaga)', d: 'Cáceres – the "Tiger of the Andes" – fought a guerrilla war in the mountains for years; the defeat here led to the peace treaty that ended the war.' },
+        { n: 'Hiram Bingham reaches Machu Picchu', y: '24 Jul 1911', lat: -13.1631, lon: -72.545, k: 'event', vn: 'Melchor Arteaga (guide)', d: 'A local farmer guided the American explorer up the mountain; his article made Machu Picchu known to the whole world.' },
+        { n: 'Inti Raymi Festival of the Sun', y: '1944', lat: -13.5086, lon: -71.9822, k: 'event', vn: 'Faustino Espinoza Navarro', d: 'The Inca festival of the Sun was staged again at Sacsayhuamán; today thousands of people come to watch every 24 June.' },
+        { n: 'Ancash earthquake', y: '31 May 1970', lat: -9.14, lon: -77.75, k: 'event', vn: 'The people of Yungay', d: 'The earthquake collapsed ice on Mount Huascarán, and a flow of mud and rock buried the town of Yungay; about 70,000 people died.' }
+      ]
+    },
+    {
+      id: 'modern', t: 'Modern Peru', y: '1980 – present',
+      d: 'Peru came through a bloody armed conflict and developed tourism and mining, but its politics are turbulent, with presidents replacing one another constantly.',
+      ev: [
+        { n: 'Conflict with the Shining Path', y: '1980 – 2000', lat: -13.58, lon: -74.35, approx: true, k: 'battle', vn: 'The Peruvian government', vs: 'Sendero Luminoso ("Shining Path")', d: 'The conflict began in Chuschi (Ayacucho); according to the truth commission, about 70,000 people were killed.' },
+        { n: 'Capture of Abimael Guzmán', y: '12 Sep 1992', lat: -12.10, lon: -77.00, approx: true, k: 'event', vn: 'The GEIN police unit (Benedicto Jiménez)', d: 'The leader of the Shining Path was arrested in a house in Lima whose upper floor was a ballet studio.' },
+        { n: 'Hostage rescue at the Japanese ambassador\'s residence', y: '22 Apr 1997', lat: -12.10, lon: -77.04, approx: true, k: 'battle', vn: 'President Alberto Fujimori', vs: 'The MRTA group', d: 'After 126 days, special forces dug tunnels under the residence to storm it, freeing 71 of the 72 hostages.' },
+        { n: 'Pisco earthquake', y: '15 Aug 2007', lat: -13.71, lon: -76.20, k: 'event', vn: 'The people of Pisco', d: 'The magnitude 8.0 earthquake destroyed most of the city of Pisco and killed about 500 people.' },
+        { n: 'Machu Picchu – a New Wonder of the World', y: '7 Jul 2007', lat: -13.1631, lon: -72.545, k: 'event', vn: 'The people of Peru', d: 'Machu Picchu was voted one of the New Seven Wonders of the World and attracts about 1.5 million visitors a year.' },
+        { n: 'Pan American Games in Lima', y: '2019', lat: -12.06, lon: -77.03, approx: true, k: 'event', vn: 'The city of Lima', d: 'Lima hosted the biggest sporting event in Peru\'s history, with about 6,700 athletes from 41 countries.' },
+        { n: 'The first woman president', y: '7 Dec 2022', lat: -12.0453, lon: -77.0311, k: 'event', vn: 'Dina Boluarte', d: 'After President Pedro Castillo was removed from office, Dina Boluarte became the first woman president; she was removed by Congress in 2025.' },
+        { n: 'Chancay port', y: 'Nov 2024', lat: -11.58, lon: -77.27, k: 'event', vn: 'The Peruvian government, the company COSCO (China)', d: 'The new deep-water port north of Lima shortens the shipping route for cargo from South America to Asia.' },
+        { n: 'Pope Leo XIV', y: '8 May 2025', lat: 41.9022, lon: 12.4539, k: 'event', vn: 'Robert Francis Prevost', d: 'The American pope served for many years as a bishop in Chiclayo and holds Peruvian citizenship; Peruvians see him as a fellow countryman.' }
+      ]
+    }
+  ]
+};

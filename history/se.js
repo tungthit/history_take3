@@ -1,0 +1,91 @@
+// Sweden history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'se', name: 'Sweden', flag: '🇸🇪',
+  eras: [
+    {
+      id: 'viking', t: 'Prehistory and the Viking Age', y: '~1700 BCE – 1100 CE',
+      d: 'Early people carved pictures into rock, then Swedish Vikings sailed and traded along the rivers as far as Kyiv and Constantinople.',
+      ev: [
+        { n: 'Tanum rock carvings', y: '~1700 – 500 BCE', lat: 58.700, lon: 11.340, k: 'event', vn: 'People of the Bronze Age', d: 'Thousands of images of boats, people, horses and carts were carved on smooth rock slabs, now a World Heritage Site.' },
+        { n: 'Royal mounds of Gamla Uppsala', y: '~500 CE', lat: 59.898, lon: 17.633, k: 'event', vn: 'Kings of the Yngling line', d: 'Three large mounds are believed to be the graves of the first kings; the site once had a temple to the Norse gods.' },
+        { n: 'Ale\'s Stones', y: '~600 CE', lat: 55.383, lon: 14.054, approx: true, k: 'event', vn: 'Ancient people of Skåne', d: '59 large stones are set in the shape of a 67 m long ship on a cliff overlooking the sea.' },
+        { n: 'Trading town of Birka', y: '~750 – 975', lat: 59.335, lon: 17.543, k: 'event', vn: 'Viking merchants', d: 'On an island in Lake Mälaren, Arab silver coins and silk from the distant East have been found.' },
+        { n: 'Rök runestone', y: '~800', lat: 58.295, lon: 14.776, k: 'event', vn: 'Varin', d: 'The stone bears the longest runic inscription in the world, carved by a father in memory of his son.' },
+        { n: 'Varangian Guard', y: '~988 – 1204', lat: 41.008, lon: 28.978, k: 'event', vn: 'Varangian warriors', d: 'Many Swedish Vikings served as bodyguards to the Byzantine Emperor; some even carved runes on a railing of the Hagia Sophia.' },
+        { n: 'King Olof Skötkonung becomes Christian', y: '~1008', lat: 58.464, lon: 13.636, approx: true, k: 'event', vn: 'King Olof Skötkonung', d: 'The first Swedish king to become Christian, traditionally baptized at the spring of Husaby.' }
+      ]
+    },
+    {
+      id: 'trungco', t: 'The Middle Ages and the Kalmar Union', y: '1150 – 1523',
+      d: 'Sweden became a united kingdom, founded the city of Stockholm, then joined Denmark and Norway in the Kalmar Union.',
+      ev: [
+        { n: 'Birger Jarl founds Stockholm', y: '~1252', lat: 59.325, lon: 18.071, k: 'event', vn: 'Birger Jarl', d: 'The city was built on islands between Lake Mälaren and the Baltic Sea; its name means "island of logs".' },
+        { n: 'Falun copper mine', y: '1288', lat: 60.600, lon: 15.620, k: 'event', vn: 'Miners of Falun', d: 'A 1288 document about shares in the mine is considered one of the oldest "stock certificates" in the world.' },
+        { n: 'St. Birgitta and Vadstena Abbey', y: '1346 – 1384', lat: 58.448, lon: 14.888, k: 'event', vn: 'St. Birgitta', d: 'She founded a new religious order; today Birgitta is one of the patron saints of Europe.' },
+        { n: 'Battle of Visby', y: '1361', lat: 57.640, lon: 18.300, k: 'battle', vn: 'Farmers of Gotland', vs: 'King Valdemar IV (Denmark)', d: 'Farmers in old armor fought outside the city walls; archaeologists have found thousands of skeletons here.' },
+        { n: 'Kalmar Union', y: '1397', lat: 56.659, lon: 16.356, k: 'event', vn: 'Swedish council of nobles', vs: 'Queen Margrete I (Denmark)', d: 'Three Nordic kingdoms shared one king; the union lasted more than 120 years.' },
+        { n: 'Battle of Brunkeberg', y: '1471', lat: 59.333, lon: 18.065, k: 'battle', vn: 'Regent Sten Sture the Elder', vs: 'King Christian I (Denmark)', d: 'The Swedes won right in the middle of Stockholm; the statue of St. George slaying the dragon in the cathedral commemorates this battle.' },
+        { n: 'Stockholm Bloodbath', y: '1520', lat: 59.325, lon: 18.071, k: 'event', vn: 'Swedish nobles and clergy', vs: 'King Christian II (Denmark)', d: 'More than 80 people were executed in the Stortorget square; the event led the Swedes to rise up and leave the union.' }
+      ]
+    },
+    {
+      id: 'dequoc', t: 'The Vasa Dynasty and the Swedish Empire', y: '1523 – 1721',
+      d: 'Gustav Vasa founded an independent Sweden; under Gustavus Adolphus and the kings who followed, Sweden became a great power surrounding the Baltic Sea.',
+      route: { t: 'Charles XII\'s march into Russia 1707 – 1709', pts: [[51.300, 12.170], [52.230, 21.010], [53.680, 23.830], [53.900, 30.330], [51.500, 33.400], [49.630, 34.550], [46.830, 29.480]] },
+      ev: [
+        { n: 'Gustav Vasa becomes king', y: 'Jun 6, 1523', lat: 59.377, lon: 17.030, k: 'event', vn: 'King Gustav Vasa', d: 'Elected king in Strängnäs, Gustav Vasa ended the Kalmar Union; June 6 is now Sweden\'s National Day.' },
+        { n: 'Legend of the ski ride to Mora', y: '1520 – 1521', lat: 61.005, lon: 14.540, k: 'legend', vn: 'Gustav Vasa', d: 'Two skiers chased after Gustav and called him back to lead the rebellion; the 90 km Vasaloppet ski race commemorates this story.' },
+        { n: 'Warship Vasa sinks', y: '1628', lat: 59.322, lon: 18.095, k: 'event', vn: 'King Gustavus Adolphus', d: 'The top-heavy ship capsized on its very first voyage; in 1961 it was raised almost intact and is now in a museum.' },
+        { n: 'Battle of Breitenfeld', y: '1631', lat: 51.390, lon: 12.370, k: 'battle', vn: 'King Gustavus Adolphus', vs: 'Count Tilly (Holy Roman Empire)', d: 'The Swedish army, with light cannons and flexible formations, won a great victory in the Thirty Years\' War.' },
+        { n: 'Battle of Lützen', y: '1632', lat: 51.260, lon: 12.140, k: 'battle', vn: 'King Gustavus Adolphus', vs: 'General Wallenstein', d: 'The Swedes won the battle but the king – the "Lion of the North" – was killed in the fog.' },
+        { n: 'Peace of Westphalia', y: '1648', lat: 52.272, lon: 8.044, k: 'event', vn: 'Queen Christina', d: 'Signed in Osnabrück, the peace ended the Thirty Years\' War and gave Sweden several territories in northern Germany.' },
+        { n: 'March across the frozen straits', y: '1658', lat: 55.500, lon: 9.750, approx: true, k: 'battle', vn: 'King Charles X Gustav', vs: 'Denmark', d: 'The Swedish army walked across the frozen sea to the Danish islands; Denmark had to give up the region of Skåne.' },
+        { n: 'Battle of Narva', y: '1700', lat: 59.380, lon: 28.190, k: 'battle', vn: 'King Charles XII', vs: 'Tsar Peter I', d: 'The 18-year-old king attacked in a snowstorm and routed a Russian army many times larger.' },
+        { n: 'Battle of Poltava', y: '1709', lat: 49.630, lon: 34.550, k: 'battle', vn: 'King Charles XII, Hetman Ivan Mazepa', vs: 'Tsar Peter I', d: 'The defeat in Ukraine ended Sweden\'s time as a great power; the wounded king fled to the Ottoman Empire.' },
+        { n: 'Charles XII killed at Fredriksten', y: '1718', lat: 59.118, lon: 11.396, k: 'battle', vn: 'King Charles XII', vs: 'Norwegian – Danish defenders', d: 'The king was hit by a bullet while besieging a fortress in Norway; who fired that shot is still debated.' }
+      ]
+    },
+    {
+      id: 'khaisang', t: 'The Age of Liberty and the Enlightenment', y: '1719 – 1814',
+      d: 'Parliament held more power than the king; Swedish scientists became famous across Europe, but Sweden lost Finland to Russia.',
+      ev: [
+        { n: 'Linnaeus names all living things', y: '1735 – 1753', lat: 59.862, lon: 17.634, k: 'event', vn: 'Carl Linnaeus', d: 'In Uppsala, he created the two-word scientific naming system for every plant and animal, such as Homo sapiens.' },
+        { n: 'Celsius temperature scale', y: '1742', lat: 59.858, lon: 17.636, approx: true, k: 'event', vn: 'Anders Celsius', d: 'The astronomer in Uppsala divided the range from melting ice to boiling water into 100 degrees.' },
+        { n: 'Freedom of the Press Act', y: '1766', lat: 59.327, lon: 18.067, k: 'event', vn: 'Swedish Parliament', d: 'One of the first laws in the world to protect freedom of the press and the right to see government documents.' },
+        { n: 'King Gustav III assassinated', y: '1792', lat: 59.330, lon: 18.070, k: 'event', vn: 'King Gustav III', vs: 'Jacob Johan Anckarström', d: 'The art-loving king was shot at a masked ball at the Opera House he had founded himself.' },
+        { n: 'Battle of Oravais', y: '1808', lat: 63.300, lon: 22.370, k: 'battle', vn: 'General Carl Johan Adlercreutz', vs: 'Russian army', d: 'The bloodiest battle of the last war between Sweden and Russia on Finnish soil.' },
+        { n: 'Loss of Finland', y: '1809', lat: 60.570, lon: 27.200, k: 'event', vn: 'King Charles XIII', vs: 'Tsar Alexander I', d: 'The Treaty of Fredrikshamn gave Finland to Russia after more than 600 years as part of Sweden.' },
+        { n: 'Battle of Leipzig', y: '1813', lat: 51.310, lon: 12.410, k: 'battle', vn: 'Crown Prince Karl Johan (Bernadotte)', vs: 'Napoleon I', d: 'The former French marshal Bernadotte, now Sweden\'s crown prince, commanded an army against Napoleon.' }
+      ]
+    },
+    {
+      id: 'congnghiep', t: 'Peace and Industry', y: '1814 – 1945',
+      d: 'Since 1814 Sweden has taken part in no war; a poor country gradually became a rich industrial nation.',
+      ev: [
+        { n: 'Göta Canal', y: '1832', lat: 58.540, lon: 15.040, k: 'event', vn: 'Baltzar von Platen', d: 'About 58,000 soldiers dug a canal with 58 locks, linking large lakes across southern Sweden.' },
+        { n: 'Wave of emigration to America', y: '1850 – 1930', lat: 57.700, lon: 11.940, k: 'event', vn: 'Swedish emigrants', d: 'About 1.3 million people left the port of Gothenburg for America to seek a new life, many going to Minnesota.' },
+        { n: 'Alfred Nobel and the Nobel Prize', y: '1867 – 1901', lat: 59.333, lon: 18.065, k: 'event', vn: 'Alfred Nobel', d: 'The inventor of dynamite left his fortune to found the Nobel Prizes; the first award ceremony was in Stockholm in 1901.' },
+        { n: 'Kiruna iron mine', y: '1900', lat: 67.856, lon: 20.225, k: 'event', vn: 'Hjalmar Lundbohm', d: 'A mining town north of the Arctic Circle; today the whole town is being moved because the mine has dug deep under the ground.' },
+        { n: 'Stockholm Olympics', y: '1912', lat: 59.345, lon: 18.079, k: 'event', vn: 'City of Stockholm', d: 'The first Games to use electronic timing and a loudspeaker system; the same stadium is still in use today.' },
+        { n: 'Rescue of the Danish Jews', y: '1943', lat: 56.046, lon: 12.694, k: 'event', vn: 'People of Sweden', d: 'Neutral Sweden took in about 7,000 Danish Jews who were ferried by boat across the Øresund strait.' },
+        { n: 'Raoul Wallenberg in Budapest', y: '1944', lat: 47.500, lon: 19.050, k: 'event', vn: 'Diplomat Raoul Wallenberg', d: 'He issued Swedish "protective passports" that saved tens of thousands of Jews in Hungary.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Modern Sweden', y: '1945 – present',
+      d: 'Sweden built a welfare state, famous for companies like IKEA and Volvo, for pop music and for its spirit of protecting the environment.',
+      ev: [
+        { n: '1958 World Cup final', y: '1958', lat: 59.362, lon: 18.000, k: 'event', vn: 'Sweden national team', vs: 'Brazil national team (Pelé)', d: 'Sweden hosted and reached the final; 17-year-old Pelé scored two goals to help Brazil win the title.' },
+        { n: 'First IKEA store', y: '1958', lat: 56.551, lon: 14.137, k: 'event', vn: 'Ingvar Kamprad', d: 'The furniture store opened in the town of Älmhult; today IKEA is in dozens of countries.' },
+        { n: 'Dag Hammarskjöld dies', y: '1961', lat: -12.970, lon: 28.640, approx: true, k: 'event', vn: 'UN Secretary-General Dag Hammarskjöld', d: 'His plane crashed near Ndola (Zambia) on a peace mission to the Congo; he was awarded the Nobel Peace Prize after his death.' },
+        { n: 'H-Day – switch to driving on the right', y: '1967', lat: 59.333, lon: 18.065, k: 'event', vn: 'People of Sweden', d: 'At 5 a.m. on September 3, the whole country switched from driving on the left to driving on the right.' },
+        { n: 'ABBA wins Eurovision', y: '1974', lat: 50.823, lon: -0.137, k: 'event', vn: 'The band ABBA', d: 'The song "Waterloo" won in Brighton (England), launching the career of one of the most famous pop bands in the world.' },
+        { n: 'Prime Minister Olof Palme assassinated', y: '1986', lat: 59.336, lon: 18.062, k: 'event', vn: 'Prime Minister Olof Palme', d: 'He was shot while walking home from the cinema in Stockholm, with no bodyguards accompanying him.' },
+        { n: 'Sinking of the ferry Estonia', y: '1994', lat: 59.380, lon: 21.690, k: 'event', vn: 'Passengers of the ferry Estonia', d: 'The ferry from Tallinn to Stockholm sank in a storm on the Baltic Sea; 852 people died.' },
+        { n: 'Joining the European Union', y: '1995', lat: 59.327, lon: 18.067, approx: true, k: 'event', vn: 'Prime Minister Ingvar Carlsson', d: 'Sweden joined the EU together with Finland and Austria, but kept its currency, the krona.' },
+        { n: 'Greta Thunberg\'s school strike for climate', y: '2018', lat: 59.327, lon: 18.067, k: 'event', vn: 'Greta Thunberg', d: 'The 15-year-old student sat in front of Parliament with a handwritten sign, starting a student movement around the world.' },
+        { n: 'Joining NATO', y: 'Mar 7, 2024', lat: 38.894, lon: -77.048, k: 'event', vn: 'Prime Minister Ulf Kristersson', d: 'After more than 200 years without a military alliance, Sweden became the 32nd member of NATO, with the documents handed over in Washington.' }
+      ]
+    }
+  ]
+};

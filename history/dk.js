@@ -1,0 +1,87 @@
+// Denmark history for the Geo-Flight history layer.
+export default {
+  iso: 'dk', name: 'Denmark', flag: '🇩🇰',
+  eras: [
+    {
+      id: 'viking', t: 'Prehistory and the Viking Age', y: '~1400 BCE – 1042',
+      d: 'Since the Bronze Age, ancient people in Denmark left many treasures; the Danish Vikings even ruled all of England.',
+      ev: [
+        { n: 'Trundholm Sun Chariot', y: '~1400 BCE', lat: 55.920, lon: 11.620, approx: true, k: 'event', vn: 'Bronze Age people', d: 'The statue of a horse pulling a gold-plated sun disc was found in a bog by a farmer ploughing his field in 1902.' },
+        { n: 'Tollund Man', y: '~400 BCE', lat: 56.150, lon: 9.680, approx: true, k: 'event', vn: 'Iron Age people', d: 'A body in a peat bog was preserved almost intact for more than 2,000 years, his face still clear as if he were sleeping.' },
+        { n: 'The Danevirke wall', y: '~737 – 1200', lat: 54.470, lon: 9.530, k: 'event', vn: 'King Godfred and the Danish kings', d: 'An earth wall about 30 km long blocked the Jutland peninsula to defend against the Franks from the south.' },
+        { n: 'Jelling Stones', y: '~965', lat: 55.756, lon: 9.419, k: 'event', vn: 'King Harald Bluetooth', d: 'Called the "birth certificate" of Denmark; today\'s Bluetooth technology is named after this king.' },
+        { n: 'Trelleborg ring fortress', y: '~980', lat: 55.394, lon: 11.265, k: 'event', vn: 'King Harald Bluetooth', d: 'A perfectly round fortress, divided into four equal parts with longhouses inside.' },
+        { n: 'Cnut the Great rules England', y: '1016 – 1035', lat: 51.063, lon: -1.310, k: 'event', vn: 'King Cnut the Great', d: 'From his capital Winchester, Cnut ruled a "North Sea empire" made up of England, Denmark and Norway.' },
+        { n: 'Skuldelev Viking ships', y: '~1070', lat: 55.650, lon: 12.080, k: 'event', vn: 'The Vikings of Roskilde', d: 'Five ships sunk on purpose to block the entrance to Roskilde Fjord, now displayed in the Viking Ship Museum.' }
+      ]
+    },
+    {
+      id: 'trungco', t: 'The Middle Ages and the Kalmar Union', y: '1042 – 1523',
+      d: 'Denmark was the strongest kingdom in Northern Europe; Queen Margaret I united three kingdoms in the Kalmar Union.',
+      ev: [
+        { n: 'Bishop Absalon founds Copenhagen', y: '1167', lat: 55.676, lon: 12.580, k: 'event', vn: 'Bishop Absalon', d: 'Absalon built a fortress on a small island, where Christiansborg Palace – the seat of parliament – now stands.' },
+        { n: 'The flag that fell from the sky', y: '1219', lat: 59.437, lon: 24.745, k: 'legend', vn: 'King Valdemar II', vs: 'The Estonians', d: 'According to legend, in the middle of a battle in Tallinn, a red flag with a white cross fell from the sky; it is the Dannebrog, the oldest national flag in the world.' },
+        { n: 'The Jutland Law', y: '1241', lat: 55.008, lon: 11.910, k: 'event', vn: 'King Valdemar II', d: 'The law code begins with the sentence "The land shall be built with law".' },
+        { n: 'Capture of Visby', y: '1361', lat: 57.640, lon: 18.300, k: 'battle', vn: 'King Valdemar IV', vs: 'The farmers of Gotland', d: 'The Danish king took the rich island of Gotland in the Baltic Sea.' },
+        { n: 'The Kalmar Union', y: '1397', lat: 56.659, lon: 16.356, k: 'event', vn: 'Queen Margaret I', d: 'In Kalmar, Margaret had her grand-nephew Eric crowned as the common king of Denmark, Norway and Sweden.' },
+        { n: 'The Øresund Sound Dues', y: '1429', lat: 56.039, lon: 12.621, k: 'event', vn: 'King Eric of Pomerania', d: 'Every ship passing through the narrow strait at Helsingør had to pay a toll to the Danish king – for more than 400 years.' },
+        { n: 'University of Copenhagen', y: '1479', lat: 55.680, lon: 12.572, k: 'event', vn: 'King Christian I', d: 'The oldest university in Denmark, where many Nobel Prize-winning scientists later worked.' }
+      ]
+    },
+    {
+      id: 'thuydien', t: 'The Reformation and wars with Sweden', y: '1523 – 1814',
+      d: 'Denmark became Protestant; many wars with Sweden made Denmark lose the Skåne region, and then lose Norway in 1814.',
+      ev: [
+        { n: 'Uraniborg Observatory', y: '1576', lat: 55.908, lon: 12.696, k: 'event', vn: 'Tycho Brahe', d: 'On the island of Hven, Tycho measured the positions of the stars more accurately than anyone before the telescope.' },
+        { n: 'Kronborg Castle', y: '1585', lat: 56.039, lon: 12.621, k: 'event', vn: 'King Frederick II', d: 'The castle guarding the strait is the setting of Shakespeare\'s play "Hamlet"; the statue of Holger Danske sleeps in the cellar, waiting for the day to save the country.' },
+        { n: 'Battle of Kolberger Heide', y: '1644', lat: 54.550, lon: 10.400, approx: true, k: 'battle', vn: 'King Christian IV', vs: 'The Swedish fleet', d: 'The 67-year-old king was wounded and lost an eye but still got up and kept commanding on the ship\'s deck.' },
+        { n: 'Treaty of Roskilde', y: '1658', lat: 55.642, lon: 12.080, k: 'event', vn: 'King Frederick III', vs: 'King Charles X Gustav (Sweden)', d: 'After the Swedish army crossed the frozen sea, Denmark had to give up the Skåne region in today\'s southern Sweden.' },
+        { n: 'Measuring the speed of light', y: '1676', lat: 48.836, lon: 2.336, k: 'event', vn: 'Ole Rømer', d: 'In Paris, the Danish astronomer realised that light takes time to travel when observing the moons of Jupiter.' },
+        { n: 'Battle of Køge Bay', y: '1677', lat: 55.470, lon: 12.300, approx: true, k: 'battle', vn: 'Admiral Niels Juel', vs: 'The Swedish fleet', d: 'The greatest naval victory in Danish history.' },
+        { n: 'Vitus Bering finds the Bering Strait', y: '1728', lat: 66.000, lon: -169.000, approx: true, k: 'event', vn: 'Vitus Bering', d: 'The Danish explorer working for Russia sailed through the strait separating Asia and America.' },
+        { n: 'Battle of Copenhagen', y: '1801', lat: 55.690, lon: 12.620, k: 'battle', vn: 'Olfert Fischer', vs: 'Admiral Horatio Nelson (Britain)', d: 'Nelson is said to have put his telescope to his blind eye so he would not "see" the order to withdraw.' },
+        { n: 'Treaty of Kiel', y: '1814', lat: 54.323, lon: 10.139, k: 'event', vn: 'King Frederick VI', vs: 'Sweden, Britain', d: 'As an ally of Napoléon, Denmark lost and had to hand Norway over to Sweden.' }
+      ]
+    },
+    {
+      id: 'thekyxix', t: 'The 19th century: constitution and fairy tales', y: '1814 – 1914',
+      d: 'Denmark got a democratic constitution in 1849 but lost Schleswig to Prussia in 1864; this was also the time of Andersen.',
+      ev: [
+        { n: 'Andersen\'s fairy tales', y: '1835', lat: 55.396, lon: 10.390, k: 'event', vn: 'Hans Christian Andersen', d: 'The son of a shoemaker in Odense wrote "The Little Mermaid" and "The Ugly Duckling" – translated into more than 125 languages.' },
+        { n: 'Tivoli Gardens', y: '1843', lat: 55.674, lon: 12.568, k: 'event', vn: 'Georg Carstensen', d: 'One of the oldest amusement parks in the world; the wooden roller coaster here has run since 1914.' },
+        { n: 'The Constitution of 5 June 1849', y: '1849', lat: 55.676, lon: 12.580, k: 'event', vn: 'King Frederick VII', d: 'Denmark changed from absolute monarchy to constitutional monarchy; 5 June is Constitution Day.' },
+        { n: 'Battle of Isted', y: '1850', lat: 54.570, lon: 9.490, k: 'battle', vn: 'General Gerhard de Meza', vs: 'The Schleswig-Holstein army', d: 'The biggest battle ever fought in Northern Europe at that time; Denmark won and kept Schleswig.' },
+        { n: 'Battle of Dybbøl', y: '1864', lat: 54.903, lon: 9.758, k: 'battle', vn: 'General George Daniel Gerlach', vs: 'The Prussian army', d: 'The Prussians took the fortifications; Denmark lost Schleswig and Holstein, about one third of its territory.' },
+        { n: 'The Little Mermaid statue', y: '1913', lat: 55.693, lon: 12.599, k: 'event', vn: 'Carl Jacobsen, Edvard Eriksen', d: 'The small bronze statue on the Copenhagen harbour shore is based on Andersen\'s story.' }
+      ]
+    },
+    {
+      id: 'thechien', t: 'The two World Wars', y: '1914 – 1945',
+      d: 'Denmark was neutral in World War I; in World War II it was occupied by Germany, and its people saved most of the Jews in the country.',
+      ev: [
+        { n: 'Sale of the Danish West Indies to the USA', y: '1917', lat: 18.340, lon: -64.930, k: 'event', vn: 'The Danish government', vs: 'The USA', d: 'Three islands in the Caribbean Sea were sold to the USA for 25 million dollars in gold, now the US Virgin Islands.' },
+        { n: 'Reunification of South Jutland', y: '1920', lat: 55.360, lon: 9.480, approx: true, k: 'event', vn: 'King Christian X', d: 'After a vote, northern Schleswig returned to Denmark; the king rode across the old border on a white horse.' },
+        { n: 'The Niels Bohr Institute', y: '1921', lat: 55.697, lon: 12.571, k: 'event', vn: 'Niels Bohr', d: 'The Nobel Prize-winning physicist founded an institute where young scientists from around the world came to learn about the atom.' },
+        { n: 'LEGO is born', y: '1932', lat: 55.731, lon: 9.112, k: 'event', vn: 'Ole Kirk Christiansen', d: 'A carpenter in Billund made wooden toys; the name LEGO comes from "leg godt", meaning "play well".' },
+        { n: 'Germany occupies Denmark', y: '9 Apr 1940', lat: 55.676, lon: 12.580, k: 'event', vn: 'King Christian X', vs: 'The German army', d: 'Denmark was occupied in only a few hours; the king still rode alone on horseback through the streets of Copenhagen every day.' },
+        { n: 'Rescue of the Danish Jews', y: '10/1943', lat: 56.120, lon: 12.310, k: 'event', vn: 'Danish fishermen and ordinary people', d: 'From fishing villages like Gilleleje, about 7,000 Jews were secretly taken by boat to Sweden.' },
+        { n: 'Liberation of Denmark', y: '5 May 1945', lat: 55.676, lon: 12.568, k: 'event', vn: 'The Resistance movement', d: 'The German forces in Denmark surrendered; the evening before, people lit candles in their windows, which is still a tradition.' }
+      ]
+    },
+    {
+      id: 'hiendai', t: 'Modern Denmark', y: '1945 – present',
+      d: 'Denmark built a welfare state, leads in wind energy and cycling, and often tops the rankings of the happiest countries.',
+      ev: [
+        { n: 'Joining NATO', y: '1949', lat: 38.894, lon: -77.048, approx: true, k: 'event', vn: 'Foreign Minister Gustav Rasmussen', d: 'Denmark was one of the 12 founding countries of NATO, signed in Washington.' },
+        { n: 'Sydney Opera House', y: '1973', lat: -33.857, lon: 151.215, k: 'event', vn: 'Architect Jørn Utzon', d: 'The roof like sails, designed by a Danish architect, is now a symbol of Australia.' },
+        { n: 'Joining the European Community', y: '1973', lat: 55.676, lon: 12.580, approx: true, k: 'event', vn: 'Prime Minister Jens Otto Krag', d: 'Denmark joined the European Community with Britain and Ireland; Greenland later left in 1985.' },
+        { n: 'Greenland home rule', y: '1979 – 2009', lat: 64.180, lon: -51.720, k: 'event', vn: 'The Danish government, the Greenlandic people', d: 'The largest island in the world got a self-governing authority, and then more self-rule from 2009, while still belonging to the Kingdom of Denmark.' },
+        { n: 'Euro 1992 champions', y: '1992', lat: 57.706, lon: 11.987, k: 'event', vn: 'The Denmark team', vs: 'The Germany team', d: 'Called into the tournament only 10 days before it began, as a replacement for another team, Denmark still won in Gothenburg.' },
+        { n: 'Øresund Bridge', y: '2000', lat: 55.575, lon: 12.830, approx: true, k: 'event', vn: 'Denmark and Sweden', d: 'Half bridge, half undersea tunnel linking Copenhagen with Malmö (Sweden), about 16 km long.' },
+        { n: 'COP15 Climate Conference', y: '2009', lat: 55.637, lon: 12.578, k: 'event', vn: 'Prime Minister Lars Løkke Rasmussen', d: 'More than 100 heads of state met in Copenhagen to discuss how to fight climate change.' },
+        { n: 'Queen Margrethe II abdicates', y: '14 Jan 2024', lat: 55.676, lon: 12.580, k: 'event', vn: 'Queen Margrethe II, King Frederick X', d: 'After 52 years on the throne, the queen handed the crown to her son; the new king was proclaimed from the balcony of Christiansborg.' },
+        { n: 'Fire at the Børsen Stock Exchange', y: '16 Apr 2024', lat: 55.676, lon: 12.584, k: 'event', vn: 'Firefighters and the people of Copenhagen', d: 'The spire made of four dragons with intertwined tails on the 400-year-old building collapsed; people helped save valuable paintings.' }
+      ]
+    }
+  ]
+};

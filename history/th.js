@@ -1,0 +1,117 @@
+// Thailand history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'th', name: 'Thailand', flag: '🇹🇭',
+  eras: [
+    {
+      id: 'early', t: 'Before the Thai: Dvaravati and Khmer', y: '~2000 BCE – 1238 CE',
+      d: 'Before the Thai kingdoms arose, this land had the bronze-age village of Ban Chiang, the Mon kingdoms of Dvaravati and Haripunchai, and the stone temples of the Khmer Empire.',
+      ev: [
+        { n: 'Ancient village of Ban Chiang', y: '~1500 BCE', lat: 17.408, lon: 103.241, k: 'event', d: 'Early people knew how to cast bronze and made pottery painted with red swirl patterns; it is now a World Heritage Site.' },
+        { n: 'Phra Pathom Chedi', y: 'Dvaravati period', lat: 13.820, lon: 100.060, k: 'event', d: 'Nakhon Pathom was a center of the Mon Dvaravati people, where Buddhism first entered Thailand; the chedi is now 120 m tall.' },
+        { n: 'Kingdom of Haripunchai', y: '~750 – 1292', lat: 18.577, lon: 99.008, k: 'legend', vn: 'Queen Chamadevi', d: 'According to legend, Princess Chamadevi traveled north from Lavo and founded a kingdom at Lamphun.' },
+        { n: 'Lavo – Lopburi', y: '7th – 13th century', lat: 14.802, lon: 100.614, k: 'event', d: 'A Mon and then Khmer city; the three-towered temple of Phra Prang Sam Yot is now home to its famous troop of monkeys.' },
+        { n: 'Phimai Temple', y: '~1100', lat: 15.221, lon: 102.494, k: 'event', d: 'The largest Khmer stone temple in Thailand, linked to Angkor by a long royal road.' },
+        { n: 'Phanom Rung Temple', y: '10th – 13th century', lat: 14.532, lon: 102.942, k: 'event', d: 'A Khmer temple on the rim of an extinct volcano; a few times each year the rising Sun shines straight through its 15 doorways.' }
+      ]
+    },
+    {
+      id: 'sukhothai', t: 'Kingdoms of Sukhothai and Lanna', y: '1238 – 1438',
+      d: '"Dawn of Happiness" Sukhothai was the first Thai kingdom; King Ramkhamhaeng created the Thai script. In the north, King Mangrai founded the kingdom of Lanna.',
+      ev: [
+        { n: 'Founding of the Sukhothai kingdom', y: '1238', lat: 17.017, lon: 99.703, k: 'battle', vn: 'Si Inthrathit, Pha Mueang', vs: 'Khmer governor', d: 'Two Thai chiefs drove out the Khmer governor and founded the kingdom of Sukhothai.' },
+        { n: 'Ramkhamhaeng wins the elephant battle', y: '~1257', lat: 16.75, lon: 98.75, approx: true, k: 'battle', vn: 'Prince Ram (Ramkhamhaeng)', vs: 'Khun Sam Chon (Mueang Chot)', d: 'The 19-year-old prince rode an elephant into the battle to save his father, and was given the name "Ram the Brave".' },
+        { n: 'Ramkhamhaeng Inscription', y: '1292', lat: 17.017, lon: 99.705, k: 'event', vn: 'King Ramkhamhaeng', d: '"There are fish in the water and rice in the fields" – a stone inscription written in the Thai script that the king created in 1283.' },
+        { n: 'City of Si Satchanalai', y: '13th – 15th century', lat: 17.426, lon: 99.790, k: 'event', d: 'Sukhothai\'s twin city, famous for Sangkhalok celadon pottery sold as far as the Philippines.' },
+        { n: 'King Mangrai founds Chiang Mai', y: '1296', lat: 18.788, lon: 98.986, k: 'event', vn: 'King Mangrai', d: 'The new capital of the Lanna kingdom, "land of a million rice fields"; its square city walls and moat still exist today.' },
+        { n: 'Sukhothai merges into Ayutthaya', y: '1438', lat: 16.82, lon: 100.26, k: 'event', vn: 'King Borommatrailokanat (Ayutthaya)', d: 'After years as a vassal, Sukhothai and Phitsanulok were fully absorbed into the kingdom of Ayutthaya.' }
+      ]
+    },
+    {
+      id: 'ayutthaya', t: 'Kingdom of Ayutthaya', y: '1351 – 1767',
+      d: 'The island capital between three rivers became a great international trading port, with quarters for the Portuguese, Dutch, Japanese, Chinese and Vietnamese.',
+      ev: [
+        { n: 'Founding of the capital Ayutthaya', y: '1351', lat: 14.356, lon: 100.558, k: 'event', vn: 'King U Thong (Ramathibodi I)', d: 'The capital was built on an island surrounded by the Chao Phraya, Pa Sak and Lopburi rivers, like a natural moat.' },
+        { n: 'Capture of Angkor', y: '1431', lat: 13.44, lon: 103.86, k: 'battle', vn: 'King Borommarachathirat II', vs: 'Khmer Empire', d: 'The Ayutthaya army besieged and took Angkor; the Khmer court then moved toward Phnom Penh.' },
+        { n: 'King Trailok\'s reforms', y: '1448 – 1488', lat: 14.356, lon: 100.555, k: 'event', vn: 'King Borommatrailokanat', d: 'He divided the court into ministries and set up the "sakdina" system, ranking every person by the amount of land they held.' },
+        { n: 'Wat Phra Si Sanphet', y: '1492', lat: 14.356, lon: 100.558, k: 'event', vn: 'King Ramathibodi II', d: 'Three royal chedis within the palace grounds, once with a standing Buddha statue covered in 170 kg of gold.' },
+        { n: 'King Narai in Lopburi', y: '1666', lat: 14.800, lon: 100.610, k: 'event', vn: 'King Narai', d: 'King Narai built a second palace in Lopburi, took an interest in astronomy and received envoys from many countries.' },
+        { n: 'French embassy arrives in Ayutthaya', y: '1685', lat: 14.35, lon: 100.57, k: 'event', vn: 'King Narai, Constantine Phaulkon', vs: 'Envoy Chaumont (France)', d: 'King Louis XIV sent an envoy hoping King Narai would become Catholic; Siam then also sent an embassy to Versailles.' },
+        { n: 'Revolution of 1688', y: '1688', lat: 14.800, lon: 100.612, k: 'event', vn: 'Phetracha', vs: 'French troops in Bangkok', d: 'When King Narai fell gravely ill, Phetracha took power and forced the French troops out of Siam; Ayutthaya then limited Westerners.' }
+      ]
+    },
+    {
+      id: 'burma', t: 'Wars with Burma', y: '1548 – 1767',
+      d: 'More than 200 years of war with the Burmese dynasties; King Naresuan won back independence, but in 1767 the capital Ayutthaya was burned and destroyed.',
+      ev: [
+        { n: 'Queen Suriyothai\'s sacrifice', y: '1548', lat: 14.38, lon: 100.53, approx: true, k: 'battle', vn: 'King Maha Chakkraphat, Queen Suriyothai', vs: 'King Tabinshwehti (Burma)', d: 'The queen disguised herself as a man and rode an elephant into battle to shield her husband, and was killed.' },
+        { n: 'First fall of Ayutthaya', y: '1569', lat: 14.356, lon: 100.56, k: 'battle', vn: 'King Mahinthrathirat', vs: 'King Bayinnaung (Burma)', d: 'After a long siege, Ayutthaya became a vassal of Burma; Prince Naresuan was taken to Pegu as a hostage.' },
+        { n: 'Crossing the Sittaung River', y: '1584', lat: 17.45, lon: 96.90, approx: true, k: 'battle', vn: 'King Naresuan', vs: 'Surakamma (Burma)', d: 'Naresuan declared independence; according to Thai chronicles, he shot the general Surakamma dead with a musket across the river.' },
+        { n: 'Elephant duel at Nong Sarai', y: '1593', lat: 14.64, lon: 99.98, approx: true, k: 'battle', vn: 'King Naresuan, King Ekathotsarot', vs: 'Crown Prince Mingyi Swa (Burma)', d: 'The two fought a duel on the backs of war elephants; the Burmese crown prince was killed and the Burmese army retreated.' },
+        { n: 'Siege of Pegu', y: '1595 – 1600', lat: 17.336, lon: 96.479, k: 'battle', vn: 'King Naresuan', vs: 'King Nanda Bayin (Burma)', d: 'Naresuan repeatedly led armies all the way to the Burmese capital Pegu, reversing the course of the war.' },
+        { n: 'Alaungpaya besieges Ayutthaya', y: '1760', lat: 14.35, lon: 100.55, approx: true, k: 'battle', vn: 'King Ekkathat', vs: 'King Alaungpaya (Burma)', d: 'The Burmese king was wounded (some chronicles say by an exploding cannon) and died on the retreat.' },
+        { n: 'Bang Rachan village', y: '1765 – 1766', lat: 14.865, lon: 100.311, approx: true, k: 'battle', vn: 'Villagers of Bang Rachan, Nai Thong Men, Nai Chan', vs: 'Burmese army', d: 'The villagers built barricades and held off the Burmese army for 5 months; the Thai still retell this story.' },
+        { n: 'Second fall of Ayutthaya', y: '1767', lat: 14.356, lon: 100.56, k: 'battle', vn: 'King Ekkathat', vs: 'Maha Nawrahta, Ne Myo Thihapate (Burma)', d: 'After 14 months under siege, the capital was burned and destroyed, and the 417-year-old kingdom of Ayutthaya collapsed.' }
+      ]
+    },
+    {
+      id: 'thonburi', t: 'Thonburi Dynasty', y: '1767 – 1782',
+      d: 'General Taksin broke out of the siege, gathered forces in the east and within a few months drove out the Burmese, founding a new capital at Thonburi.',
+      route: { t: 'Taksin\'s breakout and return 1767', pts: [[14.356, 100.56], [14.05, 101.37], [13.36, 100.98], [12.68, 101.27], [12.61, 102.10], [13.36, 100.98], [13.74, 100.49], [14.42, 100.53]] },
+      ev: [
+        { n: 'Taksin takes Chanthaburi', y: '1767', lat: 12.61, lon: 102.10, k: 'battle', vn: 'Phraya Tak (King Taksin)', d: 'Taksin had the cooking pots smashed and told his troops "we will eat dinner in the city tonight", then attacked and took Chanthaburi.' },
+        { n: 'Pho Sam Ton camp', y: '1767', lat: 14.42, lon: 100.53, approx: true, k: 'battle', vn: 'King Taksin', vs: 'Suki (Burma)', d: 'Only 7 months after Ayutthaya fell, Taksin defeated the last Burmese garrison near the old capital.' },
+        { n: 'Capital at Thonburi', y: '1767', lat: 13.743, lon: 100.489, k: 'event', vn: 'King Taksin', d: 'Taksin took the throne and set up his capital at Thonburi on the banks of the Chao Phraya River, next to today\'s Wat Arun.' },
+        { n: 'Battle of Bang Kung', y: '1768', lat: 13.43, lon: 99.96, approx: true, k: 'battle', vn: 'King Taksin', vs: 'Burmese army', d: 'The Thonburi army relieved the Bang Kung camp, proving the new dynasty could defend itself.' },
+        { n: 'Defense of Phitsanulok', y: '1775 – 1776', lat: 16.82, lon: 100.26, k: 'battle', vn: 'Chao Phraya Chakri, Chao Phraya Surasi', vs: 'Maha Thiha Thura (Burma)', d: 'The two brothers held the city for many months; the Burmese general praised Chakri\'s skill in command.' },
+        { n: 'Capture of Vientiane', y: '1779', lat: 17.97, lon: 102.61, k: 'battle', vn: 'Chao Phraya Chakri', vs: 'Kingdom of Vientiane', d: 'The Thonburi army brought back the Emerald Buddha (Phra Kaew); the statue is now in the Temple of the Emerald Buddha in Bangkok.' }
+      ]
+    },
+    {
+      id: 'rattanakosin', t: 'The Chakri Dynasty and the Capital Bangkok', y: '1782 – 1851',
+      d: 'King Rama I founded the Chakri dynasty and the capital Bangkok on Rattanakosin Island; the kingdom repelled the last major Burmese attack.',
+      ev: [
+        { n: 'Founding of the capital Bangkok', y: '1782', lat: 13.750, lon: 100.491, k: 'event', vn: 'King Rama I (Phutthayotfa Chulalok)', d: 'The Grand Palace and the Temple of the Emerald Buddha were built on the east bank of the Chao Phraya; Bangkok\'s full name is more than 160 letters long.' },
+        { n: 'War of the Nine Armies – Battle of Lat Ya', y: '1785', lat: 14.08, lon: 99.44, approx: true, k: 'battle', vn: 'Maha Sura Singhanat (vice-king)', vs: 'King Bodawpaya (Burma)', d: 'Burma attacked with nine armies; the Siamese blocked the main army at a pass in Kanchanaburi.' },
+        { n: 'Heroines of Thalang', y: '1785', lat: 7.98, lon: 98.36, k: 'battle', vn: 'Thao Thep Kasattri, Thao Si Sunthon', vs: 'Burmese army', d: 'Two sisters on Phuket island led the people in defending the city; legend says the women put on armor and posed as soldiers.' },
+        { n: 'Burney Treaty', y: '1826', lat: 13.75, lon: 100.49, k: 'event', vn: 'King Rama III', vs: 'Henry Burney (Britain)', d: 'The first trade treaty with Britain in the Bangkok era, expanding trade.' },
+        { n: 'Lady Mo of Korat (Thao Suranari)', y: '1826', lat: 14.975, lon: 102.10, approx: true, k: 'battle', vn: 'Thao Suranari (Lady Mo)', vs: 'Vientiane army of Chao Anouvong', d: 'Taken captive, she organized the prisoners to fight back; her statue stands in the middle of the city of Nakhon Ratchasima.' },
+        { n: 'Reclining Buddha at Wat Pho', y: '1832', lat: 13.7465, lon: 100.4927, k: 'event', vn: 'King Rama III', d: 'The 46 m long reclining Buddha is covered in gold leaf; the temple was also the "first university", with stone inscriptions teaching medicine and massage.' }
+      ]
+    },
+    {
+      id: 'reform', t: 'Modernization and Keeping Independence', y: '1851 – 1932',
+      d: 'King Mongkut and King Chulalongkorn reformed the country along Western lines and used skillful diplomacy, making Siam the only Southeast Asian country never colonized, though it had to give up many territories.',
+      ev: [
+        { n: 'Bowring Treaty', y: '1855', lat: 13.75, lon: 100.49, k: 'event', vn: 'King Mongkut (Rama IV)', vs: 'John Bowring (Britain)', d: 'Siam opened to free trade with Britain, then signed similar treaties with France, the US and many countries.' },
+        { n: 'Solar eclipse at Wakor', y: '1868', lat: 11.70, lon: 99.70, approx: true, k: 'event', vn: 'King Mongkut', d: 'The king himself accurately calculated the date of the total solar eclipse; he is called the "father of Thai science".' },
+        { n: 'Paknam Incident', y: '1893', lat: 13.55, lon: 100.58, k: 'battle', vn: 'King Chulalongkorn (Rama V)', vs: 'French gunboats', d: 'French warships passed the river-mouth fort and entered Bangkok; Siam was forced to give up the territory on the left bank of the Mekong.' },
+        { n: 'Bangkok – Ayutthaya railway', y: '1897', lat: 14.35, lon: 100.58, k: 'event', vn: 'King Chulalongkorn', d: 'The first state railway line, the start of a rail network linking the whole kingdom.' },
+        { n: 'Abolition of slavery', y: '1905', lat: 13.769, lon: 100.512, k: 'event', vn: 'King Chulalongkorn', d: 'After 30 years of gradual steps, slavery was abolished completely without causing a civil war.' },
+        { n: 'Siamese – French and Siamese – British treaties', y: '1907 – 1909', lat: 13.75, lon: 100.49, k: 'event', vn: 'King Chulalongkorn', vs: 'France, Britain', d: 'Siam gave Battambang and Siem Reap to France and four Malay states to Britain in order to keep the rest.' },
+        { n: 'Siam joins World War I', y: '1917', lat: 13.75, lon: 100.50, k: 'event', vn: 'King Vajiravudh (Rama VI)', d: 'Siam sent soldiers to France, switched to the red-white-blue tricolor flag, and after the war demanded revision of the unequal treaties.' }
+      ]
+    },
+    {
+      id: 'modern', t: 'Thailand in the 20th – 21st Centuries', y: '1932 – present',
+      d: 'From absolute to constitutional monarchy, renamed Thailand, passing through World War II and many political upheavals to become a tourism and economic hub of the region.',
+      ev: [
+        { n: 'Revolution of 1932', y: '1932', lat: 13.7695, lon: 100.5118, k: 'event', vn: 'Pridi Banomyong, Plaek Phibunsongkhram', d: 'The Khana Ratsadon group read a declaration in the Royal Plaza, and Siam became a constitutional monarchy.' },
+        { n: 'Siam renamed Thailand', y: '1939', lat: 13.7567, lon: 100.5018, k: 'event', vn: 'Plaek Phibunsongkhram', d: '"Prathet Thai" means "land of the free"; the Democracy Monument had been built a few years earlier.' },
+        { n: 'Battle of Ko Chang', y: '1941', lat: 11.95, lon: 102.30, approx: true, k: 'battle', vn: 'Thai navy', vs: 'French (Vichy) navy', d: 'The biggest battle of the Franco-Thai War; the Thai navy lost several ships, but the peace treaty afterward let Thailand regain some territory.' },
+        { n: 'Japanese landing', y: 'Dec 8, 1941', lat: 11.81, lon: 99.80, k: 'battle', vn: 'Thai troops and Yuwachon youth', vs: 'Japanese army', d: 'At Prachuap Khiri Khan, soldiers and students resisted until the government ordered a ceasefire.' },
+        { n: 'Bridge on the River Kwai – "Death Railway"', y: '1942 – 1943', lat: 14.041, lon: 99.504, k: 'event', vs: 'Japanese army', d: 'Japan forced Allied prisoners of war and Asian laborers to build a railway to Burma; more than 100,000 people died.' },
+        { n: 'Seri Thai movement', y: '1942 – 1945', lat: 13.7568, lon: 100.4904, k: 'event', vn: 'Pridi Banomyong, Seni Pramoj', d: 'The secret "Free Thai" movement helped the Allies, which kept Thailand from being treated as a defeated country.' },
+        { n: 'Founding of ASEAN', y: '1967', lat: 13.749, lon: 100.494, k: 'event', vn: 'Thanat Khoman', d: 'Five countries signed the Bangkok Declaration founding the Association of Southeast Asian Nations; Vietnam joined in 1995.' },
+        { n: 'October 14 uprising', y: '1973', lat: 13.7567, lon: 100.5018, k: 'event', d: 'Hundreds of thousands of students and citizens protested to demand a constitution; the Thanom military government had to resign.' },
+        { n: 'Indian Ocean tsunami', y: '2004', lat: 8.64, lon: 98.25, k: 'event', d: 'The tsunami of December 26 swept into Khao Lak and Phuket, killing more than 5,000 people in Thailand.' },
+        { n: '"Yellow shirt" and "red shirt" protests', y: '2008 – 2010', lat: 13.747, lon: 100.539, approx: true, k: 'event', d: 'Two camps for and against former Prime Minister Thaksin protested for months, at times occupying the airport and the Ratchaprasong center.' },
+        { n: '2014 military coup', y: '2014', lat: 13.762, lon: 100.513, k: 'event', vn: 'General Prayut Chan-o-cha', d: 'After months of protests, the army took power; General Prayut Chan-o-cha was prime minister until 2023.' },
+        { n: 'King Bhumibol (Rama IX) dies', y: 'Oct 13, 2016', lat: 13.75, lon: 100.491, k: 'event', vn: 'King Bhumibol Adulyadej, King Vajiralongkorn', d: 'The king who reigned for 70 years died, and the nation mourned for a year; King Vajiralongkorn (Rama X) was crowned in 2019.' },
+        { n: 'Rescue of the football team from Tham Luang cave', y: '2018', lat: 20.381, lon: 99.868, k: 'event', d: '12 young players and their coach, trapped in a flooded cave for 18 days, were brought out safely by divers from many countries.' },
+        { n: 'Youth protests', y: '2020', lat: 13.7567, lon: 100.5018, k: 'event', vn: 'University and school students', vs: 'Prayut government', d: 'Students gathered around the Democracy Monument demanding political reform, using the three-finger salute as their symbol.' },
+        { n: 'Marriage equality law', y: 'Jan 23, 2025', lat: 13.79, lon: 100.515, approx: true, k: 'event', d: 'Thailand became the first country in Southeast Asia to recognize same-sex marriage; hundreds of couples registered on the very first day.' },
+        { n: 'Thailand – Cambodia border conflict', y: 'Jul 2025', lat: 14.351, lon: 103.267, approx: true, k: 'battle', vn: 'Thai army', vs: 'Cambodian army', d: 'Five days of fighting around ancient temples along the border killed dozens of people and sent hundreds of thousands fleeing; the two sides agreed to a ceasefire with Malaysia as mediator.' }
+      ]
+    }
+  ]
+};

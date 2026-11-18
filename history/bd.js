@@ -1,0 +1,106 @@
+// Bangladesh history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'bd', name: 'Bangladesh', flag: '🇧🇩',
+  eras: [
+    {
+      id: 'ancient', t: 'Ancient Bengal and Buddhism', y: '~500 BCE – 1204',
+      d: 'The fertile Ganges–Brahmaputra delta had trading towns early on; under the Pala dynasty, Bengal was a major Buddhist center of Asia.',
+      ev: [
+        { n: 'Ancient city of Wari-Bateshwar', y: '~450 BCE', lat: 24.09, lon: 90.82, k: 'event', d: 'The city had earthen walls and brick-paved roads; beads and coins found there show trade reaching as far as Southeast Asia.' },
+        { n: 'Pundranagara (Mahasthangarh)', y: '~300 BCE', lat: 24.96, lon: 89.34, k: 'event', d: 'The oldest known city in Bangladesh; a stone tablet in Brahmi script found here tells officials to store rice against famine.' },
+        { n: 'Mainamati monasteries', y: '~7th – 8th century', lat: 23.43, lon: 91.13, k: 'event', vn: 'The Deva dynasty', d: 'The Shalban Vihara monastery on Lalmai hill has 115 monks\' cells, where monks studied and copied scriptures.' },
+        { n: 'Somapura Mahavihara', y: '~790', lat: 25.031, lon: 88.977, k: 'event', vn: 'King Dharmapala (Pala dynasty)', d: 'One of the largest Buddhist monasteries south of the Himalayas, which influenced temple architecture in Myanmar and Java.' },
+        { n: 'Atisha goes to Tibet', y: '982 – 1042', lat: 23.55, lon: 90.50, approx: true, k: 'event', vn: 'Atisha Dipankar', d: 'The monk born in Bikrampur was invited to Tibet to teach, and is still revered by Tibetans today.' },
+        { n: 'Sena capital of Bikrampur', y: '~1100', lat: 23.55, lon: 90.45, approx: true, k: 'event', vn: 'King Ballal Sena', d: 'The Hindu Sena dynasty replaced the Palas and made their capital in the area of today\'s Munshiganj.' }
+      ]
+    },
+    {
+      id: 'sultanate', t: 'The Bengal Sultanate', y: '1204 – 1576',
+      d: 'Islam spread across the delta; the Bengal Sultanate grew rich on rice, cotton cloth and sea trade.',
+      ev: [
+        { n: 'Bakhtiyar Khalji takes Nadia', y: '1204', lat: 23.41, lon: 88.37, approx: true, k: 'battle', vn: 'King Lakshmana Sena', vs: 'Bakhtiyar Khalji', d: 'With only a few dozen horsemen riding ahead, General Khalji surprised the capital; the Sena king fled to eastern Bengal.' },
+        { n: 'Shah Jalal arrives in Sylhet', y: '1303', lat: 24.90, lon: 91.87, k: 'event', vn: 'Shah Jalal', d: 'The Sufi preacher came to Sylhet; his shrine is now one of the holiest places in Bangladesh.' },
+        { n: 'Capital at Sonargaon', y: '1338', lat: 23.65, lon: 90.60, k: 'event', vn: 'Fakhruddin Mubarak Shah', d: 'Sonargaon became the capital of eastern Bengal; the traveler Ibn Battuta stopped by in 1346 and praised the cheap rice.' },
+        { n: 'Unification of Bengal', y: '1352', lat: 23.65, lon: 90.60, approx: true, k: 'event', vn: 'Shamsuddin Ilyas Shah', d: 'Ilyas Shah merged the regions into one kingdom, and for the first time the whole area was called "Bangalah".' },
+        { n: 'Giraffe gift to the Ming', y: '1414', lat: 23.65, lon: 90.60, approx: true, k: 'event', vn: 'King Saifuddin Hamza Shah', vs: 'Yongle Emperor (Ming dynasty)', d: 'A Bengal envoy took a giraffe to China with Zheng He\'s fleet; the Ming people thought it was the qilin, a unicorn-like creature.' },
+        { n: 'Sixty Dome Mosque', y: '~1450', lat: 22.674, lon: 89.742, k: 'event', vn: 'Khan Jahan Ali', d: 'The brick mosque in Bagerhat actually has 77 domes and 60 stone pillars; it is now a World Heritage Site.' },
+        { n: 'The Portuguese in Chittagong', y: '1528 – 1537', lat: 22.34, lon: 91.83, k: 'event', vs: 'Portuguese merchants', d: 'Portuguese merchants set up a trading post at the port of Chittagong and called it "Porto Grande".' }
+      ]
+    },
+    {
+      id: 'mughal', t: 'Bengal under the Mughals', y: '1576 – 1757',
+      d: 'Bengal was the richest province of the Mughal Empire; Dhaka became the provincial capital and world-famous for muslin, cloth as thin as mist.',
+      ev: [
+        { n: 'Battle of Rajmahal', y: '1576', lat: 25.05, lon: 87.84, approx: true, k: 'battle', vn: 'Daud Khan Karrani', vs: 'Akbar\'s Mughal army', d: 'The last king of independent Bengal was killed in battle; the land became a province of the Mughal Empire.' },
+        { n: 'Isa Khan and the twelve lords', y: '~1580 – 1599', lat: 23.65, lon: 90.60, approx: true, k: 'battle', vn: 'Isa Khan (Baro-Bhuyan)', vs: 'Mughal army', d: 'The lords of the river country used war boats to resist the Mughals for decades.' },
+        { n: 'Dhaka becomes the capital of Bengal', y: '1610', lat: 23.71, lon: 90.41, k: 'event', vn: 'Islam Khan', d: 'The Mughal governor made Dhaka the capital and called it Jahangirnagar after Emperor Jahangir.' },
+        { n: 'Bara Katra palace', y: '1644', lat: 23.714, lon: 90.396, k: 'event', d: 'A large inn for merchants beside the Buriganga River, proof of the time when Dhaka was a bustling trading center.' },
+        { n: 'Recapture of Chittagong', y: '1666', lat: 22.34, lon: 91.83, k: 'battle', vn: 'Shaista Khan', vs: 'Arakan Kingdom and Portuguese pirates', d: 'Governor Shaista Khan ended piracy in the Bay of Bengal and annexed Chittagong.' },
+        { n: 'Lalbagh Fort', y: '1678', lat: 23.719, lon: 90.388, k: 'event', vn: 'Prince Muhammad Azam, Shaista Khan', d: 'The fort was never finished; inside is the tomb of Pari Bibi, Shaista Khan\'s daughter.' },
+        { n: 'Battle of Plassey', y: '23 June 1757', lat: 23.80, lon: 88.25, k: 'battle', vn: 'Nawab Siraj ud-Daulah', vs: 'Robert Clive (British East India Company)', d: 'Because General Mir Jafar betrayed him, the Nawab lost the battle; the British East India Company began to rule Bengal.' }
+      ]
+    },
+    {
+      id: 'british', t: 'British rule', y: '1757 – 1947',
+      d: 'The British ruled Bengal for almost 200 years; the land suffered many famines, but it was also a place where literature and political movements flourished.',
+      ev: [
+        { n: 'Bengal famine of 1770', y: '1770', lat: 24.0, lon: 89.5, approx: true, k: 'event', d: 'Drought together with the East India Company\'s heavy taxes caused a great famine, in which perhaps about a third of Bengal\'s people died.' },
+        { n: 'Tagore at Shilaidaha', y: '1890 – 1901', lat: 23.92, lon: 89.22, k: 'event', vn: 'Rabindranath Tagore', d: 'Tagore managed an estate beside the Padma River and wrote many poems; in 1913 he became the first Asian to win a Nobel Prize.' },
+        { n: 'Partition of Bengal', y: '1905', lat: 23.71, lon: 90.41, k: 'event', vs: 'Viceroy Curzon (Britain)', d: 'Britain split Bengal in two, with Dhaka as the capital of the east; fierce protests led to the partition being cancelled in 1911.' },
+        { n: 'Founding of the Muslim League', y: '1906', lat: 23.733, lon: 90.40, k: 'event', vn: 'Nawab Khwaja Salimullah', d: 'The party was born in Dhaka; later it was this party that demanded the creation of Pakistan.' },
+        { n: 'University of Dhaka', y: '1921', lat: 23.734, lon: 90.393, k: 'event', d: 'The university was called the "Oxford of the East" and later became the cradle of many movements of struggle.' },
+        { n: 'Chittagong armoury raid', y: '1930', lat: 22.34, lon: 91.83, k: 'battle', vn: 'Surya Sen', vs: 'British authorities', d: 'The teacher Surya Sen led young men in seizing the British police armoury, then fought a battle on Jalalabad hill.' },
+        { n: 'Bengal famine of 1943', y: '1943', lat: 23.71, lon: 90.41, approx: true, k: 'event', d: 'During World War II, soaring rice prices and food shortages caused about 3 million deaths.' }
+      ]
+    },
+    {
+      id: 'eastpak', t: 'East Pakistan', y: '1947 – 1971',
+      d: 'The land became East Pakistan, 1,600 km from the western wing; the Bengalis fought for their mother tongue and for autonomy.',
+      ev: [
+        { n: 'Language Movement', y: '21 Feb 1952', lat: 23.727, lon: 90.399, k: 'event', vn: 'University of Dhaka students', vs: 'Pakistani government', d: 'Students demanded recognition of the Bengali language and were shot; the day is now UNESCO\'s International Mother Language Day.' },
+        { n: 'United Front wins the election', y: '1954', lat: 23.71, lon: 90.41, k: 'event', vn: 'A. K. Fazlul Huq, Huseyn Shaheed Suhrawardy', d: 'An alliance of Bengali parties won big in the provincial election, but the central government soon dissolved it.' },
+        { n: 'Six-Point Program', y: '1966', lat: 23.71, lon: 90.41, approx: true, k: 'event', vn: 'Sheikh Mujibur Rahman', d: 'Sheikh Mujib demanded broad autonomy for East Pakistan and became the leader with the most support among the Bengalis.' },
+        { n: 'Bhola cyclone', y: '12 Nov 1970', lat: 22.68, lon: 90.65, k: 'event', d: 'One of the deadliest storms in history; tidal surges swept over the coastal islands and killed hundreds of thousands of people.' },
+        { n: 'Speech of 7 March', y: '7 Mar 1971', lat: 23.733, lon: 90.397, k: 'event', vn: 'Sheikh Mujibur Rahman', d: '"The struggle this time is the struggle for independence" – Mujib said to millions of people at the Dhaka racecourse.' }
+      ]
+    },
+    {
+      id: 'liberation', t: 'The Liberation War', y: '1971',
+      d: 'Nine months of fierce war, with millions of refugees fleeing to India, ended with the birth of the nation of Bangladesh.',
+      ev: [
+        { n: 'Operation Searchlight', y: '25 – 26 Mar 1971', lat: 23.734, lon: 90.393, k: 'event', vs: 'Pakistani army', d: 'The Pakistani army launched a crackdown in Dhaka, killing many students and intellectuals; Mujib was arrested.' },
+        { n: 'Declaration of independence over Kalurghat radio', y: '26 – 27 Mar 1971', lat: 22.40, lon: 91.88, approx: true, k: 'event', vn: 'Sheikh Mujibur Rahman, Major Ziaur Rahman', d: 'The declaration of independence in Mujib\'s name was read over a radio station in Chittagong.' },
+        { n: 'Mujibnagar government', y: '17 Apr 1971', lat: 23.74, lon: 88.68, approx: true, k: 'event', vn: 'Tajuddin Ahmad, Syed Nazrul Islam', d: 'The provisional government took its oath in a mango grove in Meherpur, right on the Indian border.' },
+        { n: 'Concert for Bangladesh', y: '1 Aug 1971', lat: 40.7505, lon: -73.9934, k: 'event', d: 'George Harrison and Ravi Shankar organized the first charity concert of such size, in New York, to help the refugees.' },
+        { n: 'Battle of Kamalpur', y: '1971', lat: 25.18, lon: 89.92, approx: true, k: 'battle', vn: 'Mukti Bahini forces', vs: 'Pakistani army', d: 'The border outpost in the north was besieged many times; the Pakistani troops here surrendered on 4 December 1971.' },
+        { n: 'Battle of Garibpur', y: '20 – 21 Nov 1971', lat: 23.12, lon: 88.95, approx: true, k: 'battle', vn: 'Mukti Bahini and Indian army', vs: 'Pakistani army', d: 'A tank battle near Jessore, just before India formally entered the war.' },
+        { n: 'Victory Day', y: '16 Dec 1971', lat: 23.733, lon: 90.397, k: 'battle', vn: 'Bangladesh–India Allied Forces', vs: 'General A. A. K. Niazi (Pakistan)', d: 'More than 90,000 Pakistani troops surrendered at the Dhaka racecourse; Bangladesh became an independent nation.' }
+      ]
+    },
+    {
+      id: 'republic', t: 'The young republic', y: '1972 – 2008',
+      d: 'Bangladesh rebuilt from the ruins, went through several coups before returning to democracy in 1991, and became famous for microcredit.',
+      ev: [
+        { n: 'First constitution', y: '1972', lat: 23.762, lon: 90.378, approx: true, k: 'event', vn: 'Sheikh Mujibur Rahman', d: 'The constitution set out four principles: nationalism, democracy, socialism and secularism.' },
+        { n: 'Sheikh Mujib assassinated', y: '15 Aug 1975', lat: 23.750, lon: 90.378, k: 'event', vn: 'Sheikh Mujibur Rahman', d: 'A group of officers attacked Mujib\'s private home in Dhanmondi and killed him along with many relatives; the house is now a museum.' },
+        { n: 'Grameen Bank', y: '1983', lat: 22.47, lon: 91.80, approx: true, k: 'event', vn: 'Muhammad Yunus', d: 'Starting from lending a few dollars to villagers in Jobra, Yunus founded a bank for the poor and won the 2006 Nobel Peace Prize.' },
+        { n: 'Return of democracy', y: '1990 – 1991', lat: 23.71, lon: 90.41, k: 'event', vn: 'Khaleda Zia, Sheikh Hasina', vs: 'General H. M. Ershad', d: 'Protests forced General Ershad to resign; Khaleda Zia became Bangladesh\'s first woman prime minister.' },
+        { n: '1991 Chittagong cyclone', y: '29 Apr 1991', lat: 22.30, lon: 91.80, approx: true, k: 'event', d: 'A super cyclone killed about 140,000 people; afterward Bangladesh built thousands of cyclone shelters along the coast.' },
+        { n: 'Chittagong Hill Tracts Peace Accord', y: '1997', lat: 22.65, lon: 92.17, approx: true, k: 'event', vn: 'Sheikh Hasina government', vs: 'Shanti Bahini forces', d: 'The accord ended more than 20 years of armed conflict in the hill region of the ethnic minorities.' },
+        { n: 'Jamuna (Bangabandhu) Bridge', y: '1998', lat: 24.40, lon: 89.78, k: 'event', d: 'The 4.8 km bridge connected the eastern and western parts of the country across the Jamuna River for the first time.' }
+      ]
+    },
+    {
+      id: 'today', t: 'Bangladesh today', y: '2009 – present',
+      d: 'Bangladesh became the world\'s second-largest clothing exporter with a fast-growing economy; in 2024 a wave of student protests changed the government.',
+      ev: [
+        { n: 'Rana Plaza collapse', y: '24 Apr 2013', lat: 23.846, lon: 90.258, k: 'event', d: 'A building housing many garment factories collapsed in Savar, killing more than 1,100 people; the world was forced to rethink garment industry safety.' },
+        { n: 'Sheltering Rohingya refugees', y: '2017', lat: 21.21, lon: 92.16, k: 'event', d: 'More than 700,000 Rohingya fled from Myanmar to Cox\'s Bazar; the Kutupalong camp became one of the largest refugee camps in the world.' },
+        { n: 'Bangabandhu-1 satellite', y: '2018', lat: 28.608, lon: -80.604, k: 'event', d: 'Bangladesh\'s first communications satellite was launched from Florida (USA) on a Falcon 9 rocket.' },
+        { n: 'Padma Bridge', y: '2022', lat: 23.45, lon: 90.26, approx: true, k: 'event', vn: 'Prime Minister Sheikh Hasina', d: 'A 6.15 km road-and-rail bridge across the Padma River, built with domestic funds.' },
+        { n: 'Dhaka elevated metro', y: '2022', lat: 23.75, lon: 90.39, approx: true, k: 'event', d: 'The first metro line helps ease traffic jams in a capital of more than 20 million people.' },
+        { n: 'July protests and the interim government', y: 'Jul – Aug 2024', lat: 23.734, lon: 90.393, k: 'event', vn: 'Student protesters, Muhammad Yunus', vs: 'Sheikh Hasina government', d: 'Student protests spread widely and many people died; on 5 August Prime Minister Hasina left, and Yunus led an interim government.' }
+      ]
+    }
+  ]
+};

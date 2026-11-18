@@ -1,0 +1,96 @@
+// Australia history for the Geo-Flight history layer (English text).
+export default {
+  iso: 'au', name: 'Australia', flag: '🇦🇺',
+  eras: [
+    {
+      id: 'thodan', t: 'Aboriginal and Torres Strait Islander peoples', y: '~65,000 years ago – 1788',
+      d: 'Aboriginal Australians have lived on this continent for at least 50,000 – 65,000 years, one of the longest continuous cultures in the world, with hundreds of different languages.',
+      ev: [
+        { n: 'Madjedbebe rock shelter', y: '~65,000 years ago', lat: -12.50, lon: 132.90, approx: true, k: 'event', vn: 'Aboriginal ancestors', d: 'Stone tools and pigments in the Arnhem Land region suggest that people may have reached Australia about 65,000 years ago.' },
+        { n: 'Mungo Man', y: '~42,000 years ago', lat: -33.73, lon: 143.03, approx: true, k: 'event', vn: 'Ancient Aboriginal people', d: 'Beside the dried-up Lake Mungo, archaeologists found traces of one of the oldest burial ceremonies in the world.' },
+        { n: 'Murujuga rock art', y: '~40,000 years ago – present', lat: -20.60, lon: 116.80, approx: true, k: 'event', vn: 'The Ngarluma and Yaburara Aboriginal peoples', d: 'More than a million engravings on red rock, including images of the Tasmanian tiger, which vanished from the mainland long ago.' },
+        { n: 'The Dreaming', y: 'since time immemorial', lat: -25.345, lon: 131.036, k: 'legend', vn: 'The Anangu people', d: 'According to the Anangu, the rock Uluru was created by ancestral beings in the "Dreaming"; it is a sacred place for them.' },
+        { n: 'Tasmania separates from the mainland', y: '~10,000 years ago', lat: -40.50, lon: 146.50, approx: true, k: 'event', vn: 'The Aboriginal Tasmanians', d: 'As the ice melted, rising seas created Bass Strait, isolating the Tasmanians from the mainland for thousands of years.' },
+        { n: 'Budj Bim eel trap system', y: '~6,600 years ago', lat: -38.07, lon: 141.93, approx: true, k: 'event', vn: 'The Gunditjmara people', d: 'The Gunditjmara dug channels through lava flows to raise and catch eels; the site is now a UNESCO World Heritage Site.' }
+      ]
+    },
+    {
+      id: 'khampha', t: 'European sailors and James Cook', y: '1606 – 1787',
+      d: 'Dutch sailors charted the west coast and called the land "New Holland"; in 1770 James Cook sailed along the east coast and claimed it for Britain.',
+      route: { t: 'James Cook\'s voyage along the east coast, 1770', pts: [[-37.80, 149.27], [-34.00, 151.22], [-27.00, 153.40], [-23.00, 151.00], [-19.00, 147.50], [-15.78, 145.57], [-15.47, 145.25], [-10.73, 142.40]] },
+      ev: [
+        { n: 'The Duyfken reaches Cape York', y: '1606', lat: -12.20, lon: 141.70, approx: true, k: 'event', vn: 'The Wik Aboriginal people', vs: 'Willem Janszoon (Dutch)', d: 'The Dutch ship was the first European vessel recorded to land in Australia.' },
+        { n: 'Dirk Hartog\'s plate', y: '1616', lat: -25.48, lon: 112.97, k: 'event', vn: 'Dirk Hartog (Dutch)', d: 'The Dutch captain nailed an engraved pewter plate to a post at Shark Bay – the oldest European object found in Australia.' },
+        { n: 'Wreck of the Batavia', y: '1629', lat: -28.49, lon: 113.79, k: 'event', vn: 'Captain Francisco Pelsaert (Dutch)', d: 'The Dutch merchant ship struck a reef in the Houtman Abrolhos islands; the wreck was found in 1963.' },
+        { n: 'Abel Tasman reaches Tasmania', y: '1642', lat: -42.85, lon: 147.90, approx: true, k: 'event', vn: 'Abel Tasman (Dutch)', d: 'The navigator named the island "Van Diemen\'s Land"; it was later renamed after him.' },
+        { n: 'Cook lands at Botany Bay', y: '29 Apr 1770', lat: -34.00, lon: 151.22, k: 'event', vn: 'The Gweagal people', vs: 'Captain James Cook (British)', d: 'The Endeavour anchored; two Gweagal men used spears to keep the crew from landing – the first encounter on the east coast.' },
+        { n: 'The Endeavour runs aground', y: 'June 1770', lat: -15.47, lon: 145.25, k: 'event', vn: 'The Guugu Yimithirr people', vs: 'Captain James Cook (British)', d: 'The ship struck the Great Barrier Reef and needed almost 2 months of repairs at Cooktown; the word "kangaroo" was recorded here.' },
+        { n: 'Cook claims the land at Possession Island', y: '22 Aug 1770', lat: -10.73, lon: 142.40, k: 'event', vn: 'Captain James Cook (British)', d: 'Cook raised a flag and claimed the whole east coast for Britain, naming it New South Wales.' }
+      ]
+    },
+    {
+      id: 'thuocdia', t: 'The First Fleet and the colonial period', y: '1788 – 1850',
+      d: 'Britain sent convicts to found a colony at Sydney; settlers spread across the continent, and Aboriginal communities lost their land and suffered great losses.',
+      ev: [
+        { n: 'The First Fleet arrives at Sydney Cove', y: '26 Jan 1788', lat: -33.859, lon: 151.210, k: 'event', vn: 'Governor Arthur Phillip', d: '11 ships carrying more than 1,000 people, mostly convicts, founded the colony; many Aboriginal people call 26 January "Invasion Day".' },
+        { n: 'Pemulwuy\'s resistance', y: '1790 – 1802', lat: -33.815, lon: 151.00, approx: true, k: 'battle', vn: 'Pemulwuy (Bidjigal people)', vs: 'British colonial troops', d: 'The warrior Pemulwuy led the fighting around Parramatta for more than 10 years to defend his people\'s land.' },
+        { n: 'Flinders circumnavigates the continent', y: '1801 – 1803', lat: -34.73, lon: 135.86, approx: true, k: 'event', vn: 'Matthew Flinders, Bungaree', d: 'Flinders, together with the Aboriginal man Bungaree, sailed around the continent and suggested calling it "Australia".' },
+        { n: 'Crossing the Blue Mountains', y: '1813', lat: -33.71, lon: 150.31, approx: true, k: 'event', vn: 'Blaxland, Lawson, Wentworth', d: 'Three explorers found a way across the mountains west of Sydney, opening the way for settlers to reach vast grasslands.' },
+        { n: 'Founding of Melbourne and Adelaide', y: '1835 – 1836', lat: -37.814, lon: 144.963, k: 'event', vn: 'John Batman, William Light', d: 'New cities were born; South Australia was a free colony that did not accept convicts.' },
+        { n: 'Myall Creek massacre', y: '1838', lat: -29.78, lon: 150.71, approx: true, k: 'event', vn: 'Colonial court', d: 'At least 28 Aboriginal people were killed; for the first time, white men who committed crimes against Aboriginal people were executed.' }
+      ]
+    },
+    {
+      id: 'vang', t: 'The gold rush and the self-governing colonies', y: '1851 – 1900',
+      d: 'The discovery of gold made the population soar; the colonies gained self-government and became the first places to adopt many democratic rights.',
+      route: { t: 'The Burke and Wills expedition, 1860 – 1861', pts: [[-37.80, 144.97], [-34.11, 142.16], [-32.07, 141.99], [-27.63, 141.08], [-23.0, 140.5], [-17.74, 140.85]] },
+      ev: [
+        { n: 'Ballarat gold rush', y: '1851', lat: -37.562, lon: 143.85, k: 'event', vn: 'Gold diggers', d: 'Tens of thousands of people from Britain, Ireland and China flocked to pan for gold; Melbourne became one of the richest cities in the world.' },
+        { n: 'Eureka Stockade uprising', y: '3 Dec 1854', lat: -37.565, lon: 143.87, k: 'battle', vn: 'Peter Lalor and the gold diggers', vs: 'Colonial soldiers and police', d: 'Miners built a stockade against the gold-digging license tax; the uprising was crushed but they won the right to vote.' },
+        { n: 'The secret ballot', y: '1856', lat: -37.811, lon: 144.974, approx: true, k: 'event', vn: 'Colony of Victoria', d: 'Victoria and South Australia were the first places in the world to use the secret ballot; many countries call it the "Australian ballot".' },
+        { n: 'Burke and Wills expedition', y: '1860 – 1861', lat: -27.63, lon: 141.08, approx: true, k: 'event', vn: 'Robert Burke, William Wills', d: 'The first party to cross the continent from south to north; on the way back both men died beside Cooper Creek.' },
+        { n: 'Ned Kelly captured at Glenrowan', y: '1880', lat: -36.46, lon: 146.22, k: 'event', vn: 'Ned Kelly', vs: 'Victoria Police', d: 'The famous outlaw, wearing homemade iron armor, fought police in a gunfight; he became a legendary figure in Australia.' },
+        { n: 'Women vote in South Australia', y: '1894', lat: -34.928, lon: 138.600, k: 'event', vn: 'Catherine Helen Spence', d: 'Women in South Australia could both vote and stand for election – earlier than in most countries in the world.' }
+      ]
+    },
+    {
+      id: 'lienbang', t: 'Federation and the ANZACs', y: '1901 – 1945',
+      d: 'Six colonies joined to form the Commonwealth of Australia; in the two world wars, Australian soldiers fought in Turkey, Europe, the Middle East and the Pacific.',
+      ev: [
+        { n: 'Federation ceremony', y: '1 Jan 1901', lat: -33.897, lon: 151.234, k: 'event', vn: 'Prime Minister Edmund Barton', d: 'In Centennial Park in Sydney, a united Australia was born; that year also saw the "White Australia" policy begin.' },
+        { n: 'Building the capital Canberra', y: '1913 – 1927', lat: -35.308, lon: 149.125, k: 'event', vn: 'Architect Walter Burley Griffin', d: 'Because Sydney and Melbourne competed to be the capital, a whole new city was built between the two.' },
+        { n: 'Gallipoli landing – ANZAC Cove', y: '25 Apr 1915', lat: 40.24, lon: 26.28, k: 'battle', vn: 'ANZAC Corps (Australia and New Zealand)', vs: 'Ottoman army (Mustafa Kemal)', d: 'Australian soldiers landed beneath the Turkish cliffs; 25 April became ANZAC Day, in memory of those who fell.' },
+        { n: 'Battle of Pozières', y: 'July 1916', lat: 50.04, lon: 2.72, k: 'battle', vn: 'Australian army', vs: 'German army', d: 'In the Battle of the Somme in France, the Australians suffered more than 23,000 casualties in only about six weeks.' },
+        { n: 'Cavalry charge at Beersheba', y: '31 Oct 1917', lat: 31.25, lon: 34.79, k: 'battle', vn: '4th Light Horse Brigade', vs: 'Ottoman army', d: 'Australian cavalry galloped across the desert and seized the wells of Beersheba before dark.' },
+        { n: 'Siege of Tobruk', y: '1941', lat: 32.08, lon: 23.96, k: 'battle', vn: 'General Leslie Morshead', vs: 'German–Italian army (Erwin Rommel)', d: 'Australian soldiers held the port of Tobruk in Libya for many months and were jokingly called the "Rats of Tobruk" by the enemy.' },
+        { n: 'Bombing of Darwin', y: '19 Feb 1942', lat: -12.46, lon: 130.84, k: 'battle', vn: 'Darwin defenders', vs: 'Japanese air force', d: 'For the first time Australian territory was attacked from outside; more than 230 people were killed.' },
+        { n: 'Kokoda Track', y: '1942', lat: -8.88, lon: 147.74, k: 'battle', vn: 'Australian and Papuan troops', vs: 'Japanese army', d: 'On a muddy mountain trail in Papua New Guinea, the Australians stopped the Japanese advance on Port Moresby.' }
+      ]
+    },
+    {
+      id: 'saochien', t: 'Modern Australia', y: '1945 – 1999',
+      d: 'After the war, millions of immigrants came to Australia; the country gradually dropped the White Australia policy and recognized the rights of Aboriginal people.',
+      ev: [
+        { n: 'Snowy Mountains Scheme', y: '1949 – 1974', lat: -36.10, lon: 148.40, approx: true, k: 'event', vn: 'Workers from more than 30 countries', d: 'A huge system of dams and hydroelectric tunnels was built by more than 100,000 people, mostly immigrants.' },
+        { n: 'Melbourne Olympics', y: '1956', lat: -37.820, lon: 144.983, k: 'event', vn: 'City of Melbourne', d: 'The first Olympics in the Southern Hemisphere; for the first time athletes walked mixed together at the closing ceremony.' },
+        { n: 'Battle of Long Tan', y: '18 Aug 1966', lat: 10.49, lon: 107.29, approx: true, k: 'battle', vn: 'D Company, 6th Battalion (Australia)', vs: 'South Vietnam\'s National Liberation Army', d: 'Australia sent troops to Vietnam on the side of the US; the battle in a rubber plantation in Ba Ria is the one most often remembered in Australia.' },
+        { n: '1967 referendum', y: '27 May 1967', lat: -35.308, lon: 149.125, approx: true, k: 'event', vn: 'The people of Australia', d: 'More than 90% of voters agreed to amend the constitution so that Aboriginal people would be counted in the population and the federal government could make laws for them.' },
+        { n: 'Sydney Opera House', y: '1973', lat: -33.857, lon: 151.215, k: 'event', vn: 'Architect Jørn Utzon', d: 'Its roof, like white sails, is covered with more than a million tiles; it is now a UNESCO World Heritage Site.' },
+        { n: 'Welcoming Vietnamese refugees', y: '1976 – 1980', lat: -12.46, lon: 130.84, approx: true, k: 'event', vn: 'Prime Minister Malcolm Fraser', d: 'The first boats reached Darwin in 1976; tens of thousands of Vietnamese came to settle, and they are now a large community in Australia.' },
+        { n: 'Mabo decision', y: '1992', lat: -9.93, lon: 144.05, k: 'event', vn: 'Eddie Koiki Mabo', d: 'The High Court recognized the Meriam people\'s rights to their ancestral land, rejecting the idea that Australia was "land belonging to no one" in 1788.' }
+      ]
+    },
+    {
+      id: 'naynay', t: 'The 21st century', y: '2000 – present',
+      d: 'Australia is a rich, multicultural country that hosts many major sporting events, but it also faces bushfires and climate change.',
+      ev: [
+        { n: 'Sydney 2000 Olympics', y: '2000', lat: -33.847, lon: 151.063, k: 'event', vn: 'Athlete Cathy Freeman', d: 'The Aboriginal athlete Cathy Freeman won the 400 m final in front of 110,000 spectators.' },
+        { n: 'Apology to the Stolen Generations', y: '13 Feb 2008', lat: -35.308, lon: 149.125, k: 'event', vn: 'Prime Minister Kevin Rudd', d: 'The government formally apologized for removing many Aboriginal children from their families over several decades.' },
+        { n: '"Black Summer" bushfires', y: '2019 – 2020', lat: -37.56, lon: 149.76, approx: true, k: 'event', vn: 'Volunteer firefighters', d: 'Fire burned more than 18 million hectares; in Mallacoota, thousands of people had to go to the beach to wait for the navy to pick them up.' },
+        { n: '2023 Women\'s World Cup', y: '2023', lat: -33.847, lon: 151.063, k: 'event', vn: 'Australia women\'s team (the Matildas)', d: 'Australia co-hosted with New Zealand; the Matildas reached the semifinals, and their matches drew record audiences.' },
+        { n: 'Referendum on the "Voice"', y: '14 Oct 2023', lat: -35.308, lon: 149.125, approx: true, k: 'event', vn: 'Prime Minister Anthony Albanese', d: 'Voters rejected a proposal to set up a body representing Aboriginal people in the constitution.' },
+        { n: 'Preparing for the 2032 Brisbane Olympics', y: '2021 – present', lat: -27.47, lon: 153.03, k: 'event', vn: 'City of Brisbane', d: 'Brisbane was chosen to host the 2032 Olympics, the third time Australia will hold the Summer Games.' }
+      ]
+    }
+  ]
+};
