@@ -1,0 +1,7 @@
+{
+  "name": "geoflight-bake",
+  "private": true,
+  "type": "module",
+  "description": "Offline baker for the Geo-Flight game assets (run in Docker: see README.md).",
+  "dependencies": { "sharp": "0.33.5", "flag-icons": "7.2.3" }
+}
