@@ -17,15 +17,15 @@ browser never does heavy work at run time. The output is committed; run this onl
 | `ne_10m_roads.geojson`, `ne_10m_railroads.geojson`, `ne_10m_rivers_lake_centerlines.geojson` | Natural Earth 1:10m (same repository, `geojson/`), for the map layers | Public domain |
 | flags | `flag-icons` npm package (installed by `npm install`) | MIT, licence copied to `assets/flags/LICENSE.txt` |
 
-## Run (Docker, the host has no Node)
+## Run (Node.js)
 
-```powershell
-docker run --rm -v "<repo>\tools\geoflight-bake:/tool:ro" -v "<sources>:/src:ro" `
-  -v "<repo>\frontend\src\games\geoflight\assets:/out" node:20 `
-  sh -c "mkdir /b && cp /tool/* /b/ && cd /b && npm install && node --max-old-space-size=4096 bake.mjs /src /out"
+```sh
+cd tools/geoflight-bake
+npm install
+node --max-old-space-size=4096 bake.mjs <sources> <repo>/source/src/geoflight/assets [<repo>/source/public/geoflight/tiles]
 ```
 
-Add `-e DEBUG=/dbg -v "<somewhere>:/dbg"` to also write previews (`lanes.jpg`, `relief-full.png`, `lights.png`).
+Set the environment variable `DEBUG=<folder>` to also write previews (`lanes.jpg`, `relief-full.png`, `lights.png`).
 
 ## Outputs
 
@@ -46,9 +46,8 @@ Add `-e DEBUG=/dbg -v "<somewhere>:/dbg"` to also write previews (`lanes.jpg`, `
 `bake-layers.mjs` has no dependencies. It reads the three Natural Earth line files above and writes
 `source/public/geoflight/layers/{roads,rail,water}.bin` (loaded only when a player switches a layer on):
 
-```powershell
-docker run --rm -v "<repo>\tools\geoflight-bake:/tool:ro" -v "<sources>:/src:ro" `
-  -v "<repo>\frontend\public\geoflight\layers:/out" node:20 node /tool/bake-layers.mjs /src /out
+```sh
+node tools/geoflight-bake/bake-layers.mjs <sources> <repo>/source/public/geoflight/layers
 ```
 
 - roads: expressways, main roads (scalerank 5 or less, or "Major Highway"), other roads up to scalerank 7
