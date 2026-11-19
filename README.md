@@ -28,3 +28,15 @@ runs the build inside Docker and rewrites `docs/`:
 
 Layout: `source/src/geoflight/` (game code), `source/public/geoflight/` (terrain tiles, road/rail/water
 layers), `docs/` (built site, committed).
+
+## Credits
+
+This project is a web migration based on **Geographical Adventures** by **Sebastian Lague**
+(Unity game, MIT License). The idea, the flight-over-a-globe concept and the map/terrain approach
+come from his work; this repo re-implements and extends it in React + three.js.
+
+- Video: [Polishing and Releasing My Tiny Geography Game](https://www.youtube.com/watch?v=pNp4ug5F6To)
+- Original source code: https://github.com/SebLague/Geographical-Adventures
+- Original game download: https://sebastian.itch.io/geographical-adventures
+
+Country flags in `assets/flags/` have their own license (see `LICENSE.txt` in that folder).
